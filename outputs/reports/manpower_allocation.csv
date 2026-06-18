@@ -1,0 +1,16 @@
+cluster,incidents,lat,lon,avg_clearance_min,top_cause,corridor,officers,barricade,_engine
+31,295,13.023539076711865,77.58580608908474,42.0,vehicle_breakdown,Bellary Road 1,2,False,OR-Tools CP-SAT
+30,289,12.9552712283391,77.54687832591695,37.0,vehicle_breakdown,Mysore Road,2,False,OR-Tools CP-SAT
+6,205,12.917305684341464,77.62261766302439,41.0,vehicle_breakdown,Hosur Road,2,False,OR-Tools CP-SAT
+29,177,12.965775574576272,77.58565966073446,41.0,vehicle_breakdown,Mysore Road,2,False,OR-Tools CP-SAT
+5,175,12.998287662114286,77.58434139657143,66.0,vehicle_breakdown,Bellary Road 1,2,False,OR-Tools CP-SAT
+47,130,13.100152717538462,77.5993052273077,68.0,vehicle_breakdown,Bellary Road 2,1,False,OR-Tools CP-SAT
+53,127,13.042444003149605,77.55017851496063,39.0,vehicle_breakdown,ORR North 2,1,False,OR-Tools CP-SAT
+59,123,13.038305372357724,77.62530657268293,112.0,vehicle_breakdown,Hennur Main Road,1,False,OR-Tools CP-SAT
+15,121,12.969133415454545,77.7008474614876,726.0,construction,ORR East 2,1,False,OR-Tools CP-SAT
+0,108,13.04054311574074,77.51758735277778,43.0,vehicle_breakdown,Tumkur Road,1,False,OR-Tools CP-SAT
+33,106,12.989163391509434,77.50621671603774,55.0,vehicle_breakdown,Magadi Road,1,False,OR-Tools CP-SAT
+97,99,12.977660310303031,77.58640274777778,58.0,vehicle_breakdown,Non-corridor,1,False,OR-Tools CP-SAT
+12,97,13.030148830927835,77.53763686494845,37.0,vehicle_breakdown,Tumkur Road,1,False,OR-Tools CP-SAT
+34,86,13.017342081046513,77.5587948577907,42.0,vehicle_breakdown,Tumkur Road,1,False,OR-Tools CP-SAT
+11,86,13.045825075,77.50541237953489,34.0,vehicle_breakdown,Tumkur Road,1,False,OR-Tools CP-SAT

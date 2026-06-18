@@ -1,0 +1,10 @@
+{
+  "mode": "micro_sim",
+  "vehicles_affected": 3150,
+  "max_queue_veh": 3150.0,
+  "delay_no_diversion_vehhr": 2441.2,
+  "delay_with_diversion_vehhr": 1365.0,
+  "delay_saved_vehhr": 1076.2,
+  "co2_saved_kg": 934.0,
+  "recommend_diversion": true
+}

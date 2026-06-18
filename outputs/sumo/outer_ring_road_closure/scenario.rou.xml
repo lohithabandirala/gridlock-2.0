@@ -1,0 +1,8 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5.0" maxSpeed="16.7"/>
+    <route id="main_route" edges="main"/>
+    <route id="diversion_route" edges="detour merge"/>
+    <flow id="main_flow" type="car" route="main_route" begin="0" end="5400" vehsPerHour="2100"/>
+    <flow id="detour_flow" type="car" route="diversion_route" begin="0" end="5400" vehsPerHour="600"/>
+    </routes>
+    

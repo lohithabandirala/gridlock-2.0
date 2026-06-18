@@ -1,0 +1,4 @@
+<additional>
+    <laneAreaDetector id="det_main" lane="main_0" pos="50" endPos="150" freq="60"/>
+    </additional>
+    

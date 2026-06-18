@@ -1,0 +1,39 @@
+{
+  "clearance": {
+    "status": "ok",
+    "model": "LightGBM",
+    "rows": 2763,
+    "mae_minutes": 74.0,
+    "r2_log": 0.086
+  },
+  "priority": {
+    "status": "ok",
+    "model": "LightGBM",
+    "rows": 8171,
+    "f1_high": 0.802,
+    "accuracy": 0.739
+  },
+  "blackspots": {
+    "status": "ok",
+    "clusters": 184,
+    "top_incidents": 295
+  },
+  "risk_table": {
+    "status": "ok",
+    "rows": 83
+  },
+  "junction_forecast": {
+    "status": "ok",
+    "rows": 647
+  },
+  "planned_events": {
+    "status": "ok",
+    "rows": 467,
+    "high": 55
+  },
+  "surge_detection": {
+    "status": "ok",
+    "rows": 752,
+    "critical": 117
+  }
+}

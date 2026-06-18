@@ -1,0 +1,18 @@
+{
+  "sumo_available": false,
+  "main": {
+    "name": "Outer Ring Road (blocked)",
+    "length_km": 3.0,
+    "free_flow_min": 4.0,
+    "capacity_vph": 2400,
+    "volume_vph": 2100
+  },
+  "detour": {
+    "name": "Service-road detour",
+    "length_km": 4.2,
+    "free_flow_min": 7.0,
+    "capacity_vph": 1500,
+    "volume_vph": 600
+  },
+  "notes": "Use the manifest to generate a SUMO network, route and config file."
+}

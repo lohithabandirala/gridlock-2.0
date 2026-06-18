@@ -1,0 +1,753 @@
+event_date,corridor,time_slot,incidents,baseline,z_score,surge_score,severity
+2024-03-07,Non-corridor,morning_peak,70,3.0,45.1915,100.0,Critical
+2024-01-16,Non-corridor,night,65,10.0,14.838999999999999,100.0,Critical
+2024-03-07,Non-corridor,night,45,10.0,9.443,100.0,Critical
+2023-12-16,Non-corridor,night,36,10.0,7.014799999999999,100.0,Critical
+2024-03-26,Non-corridor,night,34,10.0,6.475199999999999,100.0,Critical
+2024-04-06,Non-corridor,morning_peak,31,3.0,18.886,100.0,Critical
+2023-12-15,Non-corridor,night,29,10.0,5.1262,100.0,Critical
+2024-04-03,Non-corridor,morning_peak,24,3.0,14.1645,100.0,Critical
+2024-03-29,Non-corridor,morning_peak,20,3.0,11.4665,100.0,Critical
+2024-03-29,Non-corridor,evening_peak,17,3.0,9.443,100.0,Critical
+2024-04-05,Non-corridor,morning_peak,16,3.0,8.7685,100.0,Critical
+2024-01-25,Non-corridor,morning_peak,15,3.0,8.094,100.0,Critical
+2024-03-09,Non-corridor,morning_peak,15,3.0,8.094,100.0,Critical
+2024-03-07,Mysore Road,night,12,3.0,6.0705,100.0,Critical
+2024-03-11,Non-corridor,evening_peak,12,3.0,6.0705,100.0,Critical
+2024-04-07,Non-corridor,morning_peak,12,3.0,6.0705,100.0,Critical
+2024-03-07,Non-corridor,evening_peak,11,3.0,5.396,100.0,Critical
+2024-03-30,Non-corridor,evening_peak,11,3.0,5.396,100.0,Critical
+2023-12-18,Non-corridor,night,28,10.0,4.8564,98.6,Critical
+2024-01-09,Non-corridor,morning_peak,10,3.0,4.7215,97.2,Critical
+2024-01-17,Mysore Road,night,10,3.0,4.7215,97.2,Critical
+2024-03-26,Mysore Road,night,10,3.0,4.7215,97.2,Critical
+2024-04-05,Non-corridor,evening_peak,10,3.0,4.7215,97.2,Critical
+2023-12-14,Old Madras Road,night,5,1.5,4.7215,97.2,Critical
+2024-04-03,Non-corridor,night,27,10.0,4.5866,95.9,Critical
+2023-11-28,Non-corridor,night,26,10.0,4.3168,93.2,Critical
+2023-12-19,Non-corridor,night,26,10.0,4.3168,93.2,Critical
+2023-11-29,Non-corridor,evening_peak,9,3.0,4.047,90.5,Critical
+2024-03-09,Non-corridor,evening_peak,9,3.0,4.047,90.5,Critical
+2024-03-12,Non-corridor,morning_peak,9,3.0,4.047,90.5,Critical
+2024-03-13,Non-corridor,morning_peak,9,3.0,4.047,90.5,Critical
+2024-03-26,Non-corridor,morning_peak,9,3.0,4.047,90.5,Critical
+2024-04-03,Mysore Road,night,9,3.0,4.047,90.5,Critical
+2024-04-06,Non-corridor,evening_peak,9,3.0,4.047,90.5,Critical
+2023-12-21,Bellary Road 1,night,8,2.0,4.047,90.5,Critical
+2023-12-02,Non-corridor,night,24,10.0,3.7771999999999997,87.8,Critical
+2024-03-28,Non-corridor,night,23,10.0,3.5073999999999996,85.1,Critical
+2023-12-28,Mysore Road,night,8,3.0,3.3725,83.7,Critical
+2024-02-10,Non-corridor,morning_peak,8,3.0,3.3725,83.7,Critical
+2024-02-14,Non-corridor,evening_peak,8,3.0,3.3725,83.7,Critical
+2024-03-06,Non-corridor,morning_peak,8,3.0,3.3725,83.7,Critical
+2024-03-08,Non-corridor,morning_peak,8,3.0,3.3725,83.7,Critical
+2024-01-14,Bellary Road 1,night,7,2.0,3.3725,83.7,Critical
+2024-01-14,Bellary Road 2,night,7,2.0,3.3725,83.7,Critical
+2024-02-27,Tumkur Road,night,7,2.0,3.3725,83.7,Critical
+2024-03-30,Bellary Road 1,night,7,2.0,3.3725,83.7,Critical
+2024-01-22,Old Madras Road,night,4,1.5,3.3725,83.7,Critical
+2024-03-10,Old Madras Road,night,4,1.5,3.3725,83.7,Critical
+2024-03-13,Old Madras Road,night,4,1.5,3.3725,83.7,Critical
+2024-03-15,Old Madras Road,night,4,1.5,3.3725,83.7,Critical
+2024-03-25,Old Madras Road,night,4,1.5,3.3725,83.7,Critical
+2024-04-03,Old Madras Road,night,4,1.5,3.3725,83.7,Critical
+2024-03-21,Non-corridor,night,20,10.0,2.698,77.0,Critical
+2023-11-10,Non-corridor,morning_peak,7,3.0,2.698,77.0,Critical
+2023-11-16,Non-corridor,morning_peak,7,3.0,2.698,77.0,Critical
+2023-11-18,Non-corridor,morning_peak,7,3.0,2.698,77.0,Critical
+2023-11-22,Non-corridor,morning_peak,7,3.0,2.698,77.0,Critical
+2023-12-01,Non-corridor,morning_peak,7,3.0,2.698,77.0,Critical
+2024-01-16,Mysore Road,night,7,3.0,2.698,77.0,Critical
+2024-01-24,Non-corridor,morning_peak,7,3.0,2.698,77.0,Critical
+2024-02-13,Non-corridor,evening_peak,7,3.0,2.698,77.0,Critical
+2024-02-22,Non-corridor,morning_peak,7,3.0,2.698,77.0,Critical
+2024-02-28,Mysore Road,night,7,3.0,2.698,77.0,Critical
+2024-03-10,Non-corridor,morning_peak,7,3.0,2.698,77.0,Critical
+2024-03-11,Mysore Road,night,7,3.0,2.698,77.0,Critical
+2024-03-24,Non-corridor,morning_peak,7,3.0,2.698,77.0,Critical
+2023-12-17,Tumkur Road,night,6,2.0,2.698,77.0,Critical
+2023-12-26,Bellary Road 1,night,6,2.0,2.698,77.0,Critical
+2024-01-04,Tumkur Road,night,6,2.0,2.698,77.0,Critical
+2024-02-08,Tumkur Road,night,6,2.0,2.698,77.0,Critical
+2024-02-18,Bellary Road 1,night,6,2.0,2.698,77.0,Critical
+2024-03-30,Non-corridor,night,19,10.0,2.4282,74.3,Critical
+2024-04-06,Non-corridor,night,18,10.0,2.1584,71.6,Critical
+2023-11-14,Mysore Road,night,6,3.0,2.0235,70.2,Critical
+2023-11-28,Non-corridor,evening_peak,6,3.0,2.0235,70.2,Critical
+2023-12-03,Mysore Road,night,6,3.0,2.0235,70.2,Critical
+2023-12-08,Non-corridor,morning_peak,6,3.0,2.0235,70.2,Critical
+2023-12-15,Non-corridor,evening_peak,6,3.0,2.0235,70.2,Critical
+2023-12-17,Non-corridor,morning_peak,6,3.0,2.0235,70.2,Critical
+2023-12-22,Non-corridor,morning_peak,6,3.0,2.0235,70.2,Critical
+2023-12-26,Non-corridor,evening_peak,6,3.0,2.0235,70.2,Critical
+2023-12-26,Non-corridor,morning_peak,6,3.0,2.0235,70.2,Critical
+2023-12-30,Non-corridor,morning_peak,6,3.0,2.0235,70.2,Critical
+2024-01-13,Non-corridor,morning_peak,6,3.0,2.0235,70.2,Critical
+2024-01-31,Mysore Road,night,6,3.0,2.0235,70.2,Critical
+2024-02-04,Non-corridor,evening_peak,6,3.0,2.0235,70.2,Critical
+2024-02-13,Mysore Road,night,6,3.0,2.0235,70.2,Critical
+2024-02-20,Non-corridor,evening_peak,6,3.0,2.0235,70.2,Critical
+2024-02-21,Non-corridor,morning_peak,6,3.0,2.0235,70.2,Critical
+2024-02-24,Non-corridor,evening_peak,6,3.0,2.0235,70.2,Critical
+2024-02-25,Mysore Road,night,6,3.0,2.0235,70.2,Critical
+2024-04-07,Mysore Road,night,6,3.0,2.0235,70.2,Critical
+2023-11-10,Tumkur Road,night,5,2.0,2.0235,70.2,Critical
+2023-11-17,Bellary Road 1,night,5,2.0,2.0235,70.2,Critical
+2023-11-19,Bellary Road 1,night,5,2.0,2.0235,70.2,Critical
+2023-11-24,Bellary Road 1,night,5,2.0,2.0235,70.2,Critical
+2023-11-27,Bellary Road 1,night,5,2.0,2.0235,70.2,Critical
+2023-12-24,Bellary Road 1,night,5,2.0,2.0235,70.2,Critical
+2024-01-15,Tumkur Road,night,5,2.0,2.0235,70.2,Critical
+2024-01-24,Bellary Road 1,night,5,2.0,2.0235,70.2,Critical
+2024-01-24,Bellary Road 2,night,5,2.0,2.0235,70.2,Critical
+2024-02-22,Bellary Road 1,night,5,2.0,2.0235,70.2,Critical
+2024-03-16,Bellary Road 1,night,5,2.0,2.0235,70.2,Critical
+2024-03-26,Bellary Road 1,night,5,2.0,2.0235,70.2,Critical
+2024-03-27,Bellary Road 1,night,5,2.0,2.0235,70.2,Critical
+2024-03-30,Tumkur Road,night,5,2.0,2.0235,70.2,Critical
+2023-11-16,Old Madras Road,night,3,1.5,2.0235,70.2,Critical
+2023-12-15,Old Madras Road,night,3,1.5,2.0235,70.2,Critical
+2023-12-24,Old Madras Road,night,3,1.5,2.0235,70.2,Critical
+2023-12-29,Old Madras Road,night,3,1.5,2.0235,70.2,Critical
+2024-01-13,Old Madras Road,night,3,1.5,2.0235,70.2,Critical
+2024-02-13,Old Madras Road,night,3,1.5,2.0235,70.2,Critical
+2024-02-17,Old Madras Road,night,3,1.5,2.0235,70.2,Critical
+2024-03-11,Varthur Road,evening_peak,3,1.5,2.0235,70.2,Critical
+2024-03-26,Old Madras Road,night,3,1.5,2.0235,70.2,Critical
+2024-03-31,Old Madras Road,night,3,1.5,2.0235,70.2,Critical
+2024-04-06,Old Madras Road,night,3,1.5,2.0235,70.2,Critical
+2024-04-07,Non-corridor,night,17,10.0,1.8885999999999998,68.9,Alert
+2023-12-30,Non-corridor,night,16,10.0,1.6187999999999998,66.2,Alert
+2024-01-23,Non-corridor,night,16,10.0,1.6187999999999998,66.2,Alert
+2024-02-22,Non-corridor,night,16,10.0,1.6187999999999998,66.2,Alert
+2024-03-29,Non-corridor,night,16,10.0,1.6187999999999998,66.2,Alert
+2023-12-01,Non-corridor,night,15,10.0,1.349,63.5,Alert
+2023-12-21,Non-corridor,night,15,10.0,1.349,63.5,Alert
+2024-01-04,Non-corridor,night,15,10.0,1.349,63.5,Alert
+2024-03-08,Non-corridor,night,15,10.0,1.349,63.5,Alert
+2024-03-11,Non-corridor,night,15,10.0,1.349,63.5,Alert
+2023-11-20,Non-corridor,evening_peak,5,3.0,1.349,63.5,Alert
+2023-11-26,Mysore Road,night,5,3.0,1.349,63.5,Alert
+2023-11-28,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2023-12-07,Mysore Road,night,5,3.0,1.349,63.5,Alert
+2023-12-08,Mysore Road,night,5,3.0,1.349,63.5,Alert
+2023-12-13,Non-corridor,evening_peak,5,3.0,1.349,63.5,Alert
+2023-12-14,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2023-12-21,Non-corridor,evening_peak,5,3.0,1.349,63.5,Alert
+2023-12-23,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2023-12-24,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2023-12-27,Non-corridor,evening_peak,5,3.0,1.349,63.5,Alert
+2023-12-28,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2023-12-29,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2024-01-03,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2024-01-08,Non-corridor,evening_peak,5,3.0,1.349,63.5,Alert
+2024-01-14,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2024-01-19,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2024-01-22,Non-corridor,evening_peak,5,3.0,1.349,63.5,Alert
+2024-01-23,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2024-02-02,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2024-02-29,Non-corridor,evening_peak,5,3.0,1.349,63.5,Alert
+2024-03-08,Non-corridor,evening_peak,5,3.0,1.349,63.5,Alert
+2024-03-12,Mysore Road,night,5,3.0,1.349,63.5,Alert
+2024-03-14,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2024-03-17,Mysore Road,night,5,3.0,1.349,63.5,Alert
+2024-03-31,Mysore Road,night,5,3.0,1.349,63.5,Alert
+2024-03-31,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2024-04-04,Non-corridor,morning_peak,5,3.0,1.349,63.5,Alert
+2024-04-06,Mysore Road,night,5,3.0,1.349,63.5,Alert
+2023-11-12,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2023-11-16,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2023-11-18,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2023-12-02,Bellary Road 2,night,4,2.0,1.349,63.5,Alert
+2023-12-03,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2023-12-05,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2023-12-07,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2023-12-16,Bellary Road 2,night,4,2.0,1.349,63.5,Alert
+2023-12-19,Bellary Road 2,night,4,2.0,1.349,63.5,Alert
+2023-12-19,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2023-12-23,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2023-12-25,Bellary Road 2,night,4,2.0,1.349,63.5,Alert
+2023-12-29,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-01-03,Bellary Road 2,night,4,2.0,1.349,63.5,Alert
+2024-01-10,Bellary Road 2,night,4,2.0,1.349,63.5,Alert
+2024-01-10,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2024-01-12,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-01-13,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-01-16,Bellary Road 2,night,4,2.0,1.349,63.5,Alert
+2024-01-19,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-01-25,Bellary Road 2,night,4,2.0,1.349,63.5,Alert
+2024-02-01,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2024-02-02,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-02-04,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2024-02-13,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2024-02-20,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-02-21,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-03-05,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-03-07,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-03-10,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2024-03-14,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2024-03-20,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2024-03-22,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2024-03-24,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2024-03-25,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-04-02,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-04-07,Bellary Road 1,night,4,2.0,1.349,63.5,Alert
+2024-04-07,Tumkur Road,night,4,2.0,1.349,63.5,Alert
+2023-11-15,Non-corridor,night,14,10.0,1.0792,60.8,Alert
+2023-12-14,Non-corridor,night,14,10.0,1.0792,60.8,Alert
+2023-12-20,Non-corridor,night,14,10.0,1.0792,60.8,Alert
+2024-01-05,Non-corridor,night,14,10.0,1.0792,60.8,Alert
+2024-01-24,Non-corridor,night,14,10.0,1.0792,60.8,Alert
+2024-03-13,Non-corridor,night,14,10.0,1.0792,60.8,Alert
+2023-11-30,Non-corridor,night,13,10.0,0.8093999999999999,58.1,Alert
+2023-12-07,Non-corridor,night,13,10.0,0.8093999999999999,58.1,Alert
+2023-12-12,Non-corridor,night,13,10.0,0.8093999999999999,58.1,Alert
+2023-12-28,Non-corridor,night,13,10.0,0.8093999999999999,58.1,Alert
+2024-01-30,Non-corridor,night,13,10.0,0.8093999999999999,58.1,Alert
+2024-02-08,Non-corridor,night,13,10.0,0.8093999999999999,58.1,Alert
+2024-02-17,Non-corridor,night,13,10.0,0.8093999999999999,58.1,Alert
+2023-11-10,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-11-13,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-11-15,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2023-11-16,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-11-19,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-11-23,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2023-11-27,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2023-11-29,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2023-11-29,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2023-11-30,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2023-11-30,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-12-01,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-12-04,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2023-12-05,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2023-12-05,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-12-09,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2023-12-12,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-12-14,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2023-12-16,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-12-17,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-12-18,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2023-12-19,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2023-12-20,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2023-12-21,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2023-12-23,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-12-25,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-12-25,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2023-12-31,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-01-02,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-01-04,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-01-05,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-01-07,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-01-12,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-01-13,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-01-14,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-01-15,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-01-16,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-01-17,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-01-19,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-01-20,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-01-24,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-02-02,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-02-05,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-02-11,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-02-13,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-02-15,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-02-17,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-02-17,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-02-19,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-02-22,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-02-23,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-02-27,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-02-29,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-03-02,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-03-02,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-03-04,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-03-12,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-03-14,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-03-14,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-03-15,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-03-17,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-03-19,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-03-21,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-03-31,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-04-01,Mysore Road,night,4,3.0,0.6745,56.7,Alert
+2024-04-01,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2024-04-02,Non-corridor,morning_peak,4,3.0,0.6745,56.7,Alert
+2024-04-03,Non-corridor,evening_peak,4,3.0,0.6745,56.7,Alert
+2023-11-13,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2023-11-13,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2023-11-18,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2023-11-20,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2023-11-20,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2023-11-21,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2023-11-25,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2023-11-28,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2023-11-30,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2023-12-02,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2023-12-05,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2023-12-07,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2023-12-08,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2023-12-11,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2023-12-12,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2023-12-12,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2023-12-17,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2023-12-18,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2023-12-18,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2023-12-25,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2023-12-26,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2023-12-30,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2024-01-02,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-01-07,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-01-10,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-01-16,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2024-01-19,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2024-01-20,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-01-25,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2024-01-30,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-02-01,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-02-01,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2024-02-05,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-02-10,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-02-13,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-02-19,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-02-21,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2024-02-24,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2024-02-25,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-02-28,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2024-03-03,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-03-04,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2024-03-06,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2024-03-13,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-03-13,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2024-03-17,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-03-20,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2024-03-22,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-03-25,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2024-03-26,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2024-03-26,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2024-03-28,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-03-29,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-03-29,Tumkur Road,night,3,2.0,0.6745,56.7,Alert
+2024-03-31,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-04-05,Bellary Road 1,night,3,2.0,0.6745,56.7,Alert
+2024-04-05,Bellary Road 2,night,3,2.0,0.6745,56.7,Alert
+2023-12-08,Non-corridor,night,12,10.0,0.5396,55.4,Alert
+2023-12-26,Non-corridor,night,12,10.0,0.5396,55.4,Alert
+2024-01-01,Non-corridor,night,12,10.0,0.5396,55.4,Alert
+2024-02-16,Non-corridor,night,12,10.0,0.5396,55.4,Alert
+2024-03-05,Non-corridor,night,12,10.0,0.5396,55.4,Alert
+2024-03-15,Non-corridor,night,12,10.0,0.5396,55.4,Alert
+2024-03-19,Non-corridor,night,12,10.0,0.5396,55.4,Alert
+2024-04-04,Non-corridor,night,12,10.0,0.5396,55.4,Alert
+2024-04-05,Non-corridor,night,12,10.0,0.5396,55.4,Alert
+2023-11-11,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2023-11-14,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2023-11-27,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2023-11-29,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2023-12-06,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2024-01-03,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2024-01-25,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2024-01-28,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2024-02-10,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2024-02-11,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2024-02-15,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2024-02-20,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2024-02-28,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2024-03-06,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2024-03-31,Non-corridor,night,11,10.0,0.2698,52.7,Alert
+2023-12-16,Hosur Road,night,42,1.0,0.0,50.0,Alert
+2023-12-15,Bannerghata Road,night,31,1.0,0.0,50.0,Alert
+2024-04-06,ORR East 1,morning_peak,16,1.0,0.0,50.0,Alert
+2024-04-05,Hosur Road,morning_peak,14,1.0,0.0,50.0,Alert
+2024-04-06,Mysore Road,morning_peak,12,1.0,0.0,50.0,Alert
+2024-04-05,Bannerghata Road,morning_peak,11,1.0,0.0,50.0,Alert
+2023-11-16,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2023-11-19,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2023-11-21,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2023-11-25,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2023-12-13,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2023-12-17,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2023-12-29,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2024-01-06,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2024-01-09,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2024-01-12,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2024-01-15,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2024-01-18,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2024-01-19,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2024-02-02,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2024-02-07,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2024-02-13,Non-corridor,night,10,10.0,0.0,50.0,Alert
+2023-12-16,IRR(Thanisandra road),night,9,1.0,0.0,50.0,Alert
+2024-03-07,Bellary Road 1,morning_peak,9,1.0,0.0,50.0,Alert
+2024-03-29,Mysore Road,morning_peak,9,1.0,0.0,50.0,Alert
+2023-12-15,IRR(Thanisandra road),night,8,1.0,0.0,50.0,Alert
+2024-03-07,Mysore Road,morning_peak,7,1.0,0.0,50.0,Alert
+2023-11-30,Bellary Road 1,evening_peak,6,1.0,0.0,50.0,Alert
+2023-12-15,Hosur Road,night,6,1.0,0.0,50.0,Alert
+2023-12-21,Mysore Road,evening_peak,6,1.0,0.0,50.0,Alert
+2024-01-12,ORR North 1,night,6,1.0,0.0,50.0,Alert
+2024-01-31,ORR West 1,night,6,1.0,0.0,50.0,Alert
+2024-03-07,ORR East 1,morning_peak,6,1.0,0.0,50.0,Alert
+2024-03-07,Tumkur Road,morning_peak,6,1.0,0.0,50.0,Alert
+2024-03-28,Non-corridor,midday,6,1.0,0.0,50.0,Alert
+2024-04-03,ORR North 1,morning_peak,6,1.0,0.0,50.0,Alert
+2024-04-03,ORR North 2,night,6,1.0,0.0,50.0,Alert
+2024-04-03,Tumkur Road,morning_peak,6,1.0,0.0,50.0,Alert
+2023-11-10,IRR(Thanisandra road),night,5,1.0,0.0,50.0,Alert
+2023-11-15,ORR East 1,evening_peak,5,1.0,0.0,50.0,Alert
+2023-12-08,Bellary Road 1,morning_peak,5,1.0,0.0,50.0,Alert
+2023-12-28,Hosur Road,evening_peak,5,1.0,0.0,50.0,Alert
+2024-01-07,Bellary Road 1,morning_peak,5,1.0,0.0,50.0,Alert
+2024-01-18,Bellary Road 1,morning_peak,5,1.0,0.0,50.0,Alert
+2024-01-25,Bellary Road 2,morning_peak,5,1.0,0.0,50.0,Alert
+2024-02-08,Hosur Road,evening_peak,5,1.0,0.0,50.0,Alert
+2024-02-16,ORR West 1,morning_peak,5,1.0,0.0,50.0,Alert
+2024-03-07,Bannerghata Road,morning_peak,5,1.0,0.0,50.0,Alert
+2024-03-07,Bannerghata Road,night,5,1.0,0.0,50.0,Alert
+2024-03-07,Bellary Road 1,evening_peak,5,1.0,0.0,50.0,Alert
+2024-03-07,ORR West 1,morning_peak,5,1.0,0.0,50.0,Alert
+2024-03-26,Bellary Road 1,evening_peak,5,1.0,0.0,50.0,Alert
+2024-03-26,ORR North 1,night,5,1.0,0.0,50.0,Alert
+2024-03-29,Bannerghata Road,night,5,1.0,0.0,50.0,Alert
+2024-03-29,West of Chord Road,morning_peak,5,1.0,0.0,50.0,Alert
+2024-04-02,Mysore Road,morning_peak,5,1.0,0.0,50.0,Alert
+2024-04-05,Non-corridor,midday,5,1.0,0.0,50.0,Alert
+2023-11-21,ORR North 1,evening_peak,4,1.0,0.0,50.0,Alert
+2023-11-23,Bellary Road 1,morning_peak,4,1.0,0.0,50.0,Alert
+2023-11-28,ORR East 1,night,4,1.0,0.0,50.0,Alert
+2023-12-02,Bellary Road 1,morning_peak,4,1.0,0.0,50.0,Alert
+2023-12-07,CBD 2,night,4,1.0,0.0,50.0,Alert
+2023-12-09,Non-corridor,midday,4,1.0,0.0,50.0,Alert
+2023-12-15,Bellary Road 1,evening_peak,4,1.0,0.0,50.0,Alert
+2023-12-16,ORR East 1,night,4,1.0,0.0,50.0,Alert
+2023-12-16,West of Chord Road,night,4,1.0,0.0,50.0,Alert
+2023-12-23,Mysore Road,evening_peak,4,1.0,0.0,50.0,Alert
+2023-12-26,ORR North 1,evening_peak,4,1.0,0.0,50.0,Alert
+2024-01-04,Mysore Road,morning_peak,4,1.0,0.0,50.0,Alert
+2024-01-12,Bellary Road 2,evening_peak,4,1.0,0.0,50.0,Alert
+2024-01-20,ORR North 1,midday,4,1.0,0.0,50.0,Alert
+2024-01-24,Bellary Road 2,morning_peak,4,1.0,0.0,50.0,Alert
+2024-01-30,ORR East 1,night,4,1.0,0.0,50.0,Alert
+2024-01-31,ORR East 1,night,4,1.0,0.0,50.0,Alert
+2024-01-31,Tumkur Road,evening_peak,4,1.0,0.0,50.0,Alert
+2024-02-02,Non-corridor,midday,4,1.0,0.0,50.0,Alert
+2024-02-03,Magadi Road,night,4,1.0,0.0,50.0,Alert
+2024-02-05,Magadi Road,night,4,1.0,0.0,50.0,Alert
+2024-02-08,ORR North 1,evening_peak,4,1.0,0.0,50.0,Alert
+2024-02-08,ORR North 2,night,4,1.0,0.0,50.0,Alert
+2024-02-09,Non-corridor,midday,4,1.0,0.0,50.0,Alert
+2024-02-13,Mysore Road,morning_peak,4,1.0,0.0,50.0,Alert
+2024-02-18,Old Madras Road,morning_peak,4,1.0,0.0,50.0,Alert
+2024-02-22,ORR North 2,night,4,1.0,0.0,50.0,Alert
+2024-02-22,ORR West 1,night,4,1.0,0.0,50.0,Alert
+2024-03-07,West of Chord Road,morning_peak,4,1.0,0.0,50.0,Alert
+2024-03-08,Non-corridor,midday,4,1.0,0.0,50.0,Alert
+2024-03-09,Bannerghata Road,morning_peak,4,1.0,0.0,50.0,Alert
+2024-03-11,Mysore Road,evening_peak,4,1.0,0.0,50.0,Alert
+2024-03-12,Hosur Road,night,4,1.0,0.0,50.0,Alert
+2024-03-14,ORR North 1,evening_peak,4,1.0,0.0,50.0,Alert
+2024-03-15,ORR North 1,night,4,1.0,0.0,50.0,Alert
+2024-03-15,West of Chord Road,night,4,1.0,0.0,50.0,Alert
+2024-03-16,Magadi Road,night,4,1.0,0.0,50.0,Alert
+2024-03-26,West of Chord Road,night,4,1.0,0.0,50.0,Alert
+2024-03-30,Mysore Road,morning_peak,4,1.0,0.0,50.0,Alert
+2024-04-02,Bannerghata Road,night,4,1.0,0.0,50.0,Alert
+2024-04-06,Old Madras Road,evening_peak,4,1.0,0.0,50.0,Alert
+2024-04-06,Tumkur Road,morning_peak,4,1.0,0.0,50.0,Alert
+2023-11-09,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-11-10,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-11-11,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-11-11,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-11-12,Non-corridor,midday,3,1.0,0.0,50.0,Alert
+2023-11-14,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-11-14,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-11-15,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-11-15,ORR East 1,night,3,1.0,0.0,50.0,Alert
+2023-11-16,ORR East 1,night,3,1.0,0.0,50.0,Alert
+2023-11-17,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-11-17,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-11-18,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-11-19,Bellary Road 1,morning_peak,3,1.0,0.0,50.0,Alert
+2023-11-19,ORR North 2,night,3,1.0,0.0,50.0,Alert
+2023-11-20,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-11-21,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-11-22,Hosur Road,morning_peak,3,1.0,0.0,50.0,Alert
+2023-11-22,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-11-22,ORR East 1,evening_peak,3,1.0,0.0,50.0,Alert
+2023-11-25,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-11-26,Bellary Road 2,morning_peak,3,1.0,0.0,50.0,Alert
+2023-11-27,Magadi Road,morning_peak,3,1.0,0.0,50.0,Alert
+2023-11-27,Mysore Road,evening_peak,3,1.0,0.0,50.0,Alert
+2023-11-27,West of Chord Road,night,3,1.0,0.0,50.0,Alert
+2023-11-28,Mysore Road,morning_peak,3,1.0,0.0,50.0,Alert
+2023-11-28,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2023-11-29,Bellary Road 1,evening_peak,3,1.0,0.0,50.0,Alert
+2023-11-29,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2023-11-29,ORR West 1,night,3,1.0,0.0,50.0,Alert
+2023-11-30,Bellary Road 2,evening_peak,3,1.0,0.0,50.0,Alert
+2023-11-30,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2023-11-30,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2023-12-01,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-12-02,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-12-02,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2023-12-03,Hosur Road,morning_peak,3,1.0,0.0,50.0,Alert
+2023-12-03,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-12-05,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-12-06,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2023-12-06,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-12-06,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-12-06,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-12-07,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-12-07,Varthur Road,night,3,1.0,0.0,50.0,Alert
+2023-12-08,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2023-12-08,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-12-08,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2023-12-09,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-12-10,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-12-10,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-12-10,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2023-12-11,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-12-12,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-12-12,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2023-12-13,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-12-13,Tumkur Road,morning_peak,3,1.0,0.0,50.0,Alert
+2023-12-14,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-12-14,ORR East 1,evening_peak,3,1.0,0.0,50.0,Alert
+2023-12-15,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-12-15,ORR East 2,night,3,1.0,0.0,50.0,Alert
+2023-12-17,Bellary Road 2,morning_peak,3,1.0,0.0,50.0,Alert
+2023-12-17,Mysore Road,morning_peak,3,1.0,0.0,50.0,Alert
+2023-12-17,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-12-17,Non-corridor,midday,3,1.0,0.0,50.0,Alert
+2023-12-18,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-12-19,Bannerghata Road,night,3,1.0,0.0,50.0,Alert
+2023-12-19,ORR East 1,evening_peak,3,1.0,0.0,50.0,Alert
+2023-12-20,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-12-20,ORR North 1,evening_peak,3,1.0,0.0,50.0,Alert
+2023-12-25,ORR North 2,evening_peak,3,1.0,0.0,50.0,Alert
+2023-12-27,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-12-27,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2023-12-28,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-12-29,Bellary Road 1,morning_peak,3,1.0,0.0,50.0,Alert
+2023-12-29,Mysore Road,evening_peak,3,1.0,0.0,50.0,Alert
+2023-12-29,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-12-29,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-12-30,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2023-12-30,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2023-12-30,ORR West 1,night,3,1.0,0.0,50.0,Alert
+2023-12-31,West of Chord Road,night,3,1.0,0.0,50.0,Alert
+2024-01-01,West of Chord Road,night,3,1.0,0.0,50.0,Alert
+2024-01-02,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2024-01-03,Bannerghata Road,night,3,1.0,0.0,50.0,Alert
+2024-01-03,Hosur Road,night,3,1.0,0.0,50.0,Alert
+2024-01-04,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-01-05,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-01-06,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2024-01-06,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-01-07,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-01-08,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-01-09,ORR West 1,night,3,1.0,0.0,50.0,Alert
+2024-01-09,Old Madras Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-01-11,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-01-11,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-01-12,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-01-12,ORR North 1,morning_peak,3,1.0,0.0,50.0,Alert
+2024-01-13,Tumkur Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-01-15,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-01-16,ORR West 1,night,3,1.0,0.0,50.0,Alert
+2024-01-16,Old Madras Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-01-18,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-01-18,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-01-20,Magadi Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-01-20,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-01-21,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-01-22,Old Madras Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-01-23,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-01-25,Bellary Road 1,morning_peak,3,1.0,0.0,50.0,Alert
+2024-01-25,Hosur Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-01-25,Hosur Road,night,3,1.0,0.0,50.0,Alert
+2024-01-25,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2024-01-25,Non-corridor,midday,3,1.0,0.0,50.0,Alert
+2024-01-29,Hosur Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-01-29,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-01-30,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-02-01,Hosur Road,night,3,1.0,0.0,50.0,Alert
+2024-02-01,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-02-03,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-02-03,ORR West 1,night,3,1.0,0.0,50.0,Alert
+2024-02-04,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-02-04,ORR West 1,night,3,1.0,0.0,50.0,Alert
+2024-02-05,ORR East 2,night,3,1.0,0.0,50.0,Alert
+2024-02-06,Bellary Road 2,evening_peak,3,1.0,0.0,50.0,Alert
+2024-02-06,Mysore Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-02-06,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-02-07,Hennur Main Road,night,3,1.0,0.0,50.0,Alert
+2024-02-07,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-02-07,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-02-07,ORR North 2,night,3,1.0,0.0,50.0,Alert
+2024-02-08,ORR North 2,evening_peak,3,1.0,0.0,50.0,Alert
+2024-02-08,Old Airport Road,night,3,1.0,0.0,50.0,Alert
+2024-02-10,Bellary Road 2,midday,3,1.0,0.0,50.0,Alert
+2024-02-10,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-02-12,CBD 2,night,3,1.0,0.0,50.0,Alert
+2024-02-12,Tumkur Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-02-13,ORR East 1,evening_peak,3,1.0,0.0,50.0,Alert
+2024-02-14,Hosur Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-02-14,ORR East 1,night,3,1.0,0.0,50.0,Alert
+2024-02-15,Bellary Road 1,evening_peak,3,1.0,0.0,50.0,Alert
+2024-02-16,Bellary Road 1,evening_peak,3,1.0,0.0,50.0,Alert
+2024-02-16,Mysore Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-02-17,Hosur Road,night,3,1.0,0.0,50.0,Alert
+2024-02-18,Bellary Road 1,morning_peak,3,1.0,0.0,50.0,Alert
+2024-02-18,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-02-19,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-02-21,Mysore Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-02-22,Hennur Main Road,night,3,1.0,0.0,50.0,Alert
+2024-02-22,IRR(Thanisandra road),morning_peak,3,1.0,0.0,50.0,Alert
+2024-02-24,Hosur Road,night,3,1.0,0.0,50.0,Alert
+2024-02-24,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-02-25,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-02-26,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-02-27,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-02-28,Mysore Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-02-28,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-02-29,Hosur Road,night,3,1.0,0.0,50.0,Alert
+2024-03-01,Hosur Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-03-01,ORR North 2,night,3,1.0,0.0,50.0,Alert
+2024-03-02,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2024-03-03,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-03-04,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-03-05,Mysore Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-03-05,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-03-05,ORR East 2,night,3,1.0,0.0,50.0,Alert
+2024-03-05,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2024-03-06,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2024-03-07,Bellary Road 2,morning_peak,3,1.0,0.0,50.0,Alert
+2024-03-07,Hosur Road,night,3,1.0,0.0,50.0,Alert
+2024-03-07,IRR(Thanisandra road),morning_peak,3,1.0,0.0,50.0,Alert
+2024-03-07,Non-corridor,midday,3,1.0,0.0,50.0,Alert
+2024-03-07,ORR East 2,night,3,1.0,0.0,50.0,Alert
+2024-03-07,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2024-03-07,Tumkur Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-03-08,CBD 2,night,3,1.0,0.0,50.0,Alert
+2024-03-08,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2024-03-09,Mysore Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-03-09,ORR West 1,morning_peak,3,1.0,0.0,50.0,Alert
+2024-03-10,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2024-03-10,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-03-13,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-03-13,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2024-03-14,Bellary Road 1,evening_peak,3,1.0,0.0,50.0,Alert
+2024-03-14,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2024-03-14,ORR West 1,night,3,1.0,0.0,50.0,Alert
+2024-03-15,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-03-16,Bannerghata Road,night,3,1.0,0.0,50.0,Alert
+2024-03-16,Non-corridor,morning_peak,3,3.0,0.0,50.0,Alert
+2024-03-18,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2024-03-20,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-03-20,West of Chord Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-03-21,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-03-23,ORR North 2,night,3,1.0,0.0,50.0,Alert
+2024-03-24,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-03-26,Airport New South Road,night,3,1.0,0.0,50.0,Alert
+2024-03-26,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2024-03-26,ORR North 2,night,3,1.0,0.0,50.0,Alert
+2024-03-27,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-03-27,West of Chord Road,night,3,1.0,0.0,50.0,Alert
+2024-03-28,Non-corridor,evening_peak,3,3.0,0.0,50.0,Alert
+2024-03-28,ORR North 2,night,3,1.0,0.0,50.0,Alert
+2024-03-29,Magadi Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-03-29,Mysore Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-03-29,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-03-29,Non-corridor,midday,3,1.0,0.0,50.0,Alert
+2024-03-29,ORR East 1,morning_peak,3,1.0,0.0,50.0,Alert
+2024-03-29,ORR East 2,evening_peak,3,1.0,0.0,50.0,Alert
+2024-03-30,Hosur Road,night,3,1.0,0.0,50.0,Alert
+2024-03-30,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-03-31,ORR North 1,night,3,1.0,0.0,50.0,Alert
+2024-03-31,ORR North 2,evening_peak,3,1.0,0.0,50.0,Alert
+2024-04-02,Bellary Road 1,morning_peak,3,1.0,0.0,50.0,Alert
+2024-04-02,ORR North 2,night,3,1.0,0.0,50.0,Alert
+2024-04-03,Hosur Road,evening_peak,3,1.0,0.0,50.0,Alert
+2024-04-03,West of Chord Road,night,3,1.0,0.0,50.0,Alert
+2024-04-04,ORR North 1,morning_peak,3,1.0,0.0,50.0,Alert
+2024-04-05,Mysore Road,night,3,3.0,0.0,50.0,Alert
+2024-04-06,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2024-04-06,ORR North 1,morning_peak,3,1.0,0.0,50.0,Alert
+2024-04-06,Varthur Road,morning_peak,3,1.0,0.0,50.0,Alert
+2024-04-07,Magadi Road,night,3,1.0,0.0,50.0,Alert
+2023-11-17,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2023-11-18,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2023-12-03,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2023-12-10,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2023-12-22,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2023-12-24,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2023-12-27,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2024-01-07,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2024-01-20,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2024-01-22,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2024-01-29,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2024-02-21,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2024-02-27,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2024-03-09,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2024-03-14,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2024-03-23,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2024-03-27,Non-corridor,night,9,10.0,-0.2698,47.3,Alert
+2023-12-05,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2023-12-25,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-01-10,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-01-13,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-01-14,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-01-17,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-02-04,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-02-19,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-02-23,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-02-26,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-03-02,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-03-10,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-03-16,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-03-17,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-03-18,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-03-24,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-03-25,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-04-01,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2024-04-02,Non-corridor,night,8,10.0,-0.5396,44.6,Alert
+2023-11-12,Non-corridor,night,7,10.0,-0.8093999999999999,41.9,Alert
+2023-11-20,Non-corridor,night,7,10.0,-0.8093999999999999,41.9,Alert
+2023-12-09,Non-corridor,night,7,10.0,-0.8093999999999999,41.9,Alert
+2023-12-11,Non-corridor,night,7,10.0,-0.8093999999999999,41.9,Alert
+2023-12-23,Non-corridor,night,7,10.0,-0.8093999999999999,41.9,Alert
+2024-01-26,Non-corridor,night,7,10.0,-0.8093999999999999,41.9,Alert
+2024-02-06,Non-corridor,night,7,10.0,-0.8093999999999999,41.9,Alert
+2024-02-09,Non-corridor,night,7,10.0,-0.8093999999999999,41.9,Alert
+2024-02-14,Non-corridor,night,7,10.0,-0.8093999999999999,41.9,Alert
+2024-02-25,Non-corridor,night,7,10.0,-0.8093999999999999,41.9,Alert
+2023-11-13,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2023-11-26,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2023-12-04,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2023-12-31,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2024-01-02,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2024-01-21,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2024-01-27,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2024-02-03,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2024-02-18,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2024-02-24,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2024-03-01,Non-corridor,night,6,10.0,-1.0792,39.2,Watch
+2023-11-22,Non-corridor,night,5,10.0,-1.349,36.5,Watch
+2024-01-31,Non-corridor,night,5,10.0,-1.349,36.5,Watch
+2024-02-01,Non-corridor,night,5,10.0,-1.349,36.5,Watch
+2024-03-03,Non-corridor,night,5,10.0,-1.349,36.5,Watch
+2024-03-12,Non-corridor,night,5,10.0,-1.349,36.5,Watch
+2023-11-10,Non-corridor,night,4,10.0,-1.6187999999999998,33.8,Watch
+2023-11-23,Non-corridor,night,4,10.0,-1.6187999999999998,33.8,Watch
+2024-01-08,Non-corridor,night,4,10.0,-1.6187999999999998,33.8,Watch
+2024-01-11,Non-corridor,night,4,10.0,-1.6187999999999998,33.8,Watch
+2024-02-05,Non-corridor,night,4,10.0,-1.6187999999999998,33.8,Watch
+2024-02-29,Non-corridor,night,4,10.0,-1.6187999999999998,33.8,Watch
+2024-03-20,Non-corridor,night,4,10.0,-1.6187999999999998,33.8,Watch
+2024-03-22,Non-corridor,night,4,10.0,-1.6187999999999998,33.8,Watch
+2023-11-09,Non-corridor,night,3,10.0,-1.8885999999999998,31.1,Watch
+2023-11-24,Non-corridor,night,3,10.0,-1.8885999999999998,31.1,Watch
+2024-02-12,Non-corridor,night,3,10.0,-1.8885999999999998,31.1,Watch
+2024-03-04,Non-corridor,night,3,10.0,-1.8885999999999998,31.1,Watch
+2024-04-08,Non-corridor,night,3,10.0,-1.8885999999999998,31.1,Watch

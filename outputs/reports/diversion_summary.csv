@@ -1,0 +1,2 @@
+nodes,edges,src,dst,baseline_km,blocked_edge,alt_km,detour_km
+200,524,0,100,17.219,"[88, 32]",17.342,0.123

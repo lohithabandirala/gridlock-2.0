@@ -1,0 +1,84 @@
+corridor,time_slot,incidents,risk_score
+Non-corridor,night,1789,100.0
+Non-corridor,morning_peak,682,38.1
+Non-corridor,evening_peak,483,27.0
+Mysore Road,night,422,23.6
+Bellary Road 1,night,336,18.8
+Tumkur Road,night,278,15.5
+Bellary Road 2,night,191,10.7
+Hosur Road,night,160,8.9
+Mysore Road,morning_peak,151,8.4
+Old Madras Road,night,146,8.2
+Mysore Road,evening_peak,145,8.1
+ORR North 1,night,144,8.0
+Magadi Road,night,144,8.0
+ORR North 2,night,137,7.7
+Bannerghata Road,night,132,7.4
+Bellary Road 1,evening_peak,124,6.9
+ORR East 1,night,124,6.9
+Bellary Road 1,morning_peak,121,6.8
+Non-corridor,midday,110,6.1
+ORR West 1,night,108,6.0
+West of Chord Road,night,104,5.8
+ORR East 2,night,103,5.8
+Bellary Road 2,evening_peak,97,5.4
+Tumkur Road,evening_peak,90,5.0
+ORR North 1,evening_peak,74,4.1
+Tumkur Road,morning_peak,73,4.1
+Bellary Road 2,morning_peak,71,4.0
+ORR East 2,evening_peak,70,3.9
+Hennur Main Road,night,69,3.9
+Hosur Road,morning_peak,69,3.9
+Magadi Road,morning_peak,64,3.6
+IRR(Thanisandra road),night,63,3.5
+Hosur Road,evening_peak,62,3.5
+ORR East 1,evening_peak,61,3.4
+CBD 2,night,61,3.4
+Old Madras Road,evening_peak,58,3.2
+ORR North 2,evening_peak,51,2.9
+ORR East 1,morning_peak,51,2.9
+Old Madras Road,morning_peak,49,2.7
+Bannerghata Road,morning_peak,47,2.6
+Old Airport Road,night,43,2.4
+ORR North 1,morning_peak,42,2.3
+West of Chord Road,morning_peak,38,2.1
+Magadi Road,evening_peak,35,2.0
+ORR North 2,morning_peak,35,2.0
+Varthur Road,night,34,1.9
+ORR West 1,morning_peak,33,1.8
+Airport New South Road,night,32,1.8
+West of Chord Road,evening_peak,30,1.7
+Bellary Road 1,midday,26,1.5
+Bannerghata Road,evening_peak,24,1.3
+ORR West 1,evening_peak,24,1.3
+CBD 2,evening_peak,21,1.2
+Airport New South Road,evening_peak,21,1.2
+Bellary Road 2,midday,20,1.1
+Varthur Road,evening_peak,19,1.1
+CBD 1,night,19,1.1
+Tumkur Road,midday,17,1.0
+IRR(Thanisandra road),evening_peak,17,1.0
+CBD 2,morning_peak,16,0.9
+ORR North 1,midday,14,0.8
+IRR(Thanisandra road),morning_peak,14,0.8
+Old Airport Road,morning_peak,14,0.8
+Varthur Road,morning_peak,14,0.8
+Hennur Main Road,morning_peak,13,0.7
+Hennur Main Road,evening_peak,12,0.7
+ORR North 2,midday,12,0.7
+Old Airport Road,midday,10,0.6
+Mysore Road,midday,10,0.6
+Airport New South Road,morning_peak,9,0.5
+Varthur Road,midday,8,0.4
+ORR East 2,morning_peak,7,0.4
+Old Airport Road,evening_peak,7,0.4
+Hosur Road,midday,6,0.3
+ORR East 1,midday,6,0.3
+Bannerghata Road,midday,5,0.3
+Old Madras Road,midday,4,0.2
+CBD 1,evening_peak,3,0.2
+CBD 1,morning_peak,3,0.2
+ORR East 2,midday,3,0.2
+Airport New South Road,midday,1,0.1
+IRR(Thanisandra road),midday,1,0.1
+ORR West 1,midday,1,0.1

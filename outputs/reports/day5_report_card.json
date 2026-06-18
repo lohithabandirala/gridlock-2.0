@@ -1,0 +1,7 @@
+{
+  "status": "ok",
+  "trained_on": 2210,
+  "evaluated_on": 553,
+  "mae_minutes": 98.5,
+  "median_abs_err_min": 35.9
+}

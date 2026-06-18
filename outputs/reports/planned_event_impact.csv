@@ -1,0 +1,468 @@
+id,event_type,event_cause,corridor,junction,zone,time_slot,requires_road_closure,daily_rain_mm,predicted_clearance_min,planned_impact_baseline,impact_score,impact_band
+FKID005136,planned,public_event,Non-corridor,,,morning_peak,True,2.3,20.483879705298044,100.0,82.0,High
+FKID003965,planned,tree_fall,Non-corridor,,,morning_peak,True,2.3,159.91430142626803,100.0,81.8,High
+FKID003465,planned,construction,Non-corridor,,,midday,True,2.3,224.99255405342248,100.0,81.8,High
+FKID004823,planned,construction,Non-corridor,,East Zone 2,evening_peak,True,1.5,259.7685784106515,100.0,79.9,High
+FKID005877,planned,construction,Non-corridor,K H Road-SiddaiahRdJunc(BMTC-BigBazaar),Central Zone 2,night,True,1.5,475.2685967856041,100.0,78.9,High
+FKID004641,planned,public_event,Non-corridor,,South Zone 2,morning_peak,True,1.5,106.37593363781122,100.0,78.1,High
+FKID004711,planned,public_event,Non-corridor,,West Zone 1,night,True,2.3,34.11942865532212,100.0,77.8,High
+FKID001965,planned,construction,Non-corridor,,,night,True,2.3,43.06673315632049,100.0,77.2,High
+FKID004640,planned,construction,Non-corridor,,North Zone 1,night,True,2.3,35.10183493490613,100.0,77.1,High
+FKID005652,planned,construction,Non-corridor,,East Zone 2,evening_peak,True,1.5,84.25161277345323,100.0,77.1,High
+FKID001691,planned,public_event,Non-corridor,,,morning_peak,True,1.5,41.87947557137332,100.0,77.1,High
+FKID002665,planned,construction,Non-corridor,,,night,True,2.3,31.23533573054678,100.0,77.0,High
+FKID000834,planned,construction,Non-corridor,,,night,True,2.3,25.398697240345125,100.0,77.0,High
+FKID005611,planned,construction,Non-corridor,,Central Zone 1,night,True,2.3,0.9576050551968476,100.0,76.6,High
+FKID005111,planned,construction,Non-corridor,,East Zone 2,evening_peak,True,1.5,36.88114119103506,100.0,76.3,High
+FKID004653,planned,construction,Non-corridor,,East Zone 2,evening_peak,True,1.5,38.854089874002725,100.0,76.3,High
+FKID000988,planned,construction,Non-corridor,,,evening_peak,True,1.5,3.630204449669031,100.0,75.8,High
+FKID004272,planned,construction,Non-corridor,,East Zone 2,evening_peak,True,1.5,7.6521555908116135,100.0,75.8,High
+FKID005389,planned,construction,Non-corridor,,Central Zone 1,morning_peak,True,1.5,0.5662998989251209,100.0,75.7,High
+FKID004996,planned,construction,Non-corridor,,Central Zone 1,evening_peak,True,1.5,1.3002418814429126,100.0,75.7,High
+FKID007787,planned,procession,Non-corridor,BEML GateJunc(SuranjandasRd),Central Zone 1,night,True,2.3,21.64855424313814,100.0,75.1,High
+FKID007932,planned,construction,Non-corridor,SadashivnagarJunc,,midday,True,1.5,129.7571068324989,100.0,75.0,High
+FKID000922,planned,protest,Non-corridor,,,night,True,2.3,5.594728686306599,100.0,74.9,High
+FKID004467,planned,procession,Non-corridor,,West Zone 1,night,True,2.3,5.885609875514015,100.0,74.9,High
+FKID001276,planned,construction,Non-corridor,,,midday,True,1.5,121.83227811878533,100.0,74.9,High
+FKID000921,planned,protest,Non-corridor,,,night,True,2.3,5.594728686306599,100.0,74.9,High
+FKID003127,planned,public_event,Non-corridor,,,midday,True,1.5,15.06638867183273,100.0,73.9,High
+FKID007660,planned,construction,Non-corridor,UpparpetJunction,Central Zone 2,night,True,1.5,143.11178911264503,100.0,73.6,High
+FKID007487,planned,public_event,Non-corridor,BinnyMillJunction,Central Zone 2,night,True,1.5,87.2685693897911,100.0,73.4,High
+FKID003180,planned,procession,Non-corridor,,,midday,True,1.5,134.0668399339507,100.0,73.3,High
+FKID001269,planned,construction,Non-corridor,,,midday,True,1.5,2.408077767582838,100.0,73.0,High
+FKID000468,planned,procession,Non-corridor,,,night,True,1.5,212.9326772622332,100.0,73.0,High
+FKID004509,planned,procession,Non-corridor,,,night,True,1.5,184.48032253807736,100.0,72.5,High
+FKID007991,planned,public_event,Non-corridor,KrishnaFlourMill,,night,True,1.5,26.930046771585186,100.0,72.5,High
+FKID002224,planned,construction,Non-corridor,,,night,True,1.5,56.115681382975126,100.0,72.2,High
+FKID005091,planned,construction,Non-corridor,,East Zone 2,night,True,1.5,55.98515141740973,100.0,72.2,High
+FKID000355,planned,construction,Non-corridor,,,night,True,1.5,27.05521645786866,100.0,71.8,High
+FKID007137,planned,construction,Non-corridor,BucheryJunction,Central Zone 1,night,True,1.5,17.576729882016874,100.0,71.6,High
+FKID002039,planned,construction,Non-corridor,,,night,True,1.5,9.364423385172676,100.0,71.5,High
+FKID004910,planned,construction,Non-corridor,,Central Zone 1,night,True,1.5,1.9298755480372218,100.0,71.4,High
+FKID000253,planned,construction,Non-corridor,,,night,True,1.5,1.7659064785431502,100.0,71.4,High
+FKID000045,planned,construction,Non-corridor,,,night,True,1.5,4.695262243136983,100.0,71.4,High
+FKID005446,planned,construction,Non-corridor,,Central Zone 1,night,True,1.5,4.46243951600372,100.0,71.4,High
+FKID005403,planned,construction,Non-corridor,,Central Zone 1,night,True,1.5,0.3445304005637977,100.0,71.3,High
+FKID005405,planned,construction,Non-corridor,,Central Zone 1,night,True,1.5,0.8705798478406586,100.0,71.3,High
+FKID005591,planned,construction,Non-corridor,,Central Zone 1,night,True,1.5,0.674376438574295,100.0,71.3,High
+FKID004918,planned,construction,Non-corridor,,Central Zone 1,night,True,1.5,0.9498461172165165,100.0,71.3,High
+FKID000895,planned,construction,Non-corridor,,,night,True,1.5,1.3001612601787094,100.0,71.3,High
+FKID004750,planned,procession,Non-corridor,,North Zone 2,night,True,1.5,78.75163786083279,100.0,70.8,High
+FKID007215,planned,procession,Non-corridor,KCG HospitalJunction,Central Zone 2,night,True,1.5,15.267972984660691,100.0,69.8,High
+FKID002254,planned,procession,Non-corridor,,,night,True,1.5,6.206670523006526,100.0,69.7,High
+FKID001198,planned,protest,Non-corridor,,,night,True,1.5,2.875952739277756,100.0,69.6,High
+FKID007636,planned,construction,Non-corridor,UpparpetJunction,Central Zone 2,,True,0.0,324.27119869449507,100.0,67.9,High
+FKID000894,planned,construction,Non-corridor,KrishnaFlourMill,Central Zone 2,,True,0.0,221.47199043392894,100.0,66.3,High
+FKID000898,planned,construction,Non-corridor,KrishnaFlourMill,Central Zone 2,,True,0.0,221.47199043392894,100.0,66.3,High
+FKID007173,planned,public_event,Non-corridor,KarnatakaBhavanJunction,Central Zone 2,,True,0.0,141.87121495058437,100.0,65.7,Medium
+FKID001734,planned,public_event,Non-corridor,,,,True,0.0,112.49289758226833,100.0,65.2,Medium
+FKID004430,planned,public_event,Non-corridor,,,evening_peak,False,1.5,646.304840602575,100.0,64.8,Medium
+FKID003758,planned,public_event,Non-corridor,,,,True,0.0,83.19045046735422,100.0,64.8,Medium
+FKID008130,planned,public_event,Non-corridor,"PriyadarshiniHotel,Jayamahal,RT Nagar",,,True,0.0,73.75675168568262,100.0,64.6,Medium
+FKID005805,planned,public_event,Non-corridor,BanashankariBusStandJunc,South Zone 1,,True,0.0,65.46873495750202,100.0,64.5,Medium
+FKID005806,planned,public_event,Non-corridor,BanashankariBusStandJunc,South Zone 1,,True,0.0,65.46873495750202,100.0,64.5,Medium
+FKID000437,planned,public_event,Non-corridor,,,,True,0.0,60.92649341804416,100.0,64.4,Medium
+FKID004632,planned,public_event,Non-corridor,,,,True,0.0,62.137952045527285,100.0,64.4,Medium
+FKID003755,planned,public_event,Non-corridor,,,,True,0.0,58.503218587228105,100.0,64.4,Medium
+FKID004707,planned,public_event,Non-corridor,,West Zone 1,,True,0.0,60.83496975362114,100.0,64.4,Medium
+FKID000637,planned,construction,Non-corridor,,North Zone 1,,True,0.0,98.87231607883268,100.0,64.3,Medium
+FKID001801,planned,public_event,Non-corridor,,,,True,0.0,55.38478503292871,100.0,64.3,Medium
+FKID005283,planned,construction,Non-corridor,,North Zone 1,,True,0.0,98.87231607883268,100.0,64.3,Medium
+FKID001481,planned,public_event,Non-corridor,,,,True,0.0,49.154252408318875,100.0,64.2,Medium
+FKID000433,planned,public_event,Non-corridor,,,,True,0.0,41.007272295365276,100.0,64.1,Medium
+FKID000994,planned,public_event,Non-corridor,,,,True,0.0,38.21554498856597,100.0,64.1,Medium
+FKID004426,planned,public_event,Non-corridor,,East Zone 1,,True,0.0,38.53859661573124,100.0,64.1,Medium
+FKID004771,planned,public_event,Non-corridor,,West Zone 1,,True,0.0,38.959158840085806,100.0,64.1,Medium
+FKID000737,planned,public_event,Non-corridor,,,,True,0.0,42.42215023691785,100.0,64.1,Medium
+FKID002018,planned,construction,Non-corridor,NavarangBarJunc-Dr RajkumarRd,West Zone 2,,True,0.0,37.81354908822976,100.0,63.4,Medium
+FKID004088,planned,construction,Non-corridor,VishweswaraiahJunctio(Uttamsagar),North Zone 1,,True,0.0,41.37110429149092,100.0,63.4,Medium
+FKID005833,planned,construction,Non-corridor,PlatformRdJunction,Central Zone 2,,True,0.0,43.42171245087386,100.0,63.4,Medium
+FKID002486,planned,construction,Non-corridor,SubbannaJunction,Central Zone 2,,True,0.0,33.42032633170162,100.0,63.3,Medium
+FKID006647,planned,construction,Non-corridor,SubedarChatramRd near SheshadripuramPS,Central Zone 2,,True,0.0,37.03792816713583,100.0,63.3,Medium
+FKID006648,planned,construction,Non-corridor,SubedarChatramRd near SheshadripuramPS,Central Zone 2,,True,0.0,37.03792816713583,100.0,63.3,Medium
+FKID006030,planned,construction,Non-corridor,SubbannaJunction,Central Zone 2,,True,0.0,33.42032633170162,100.0,63.3,Medium
+FKID006210,planned,construction,Non-corridor,UttarahalliJunction,South Zone 1,,True,0.0,31.869841407663543,100.0,63.3,Medium
+FKID003130,planned,construction,Non-corridor,,,,True,0.0,26.91714241342106,100.0,63.2,Medium
+FKID002354,planned,construction,Non-corridor,"Trilight Circle,Race course Road",Central Zone 2,,True,0.0,22.790731955326915,100.0,63.1,Medium
+FKID000997,planned,construction,Non-corridor,,,,True,0.0,17.31052554461623,100.0,63.0,Medium
+FKID001167,planned,procession,Non-corridor,,,,True,0.0,56.111150878184475,100.0,61.9,Medium
+FKID006315,planned,procession,Non-corridor,K R Circle,Central Zone 2,,True,0.0,23.503905215599094,100.0,61.4,Medium
+FKID001685,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID001676,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID001641,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID001687,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID002054,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID002051,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID001925,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID001979,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID001934,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID001896,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID002017,planned,vip_movement,Non-corridor,,,,True,0.0,26.309200037276796,100.0,61.4,Medium
+FKID004684,planned,construction,Non-corridor,,South Zone 1,night,False,2.3,421.22468462609237,100.0,61.3,Medium
+FKID000426,planned,construction,Non-corridor,,,morning_peak,False,2.3,60.0068358869024,100.0,59.9,Medium
+FKID005750,planned,construction,Non-corridor,,East Zone 1,evening_peak,False,1.5,310.7343376093697,100.0,58.7,Medium
+FKID004092,planned,procession,Non-corridor,,,evening_peak,False,2.3,81.30448713712529,100.0,58.5,Medium
+FKID007575,planned,procession,Non-corridor,Marigowda-TavarkereRdJunc,South Zone 2,evening_peak,False,2.3,61.73837370976128,100.0,58.2,Medium
+FKID004885,planned,public_event,Non-corridor,,,midday,False,2.3,67.39639965716532,100.0,57.9,Medium
+FKID004887,planned,public_event,Non-corridor,,,midday,False,2.3,49.42114741809394,100.0,57.6,Medium
+FKID004884,planned,public_event,Non-corridor,,,midday,False,2.3,49.42114741809394,100.0,57.6,Medium
+FKID000956,planned,procession,Non-corridor,,,morning_peak,False,2.3,27.823815297519015,100.0,57.6,Medium
+FKID004642,planned,construction,Non-corridor,,South Zone 1,morning_peak,False,1.5,189.66452686428488,100.0,56.8,Medium
+FKID002656,planned,construction,Non-corridor,,,night,False,2.3,136.0572548154032,100.0,56.7,Medium
+FKID004427,planned,construction,Non-corridor,,North Zone 1,evening_peak,False,1.5,172.77980903654125,100.0,56.5,Medium
+FKID004019,planned,construction,Non-corridor,,,night,False,2.3,103.48941247367303,100.0,56.2,Medium
+FKID004609,planned,public_event,Non-corridor,,West Zone 1,morning_peak,False,1.5,102.85275111017613,100.0,56.1,Medium
+FKID005098,planned,public_event,Non-corridor,,North Zone 1,morning_peak,False,1.5,96.86866585994576,100.0,56.0,Medium
+FKID004985,planned,construction,Non-corridor,,North Zone 1,evening_peak,False,1.5,127.80695860372472,100.0,55.8,Medium
+FKID005099,planned,public_event,Non-corridor,,North Zone 1,morning_peak,False,1.5,77.01396536851105,100.0,55.7,Medium
+FKID006650,planned,public_event,Non-corridor,RajajinagarEntranceJunction,West Zone 2,night,False,2.3,13.460145801503009,100.0,55.5,Medium
+FKID004856,planned,construction,Non-corridor,,East Zone 2,night,False,2.3,54.724966397120085,100.0,55.4,Medium
+FKID007581,planned,construction,Non-corridor,BTM16thMain-ORR Junc,South Zone 2,night,False,2.3,49.613556370840726,100.0,55.3,Medium
+FKID006037,planned,construction,Mysore Road,ShivajiTalkiesJunc,Central Zone 2,midday,True,2.3,23.719869174533184,23.6,55.3,Medium
+FKID002059,planned,construction,Non-corridor,,,morning_peak,False,1.5,95.01208046715664,100.0,55.3,Medium
+FKID005167,planned,public_event,Non-corridor,,West Zone 1,morning_peak,False,1.5,48.761251295709044,100.0,55.2,Medium
+FKID001306,planned,construction,Non-corridor,,,night,False,1.5,351.0247945578036,100.0,55.0,Medium
+FKID006074,planned,construction,Non-corridor,BTM16thMain-ORR Junc,South Zone 2,night,False,2.3,31.299768385698165,100.0,55.0,Medium
+FKID002495,planned,construction,Non-corridor,,,evening_peak,False,1.5,65.05733682133307,100.0,54.8,Medium
+FKID006440,planned,construction,Non-corridor,Peenya2ndStageBusStand,West Zone 1,night,False,2.3,9.223912818907005,100.0,54.7,Medium
+FKID005567,planned,construction,Non-corridor,,North Zone 2,evening_peak,False,1.5,62.23404948153112,100.0,54.7,Medium
+FKID002440,planned,public_event,Non-corridor,,,morning_peak,False,1.5,10.490525245751218,100.0,54.6,Medium
+FKID006716,planned,construction,Non-corridor,SubbannaJunction,Central Zone 2,night,False,1.5,319.33055305174804,100.0,54.4,Medium
+FKID005281,planned,construction,Non-corridor,,North Zone 2,night,False,1.5,308.3249961159682,100.0,54.3,Medium
+FKID007425,planned,construction,Non-corridor,ISRO Junction-NewBEL Rd,West Zone 2,evening_peak,False,1.5,23.542163170987862,100.0,54.1,Medium
+FKID005557,planned,construction,Non-corridor,,Central Zone 2,morning_peak,False,1.5,24.905388115785144,100.0,54.1,Medium
+FKID005271,planned,procession,Non-corridor,,Central Zone 2,night,False,2.3,78.35189358150815,100.0,54.1,Medium
+FKID006792,planned,construction,Non-corridor,D'SouzaCircle,Central Zone 1,evening_peak,False,1.5,18.041272790048666,100.0,54.0,Medium
+FKID002693,planned,construction,Non-corridor,,,night,False,1.5,292.1605957330796,100.0,54.0,Medium
+FKID002103,planned,construction,Non-corridor,,,evening_peak,False,1.5,13.30531389570772,100.0,53.9,Medium
+FKID002353,planned,construction,Non-corridor,,,midday,False,1.5,166.558552137832,100.0,53.6,Medium
+FKID000717,planned,procession,Non-corridor,,,night,False,2.3,36.79294876514899,100.0,53.4,Medium
+FKID001865,planned,procession,Non-corridor,,,night,False,2.3,18.59859037097885,100.0,53.1,Medium
+FKID007744,planned,construction,Varthur Road,MaratahalliBridgeJunc,East Zone 1,midday,True,2.3,274.7570861273021,1.9,52.8,Medium
+FKID005749,planned,construction,Non-corridor,,East Zone 1,night,False,1.5,213.14314314441623,100.0,52.7,Medium
+FKID004906,planned,public_event,Non-corridor,,East Zone 1,night,False,1.5,161.32023837366245,100.0,52.6,Medium
+FKID001104,planned,procession,Non-corridor,,,morning_peak,False,1.5,32.251419530000625,100.0,52.5,Medium
+FKID001289,planned,construction,Non-corridor,,,night,False,1.5,198.91361965061455,100.0,52.5,Medium
+FKID005125,planned,construction,Non-corridor,,North Zone 2,night,False,1.5,179.85161888326732,100.0,52.2,Medium
+FKID001648,planned,procession,Non-corridor,,,morning_peak,False,1.5,14.508966462930246,100.0,52.2,Medium
+FKID006620,planned,construction,Bannerghata Road,BilekahalliJunc,South Zone 2,midday,True,1.5,456.7406952046037,7.4,52.2,Medium
+FKID003153,planned,procession,Non-corridor,,,night,False,1.5,282.1117511867942,100.0,52.1,Medium
+FKID005615,planned,construction,Bellary Road 1,,North Zone 2,night,True,2.3,11.233356805537959,18.8,52.1,Medium
+FKID005734,planned,construction,Non-corridor,,North Zone 2,midday,False,1.5,60.5835181978794,100.0,51.9,Medium
+FKID001840,planned,construction,Varthur Road,,,midday,True,2.3,221.19262189433223,1.9,51.9,Medium
+FKID004680,planned,construction,Non-corridor,,North Zone 2,night,False,1.5,156.95494927391474,100.0,51.8,Medium
+FKID004242,planned,construction,Non-corridor,,,night,False,1.5,153.19545855952714,100.0,51.8,Medium
+FKID005732,planned,construction,Non-corridor,,,midday,False,1.5,49.04767556101559,100.0,51.7,Medium
+FKID006547,planned,public_event,Non-corridor,Marigowda-TavarkereRdJunc,South Zone 2,night,False,1.5,94.86963932129656,100.0,51.5,Medium
+FKID001943,planned,construction,Tumkur Road,,,night,True,2.3,10.855358596047427,15.5,51.1,Medium
+FKID005577,planned,construction,Non-corridor,,South Zone 1,night,False,1.5,113.05574213591954,100.0,51.1,Medium
+FKID006581,planned,public_event,Non-corridor,Marigowda-TavarkereRdJunc,South Zone 2,night,False,1.5,62.12982432794324,100.0,51.0,Medium
+FKID000478,planned,procession,Non-corridor,,,night,False,1.5,199.58448646775452,100.0,50.8,Medium
+FKID007016,planned,construction,Non-corridor,SubbannaJunction,Central Zone 2,night,False,1.5,83.39266331827348,100.0,50.7,Medium
+FKID006105,planned,public_event,Non-corridor,FTI Junction(KanteeravaStudio),West Zone 1,night,False,1.5,33.03825687762007,100.0,50.6,Medium
+FKID004527,planned,public_event,Non-corridor,,,night,False,1.5,33.53178525666711,100.0,50.6,Medium
+FKID004722,planned,construction,Non-corridor,,,night,False,1.5,68.0252261546287,100.0,50.4,Medium
+FKID000412,planned,construction,ORR North 1,,,night,True,2.3,111.39111829983234,8.0,50.4,Medium
+FKID005291,planned,public_event,Non-corridor,,South Zone 2,night,False,1.5,21.784613031267206,100.0,50.4,Medium
+FKID005459,planned,construction,Non-corridor,,Central Zone 1,night,False,1.5,59.05318846689645,100.0,50.3,Medium
+FKID004622,planned,construction,Non-corridor,,West Zone 2,night,False,1.5,55.146875319091784,100.0,50.2,Medium
+FKID000998,planned,construction,Tumkur Road,,,evening_peak,True,1.5,6.63201807445026,15.5,50.2,Medium
+FKID005442,planned,construction,Non-corridor,,Central Zone 1,night,False,1.5,56.62349889075717,100.0,50.2,Medium
+FKID004247,planned,construction,Non-corridor,,,night,False,1.5,55.049830295694036,100.0,50.2,Medium
+FKID001282,planned,construction,Non-corridor,,,night,False,1.5,40.286471899374035,100.0,50.0,Medium
+FKID004947,planned,construction,Airport New South Road,,East Zone 2,night,True,1.5,524.0757216017303,1.8,49.9,Medium
+FKID000229,planned,construction,Mysore Road,,,midday,True,1.5,2.810107887804564,23.6,49.8,Medium
+FKID002533,planned,construction,Non-corridor,,,night,False,1.5,21.931594122795865,100.0,49.7,Medium
+FKID002447,planned,construction,Non-corridor,,,night,False,1.5,14.400118115981554,100.0,49.6,Medium
+FKID005004,planned,construction,Non-corridor,,South Zone 2,night,False,1.5,14.336200255861218,100.0,49.6,Medium
+FKID005263,planned,construction,Non-corridor,,East Zone 2,night,False,1.5,14.241362998753349,100.0,49.6,Medium
+FKID003539,planned,construction,Non-corridor,,,night,False,1.5,15.946161776817931,100.0,49.6,Medium
+FKID001160,planned,construction,Non-corridor,,,night,False,1.5,17.670783493964024,100.0,49.6,Medium
+FKID002672,planned,construction,Non-corridor,,,night,False,1.5,17.11929405467098,100.0,49.6,Medium
+FKID004381,planned,construction,Non-corridor,,,night,False,1.5,10.226266139038229,100.0,49.5,Medium
+FKID001864,planned,construction,Non-corridor,,,night,False,1.5,4.964419208092427,100.0,49.4,Medium
+FKID000192,planned,construction,Non-corridor,,,night,False,1.5,2.0856976283475337,100.0,49.4,Medium
+FKID005634,planned,public_event,Mysore Road,,West Zone 1,night,True,1.5,31.623900413080463,23.6,49.4,Medium
+FKID002673,planned,construction,Non-corridor,,,night,False,1.5,4.9652530588522925,100.0,49.4,Medium
+FKID001499,planned,construction,ORR East 1,,,night,True,2.3,63.631851676599126,6.9,49.3,Medium
+FKID007731,planned,construction,ORR West 1,Delmia-Jayanagar,South Zone 1,night,True,2.3,71.67427884697035,6.0,49.2,Medium
+FKID004753,planned,procession,Non-corridor,,South Zone 2,night,False,1.5,87.97999925738567,100.0,49.0,Medium
+FKID005875,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,night,True,1.5,344.68474916196914,8.0,48.9,Medium
+FKID007408,planned,procession,Non-corridor,Geethanjali jn,West Zone 2,night,False,1.5,74.6323353905787,100.0,48.8,Medium
+FKID001135,planned,construction,Mysore Road,,,night,True,1.5,18.944560012700553,23.6,48.5,Medium
+FKID006784,planned,construction,Mysore Road,UlsoorGateJunc,Central Zone 2,night,True,1.5,17.0365935363844,23.6,48.4,Medium
+FKID005354,planned,procession,Non-corridor,,North Zone 1,night,False,1.5,52.45387610219979,100.0,48.4,Medium
+FKID007237,planned,construction,Mysore Road,HudsonCircle,Central Zone 2,night,True,1.5,4.30983918180005,23.6,48.2,Medium
+FKID007560,planned,construction,IRR(Thanisandra road),BDA Junctio-Koramangala,South Zone 2,night,True,2.3,60.02154279573097,3.5,48.2,Medium
+FKID004165,planned,protest,Non-corridor,,West Zone 1,night,False,1.5,31.504437757644816,100.0,48.1,Medium
+FKID005292,planned,vip_movement,Non-corridor,,South Zone 2,night,False,1.5,30.056389986997992,100.0,48.1,Medium
+FKID005248,planned,procession,Non-corridor,,South Zone 1,night,False,1.5,33.15520129180943,100.0,48.1,Medium
+FKID005948,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,night,True,1.5,286.69245694971187,8.0,48.0,Medium
+FKID002110,planned,procession,Non-corridor,,,night,False,1.5,24.21203937095817,100.0,48.0,Medium
+FKID004535,planned,protest,Non-corridor,,,night,False,1.5,17.725459839703788,100.0,47.9,Medium
+FKID004721,planned,vip_movement,Non-corridor,,,night,False,1.5,22.61815529953092,100.0,47.9,Medium
+FKID001211,planned,construction,Varthur Road,,,midday,True,1.5,288.018411472929,1.9,47.8,Medium
+FKID002608,planned,vehicle_breakdown,Non-corridor,,,night,False,1.5,6.846652440276051,100.0,47.7,Medium
+FKID006838,planned,procession,Non-corridor,MarenahalliRd-18thMainRdJunc,South Zone 1,night,False,1.5,1.7207670290389343,100.0,47.6,Medium
+FKID006118,planned,construction,ORR East 1,SilkBoardJunc,South Zone 2,morning_peak,True,1.5,6.2205794388858715,6.9,47.6,Medium
+FKID007027,planned,construction,ORR East 1,5thMainHSR,South Zone 2,morning_peak,True,1.5,2.794768776958681,6.9,47.5,Medium
+FKID007603,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,night,True,1.5,254.18216319617352,8.0,47.5,Medium
+FKID000816,planned,construction,Tumkur Road,,,midday,True,1.5,1.5375781431962001,15.5,47.3,Medium
+FKID007635,planned,vehicle_breakdown,Mysore Road,UlsoorGateJunc,Central Zone 2,night,True,1.5,38.2907759610036,23.6,47.0,Medium
+FKID002225,planned,construction,Varthur Road,,,midday,True,1.5,237.43815041072602,1.9,47.0,Medium
+FKID006894,planned,construction,Airport New South Road,HennurRd-DavisRdJunction,North Zone 1,night,True,2.3,15.19969017088966,1.8,47.0,Medium
+FKID007525,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,night,True,1.5,213.68240091221338,8.0,46.8,Medium
+FKID000490,planned,construction,Varthur Road,,,midday,True,1.5,206.31188727661507,1.9,46.5,Medium
+FKID008083,planned,construction,Bellary Road 2,SantheCircle,,night,True,1.5,94.76616346849245,10.7,45.8,Medium
+FKID005185,planned,construction,Airport New South Road,,North Zone 1,midday,True,1.5,116.6649978847596,1.8,45.0,Medium
+FKID007681,planned,construction,Mysore Road,UniversityJunc(Janabharti),West Zone 1,,True,0.0,321.37127775341855,23.6,44.7,Medium
+FKID007646,planned,construction,Mysore Road,UniversityJunc(Janabharti),West Zone 1,,True,0.0,321.37127775341855,23.6,44.7,Medium
+FKID007633,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,night,True,1.5,62.29020944414852,8.0,44.4,Medium
+FKID004740,planned,construction,Non-corridor,,North Zone 2,,False,0.0,222.37436721770482,100.0,44.3,Medium
+FKID006473,planned,procession,Bellary Road 2,Batrayanapura(Amrutahalli)Junction,North Zone 1,night,True,1.5,105.15807664010165,10.7,44.2,Medium
+FKID004792,planned,public_event,ORR North 1,,Central Zone 1,night,True,1.5,2.3010096734933603,8.0,44.2,Medium
+FKID007632,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,night,True,1.5,44.79162244902253,8.0,44.1,Medium
+FKID004194,planned,construction,Non-corridor,,,,False,0.0,202.83134906097675,100.0,44.0,Medium
+FKID004216,planned,construction,Non-corridor,,,,False,0.0,191.11127779157016,100.0,43.8,Medium
+FKID001480,planned,construction,Old Madras Road,,,night,True,1.5,1.3771603036037643,8.2,43.5,Medium
+FKID003859,planned,construction,ORR East 2,,,evening_peak,False,1.5,1123.233643551542,5.8,43.2,Medium
+FKID005746,planned,construction,Non-corridor,,North Zone 2,,False,0.0,151.7141917444386,100.0,43.2,Medium
+FKID006815,planned,construction,ORR East 1,"Bellandur Junction, Outer ring road",East Zone 1,night,True,1.5,1.0012615819193988,6.9,43.1,Medium
+FKID002445,planned,public_event,Non-corridor,,,,False,0.0,95.10365808421501,100.0,43.0,Medium
+FKID006401,planned,public_event,Old Airport Road,DomlurWaterTank,Central Zone 1,night,True,1.5,30.886228078033817,2.4,42.9,Medium
+FKID007213,planned,procession,Magadi Road,LeprosyhospitalJunc,Central Zone 2,night,True,1.5,60.53564164581527,8.0,42.6,Medium
+FKID006806,planned,public_event,Non-corridor,PurnimaTheaterJunc,Central Zone 2,,False,0.0,46.9440304610776,100.0,42.2,Medium
+FKID007248,planned,procession,Magadi Road,LeprosyhospitalJunc,Central Zone 2,night,True,1.5,23.469782307658793,8.0,42.0,Medium
+FKID005604,planned,construction,Non-corridor,,South Zone 1,,False,0.0,79.98485539950276,100.0,42.0,Medium
+FKID007249,planned,procession,Magadi Road,LeprosyhospitalJunc,Central Zone 2,night,True,1.5,23.469782307658793,8.0,42.0,Medium
+FKID003704,planned,public_event,Mysore Road,,,,True,0.0,73.94135538549726,23.6,41.5,Medium
+FKID004122,planned,construction,Mysore Road,,,,True,0.0,84.92105294330918,23.6,40.9,Medium
+FKID007176,planned,construction,Bellary Road 2,SantheCircle,North Zone 2,evening_peak,False,2.3,530.7537319098325,10.7,40.4,Medium
+FKID001829,planned,construction,ORR East 2,,,evening_peak,False,1.5,938.8972735044746,5.8,40.2,Medium
+FKID004486,planned,public_event,Bellary Road 1,,Central Zone 2,,True,0.0,61.660055144722655,18.8,39.8,Medium
+FKID002026,planned,construction,ORR East 2,,,evening_peak,False,1.5,915.004155799713,5.8,39.8,Medium
+FKID003404,planned,construction,ORR East 2,,,evening_peak,False,2.3,575.8655894711585,5.8,39.6,Medium
+FKID001204,planned,construction,ORR East 2,,,evening_peak,False,1.5,882.7182853137822,5.8,39.3,Medium
+FKID004760,planned,construction,ORR North 2,,North Zone 1,evening_peak,False,2.3,520.5163058732917,7.7,39.3,Medium
+FKID003312,planned,construction,ORR East 2,,,evening_peak,False,1.5,861.9178489176775,5.8,39.0,Medium
+FKID001930,planned,construction,ORR East 2,,,night,False,2.3,806.7626652632964,5.8,38.9,Medium
+FKID001462,planned,construction,ORR East 2,,,night,False,2.3,806.7626652632964,5.8,38.9,Medium
+FKID007686,planned,procession,Mysore Road,SiddalingaiahCircle,Central Zone 1,,True,0.0,52.02419453943434,23.6,38.7,Medium
+FKID002097,planned,construction,ORR East 2,,,evening_peak,False,1.5,832.0593697763685,5.8,38.5,Medium
+FKID006314,planned,procession,Mysore Road,HudsonCircle,Central Zone 2,,True,0.0,30.28058783848287,23.6,38.3,Medium
+FKID002015,planned,vip_movement,Mysore Road,,,,True,0.0,24.201507015171092,23.6,38.2,Medium
+FKID002057,planned,vip_movement,Mysore Road,,,,True,0.0,24.201507015171092,23.6,38.2,Medium
+FKID001970,planned,vip_movement,Mysore Road,,,,True,0.0,24.201507015171092,23.6,38.2,Medium
+FKID002008,planned,vip_movement,Mysore Road,,,,True,0.0,24.201507015171092,23.6,38.2,Medium
+FKID002581,planned,construction,ORR East 2,,,evening_peak,False,1.5,809.0232267401148,5.8,38.1,Medium
+FKID004085,planned,construction,Varthur Road,,,,True,0.0,319.8983543466476,1.9,38.1,Medium
+FKID006207,planned,construction,West of Chord Road,NavarangTheatreJunction,West Zone 1,,True,0.0,246.2274616232005,5.8,38.1,Medium
+FKID004646,planned,construction,ORR East 2,,East Zone 1,night,False,2.3,752.2803364530812,5.8,38.0,Medium
+FKID000553,planned,construction,ORR East 2,,,night,False,2.3,745.7474971573749,5.8,37.9,Medium
+FKID001726,planned,construction,ORR East 2,,,night,False,2.3,745.7474971573749,5.8,37.9,Medium
+FKID002245,planned,construction,ORR East 2,,,evening_peak,False,1.5,795.9620545663441,5.8,37.9,Medium
+FKID001523,planned,construction,ORR East 2,,,evening_peak,False,1.5,786.2144574362238,5.8,37.8,Medium
+FKID006645,planned,construction,Airport New South Road,HennurRd-DavisRdJunction,North Zone 1,,True,0.0,273.21894603007576,1.8,37.3,Medium
+FKID002380,planned,construction,ORR East 2,,,evening_peak,False,1.5,750.7869806389323,5.8,37.2,Medium
+FKID004644,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,744.2942436621538,5.8,37.1,Medium
+FKID004330,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,746.7933623307183,5.8,37.1,Medium
+FKID004258,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,739.5004188967822,5.8,37.0,Medium
+FKID004477,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,730.4651408117136,5.8,36.9,Medium
+FKID004662,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,727.1199269904635,5.8,36.8,Medium
+FKID002168,planned,construction,ORR East 2,,,evening_peak,False,1.5,727.9097512464106,5.8,36.8,Medium
+FKID004031,planned,construction,ORR East 2,,,night,False,2.3,677.2588021073809,5.8,36.8,Medium
+FKID000052,planned,construction,ORR East 2,,,evening_peak,False,1.5,727.5305795118953,5.8,36.8,Medium
+FKID004555,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,719.6222737206159,5.8,36.7,Medium
+FKID005086,planned,construction,Airport New South Road,,North Zone 1,evening_peak,False,2.3,472.85344691805204,1.8,36.7,Medium
+FKID005457,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,723.3527046948949,5.8,36.7,Medium
+FKID005030,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,719.1329040513881,5.8,36.7,Medium
+FKID005473,planned,public_event,Bannerghata Road,,South Zone 1,,True,0.0,76.4268648698206,7.4,36.6,Medium
+FKID005205,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,706.611835874896,5.8,36.5,Medium
+FKID001581,planned,public_event,Old Madras Road,,,,True,0.0,57.24208781179474,8.2,36.5,Medium
+FKID001578,planned,public_event,Old Madras Road,,,,True,0.0,57.26339346888106,8.2,36.5,Medium
+FKID004956,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,706.6744480912221,5.8,36.5,Medium
+FKID004299,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,700.2764664376839,5.8,36.4,Medium
+FKID001573,planned,public_event,Old Madras Road,,,,True,0.0,47.198698343826,8.2,36.4,Medium
+FKID004597,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,703.0421210095723,5.8,36.4,Medium
+FKID002483,planned,public_event,Old Madras Road,,,,True,0.0,51.87277820125347,8.2,36.4,Medium
+FKID008054,planned,public_event,ORR West 1,KanakapuraRd-RingRdJunction,,,True,0.0,85.03293257416438,6.0,36.3,Medium
+FKID004784,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,690.8620390978122,5.8,36.2,Medium
+FKID004563,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,683.4089114524282,5.8,36.1,Medium
+FKID005258,planned,construction,ORR East 2,,East Zone 1,evening_peak,False,1.5,683.4089114524282,5.8,36.1,Medium
+FKID000502,planned,public_event,ORR East 1,,,,True,0.0,49.349034885400435,6.9,36.0,Medium
+FKID006283,planned,public_event,Hosur Road,AnepalyaJunc,Central Zone 1,,True,0.0,8.94480936083661,8.9,36.0,Medium
+FKID003707,planned,construction,Old Madras Road,,,,True,0.0,71.2110963927124,8.2,36.0,Medium
+FKID000235,planned,construction,ORR East 2,,,evening_peak,False,1.5,671.777758617477,5.8,35.9,Medium
+FKID008131,planned,public_event,Hennur Main Road,Nagavara-ORR Junction,,,True,0.0,99.04097811637952,3.9,35.9,Medium
+FKID000805,planned,construction,ORR East 2,,,evening_peak,False,1.5,654.8781690604374,5.8,35.7,Medium
+FKID005672,planned,construction,ORR North 1,,East Zone 2,,True,0.0,46.229743879827275,8.0,35.6,Medium
+FKID003133,planned,construction,ORR East 2,,,evening_peak,False,1.5,650.5409066823954,5.8,35.6,Medium
+FKID001278,planned,construction,ORR East 2,,,evening_peak,False,1.5,649.5598127743334,5.8,35.6,Medium
+FKID003763,planned,public_event,ORR West 1,,,,True,0.0,40.26363310944662,6.0,35.6,Medium
+FKID001815,planned,construction,ORR East 2,,,night,False,1.5,906.4688561574592,5.8,35.3,Medium
+FKID007415,planned,construction,Hennur Main Road,Nagavara-ORR Junction,North Zone 1,,True,0.0,85.64192740718221,3.9,35.0,Medium
+FKID001356,planned,construction,ORR East 2,,,evening_peak,False,1.5,559.1271488626444,5.8,34.1,Medium
+FKID002320,planned,construction,ORR East 2,,,night,False,2.3,495.6239542606815,5.8,33.9,Medium
+FKID002105,planned,construction,ORR East 2,,,night,False,1.5,794.3226863633555,5.8,33.5,Medium
+FKID002561,planned,construction,ORR East 2,,,night,False,1.5,793.0315555863714,5.8,33.5,Medium
+FKID001025,planned,construction,ORR East 2,,,night,False,1.5,793.0315555863714,5.8,33.5,Medium
+FKID000970,planned,construction,ORR East 2,,,night,False,1.5,794.3226863633555,5.8,33.5,Medium
+FKID001128,planned,construction,ORR East 2,,,evening_peak,False,1.5,507.48434514291523,5.8,33.3,Medium
+FKID006763,planned,construction,Airport New South Road,HennurRd-DavisRdJunction,North Zone 1,,True,0.0,17.628330856783744,1.8,33.2,Medium
+FKID004629,planned,public_event,Magadi Road,,West Zone 1,morning_peak,False,2.3,76.46404218443178,8.0,33.0,Low
+FKID000082,planned,construction,ORR East 2,,,night,False,1.5,758.2171919675901,5.8,32.9,Low
+FKID005608,planned,construction,Airport New South Road,,North Zone 1,evening_peak,False,2.3,225.63359589305506,1.8,32.8,Low
+FKID004585,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,748.8752357735402,5.8,32.8,Low
+FKID003706,planned,construction,CBD 1,,,,True,0.0,6.484912914656539,1.1,32.8,Low
+FKID005626,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,748.8752357735402,5.8,32.8,Low
+FKID002659,planned,construction,ORR East 2,,,night,False,1.5,748.0225943456376,5.8,32.7,Low
+FKID005637,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,738.0823484451528,5.8,32.6,Low
+FKID004799,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,739.3211029209408,5.8,32.6,Low
+FKID005233,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,737.7992193106364,5.8,32.6,Low
+FKID004925,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,737.7992193106364,5.8,32.6,Low
+FKID004886,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,741.7557312536276,5.8,32.6,Low
+FKID005255,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,731.1955058699353,5.8,32.5,Low
+FKID004766,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,731.1955058699353,5.8,32.5,Low
+FKID004848,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,735.0346118616757,5.8,32.5,Low
+FKID005646,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,732.0956426861935,5.8,32.5,Low
+FKID004670,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,732.0956426861935,5.8,32.5,Low
+FKID005115,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,732.9051984308934,5.8,32.5,Low
+FKID004903,planned,construction,ORR East 2,,,night,False,1.5,730.848599103942,5.8,32.5,Low
+FKID005223,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,730.416367468668,5.8,32.5,Low
+FKID000139,planned,construction,ORR East 2,,,night,False,1.5,724.920488072527,5.8,32.4,Low
+FKID005046,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,725.5479921469263,5.8,32.4,Low
+FKID005179,planned,construction,ORR East 2,,,night,False,1.5,727.9683160474682,5.8,32.4,Low
+FKID005134,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,724.6676483522476,5.8,32.4,Low
+FKID002463,planned,construction,ORR East 2,,,night,False,1.5,720.6526202969474,5.8,32.3,Low
+FKID004362,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,720.037274987703,5.8,32.3,Low
+FKID004603,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,723.0151384931792,5.8,32.3,Low
+FKID005412,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,717.3654951029284,5.8,32.3,Low
+FKID005589,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,720.037274987703,5.8,32.3,Low
+FKID005394,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,714.2231786686442,5.8,32.2,Low
+FKID001382,planned,construction,ORR East 2,,,night,False,1.5,714.0442408610318,5.8,32.2,Low
+FKID004726,planned,construction,ORR East 2,,,night,False,1.5,711.759234004264,5.8,32.2,Low
+FKID005568,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,711.2738295851963,5.8,32.2,Low
+FKID006666,planned,public_event,Mysore Road,OldPoliceStation-Ashoknagar,Central Zone 1,night,False,2.3,5.859292485759668,23.6,32.2,Low
+FKID005532,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,714.2231786686442,5.8,32.2,Low
+FKID004537,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,708.4297366635893,5.8,32.1,Low
+FKID001894,planned,construction,ORR East 2,,,night,False,1.5,710.5273118432839,5.8,32.1,Low
+FKID005741,planned,construction,ORR East 2,,East Zone 1,night,False,1.5,707.5384397328673,5.8,32.1,Low
+FKID002337,planned,construction,Mysore Road,,,night,False,2.3,32.571877475923,23.6,31.9,Low
+FKID001857,planned,vip_movement,Old Airport Road,,,,True,0.0,31.675584759438422,2.4,31.9,Low
+FKID001602,planned,construction,ORR East 2,,,night,False,1.5,691.5776847647741,5.8,31.8,Low
+FKID004364,planned,construction,Bellary Road 1,,West Zone 2,night,False,2.3,116.90281108325506,18.8,31.8,Low
+FKID005470,planned,construction,Airport New South Road,,North Zone 1,evening_peak,False,2.3,153.40753896367463,1.8,31.6,Low
+FKID000312,planned,construction,ORR East 2,,,night,False,1.5,669.6946647422803,5.8,31.5,Low
+FKID000375,planned,construction,Bellary Road 1,,,night,False,2.3,99.64913090090118,18.8,31.5,Low
+FKID007748,planned,construction,Old Madras Road,QueensStatueCircle,Central Zone 1,evening_peak,False,2.3,26.26988970829451,8.2,31.5,Low
+FKID007538,planned,construction,ORR North 2,BEL Circle,North Zone 1,morning_peak,False,2.3,23.42766215731998,7.7,31.3,Low
+FKID005565,planned,construction,Airport New South Road,,North Zone 1,evening_peak,False,1.5,447.56728191334656,1.8,31.1,Low
+FKID005836,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,night,False,2.3,267.3387943484411,8.0,30.9,Low
+FKID000629,planned,construction,ORR East 2,,,night,False,1.5,626.9673288567776,5.8,30.8,Low
+FKID006194,planned,construction,Mysore Road,PoliceCornerJunc,Central Zone 2,morning_peak,False,1.5,8.607842033199086,23.6,30.7,Low
+FKID006696,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,night,False,1.5,555.6011659332398,8.0,30.3,Low
+FKID002409,planned,public_event,Old Airport Road,,,midday,False,2.3,186.94720706820797,2.4,30.2,Low
+FKID002416,planned,public_event,Old Airport Road,,,midday,False,2.3,186.94720706820797,2.4,30.2,Low
+FKID002411,planned,public_event,Old Airport Road,,,midday,False,2.3,186.94720706820797,2.4,30.2,Low
+FKID002408,planned,public_event,Old Airport Road,,,midday,False,2.3,186.94720706820797,2.4,30.2,Low
+FKID001014,planned,construction,ORR East 2,,,evening_peak,False,1.5,314.1921855183467,5.8,30.2,Low
+FKID004386,planned,public_event,Magadi Road,,West Zone 2,night,False,2.3,175.1560224467402,8.0,30.1,Low
+FKID001721,planned,construction,ORR East 2,,,night,False,1.5,575.1872887115892,5.8,30.0,Low
+FKID002410,planned,public_event,Old Airport Road,,,midday,False,2.3,165.104574344817,2.4,29.9,Low
+FKID005273,planned,public_event,Magadi Road,,West Zone 2,night,False,2.3,153.92981387098166,8.0,29.8,Low
+FKID007967,planned,vip_movement,Mysore Road,A S CharStreet-MysoreRdJunc,,night,False,2.3,3.9940230384962243,23.6,29.7,Low
+FKID007450,planned,protest,Mysore Road,MotherTeressaCircle,Central Zone 1,morning_peak,False,1.5,39.324157286889616,23.6,29.4,Low
+FKID002071,planned,procession,Mysore Road,,,morning_peak,False,1.5,33.36848020521531,23.6,29.3,Low
+FKID000241,planned,vip_movement,Mysore Road,,,evening_peak,False,1.5,20.89294120377457,23.6,29.1,Low
+FKID006248,planned,public_event,Bellary Road 2,HunsemarammanahalliJunction,,morning_peak,False,1.5,111.4534748428367,10.7,29.1,Low
+FKID007971,planned,construction,Bellary Road 2,YelhankaCircle,,night,False,2.3,103.9401437501165,10.7,29.1,Low
+FKID004893,planned,construction,ORR North 2,,North Zone 1,evening_peak,False,1.5,185.36694188366775,7.7,28.7,Low
+FKID006996,planned,construction,Tumkur Road,MS RamaiahJunc(TollGate),West Zone 2,evening_peak,False,1.5,27.67164904592159,15.5,28.5,Low
+FKID007340,planned,construction,Bellary Road 2,SadahalliGateJunc(AirportRd),,night,False,2.3,48.807281945035605,10.7,28.2,Low
+FKID006635,planned,public_event,Bellary Road 2,SadahalliGateJunc(AirportRd),,night,False,1.5,330.95400287795934,10.7,28.2,Low
+FKID005837,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,night,False,2.3,90.86513988479659,8.0,28.1,Low
+FKID007554,planned,construction,IRR(Thanisandra road),KoramangalaWaterTankJunc,South Zone 2,night,False,2.3,162.80979660879956,3.5,27.9,Low
+FKID004594,planned,construction,Bannerghata Road,,South Zone 2,evening_peak,False,1.5,128.50915764282664,7.4,27.7,Low
+FKID004448,planned,construction,ORR North 2,,,night,False,2.3,71.35297491932076,7.7,27.7,Low
+FKID001226,planned,construction,Bellary Road 1,,,night,False,1.5,187.73869030224492,18.8,27.7,Low
+FKID006434,planned,construction,Old Madras Road,WebbsCircle,Central Zone 1,night,False,2.3,50.53565603107496,8.2,27.5,Low
+FKID002805,planned,construction,ORR East 2,,,night,False,2.3,75.28274499734304,5.8,27.2,Low
+FKID001758,planned,construction,ORR North 1,,,night,False,2.3,24.9287048713757,8.0,27.0,Low
+FKID006834,planned,construction,ORR North 1,HebbalFlyoverJunc,North Zone 1,evening_peak,False,1.5,71.46819765691359,8.0,27.0,Low
+FKID003577,planned,public_event,Mysore Road,,,night,False,1.5,8.196733047675783,23.6,27.0,Low
+FKID005216,planned,construction,ORR North 2,,North Zone 1,night,False,1.5,346.6520757082915,7.7,26.9,Low
+FKID004866,planned,construction,ORR North 2,,,morning_peak,False,1.5,68.35764570646288,7.7,26.8,Low
+FKID006376,planned,construction,Bellary Road 1,HebbalFlyoverJunc,North Zone 1,night,False,1.5,120.20248424333846,18.8,26.6,Low
+FKID001606,planned,construction,ORR North 2,,,night,False,2.3,2.33659578311285,7.7,26.6,Low
+FKID002883,planned,public_event,Hennur Main Road,,,night,False,2.3,20.57965170664086,3.9,26.4,Low
+FKID003349,planned,construction,West of Chord Road,,,night,False,2.3,18.57595128274694,5.8,26.3,Low
+FKID000557,planned,construction,ORR West 1,,,night,False,2.3,16.82142399440552,6.0,26.3,Low
+FKID007658,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,evening_peak,False,1.5,13.702510797691609,8.0,26.0,Low
+FKID003302,planned,construction,ORR East 2,,,evening_peak,False,1.5,53.400813200525185,5.8,26.0,Low
+FKID007161,planned,procession,Magadi Road,LeprosyhospitalJunc,Central Zone 2,night,False,2.3,65.30811200677563,8.0,25.9,Low
+FKID007135,planned,construction,Bellary Road 1,HebbalFlyoverJunc,North Zone 1,night,False,1.5,58.83241166794174,18.8,25.6,Low
+FKID007842,planned,construction,ORR West 1,JP Nagar 15th cross junction,South Zone 1,evening_peak,False,1.5,19.16636868557351,6.0,25.5,Low
+FKID005454,planned,construction,Airport New South Road,,East Zone 2,evening_peak,False,1.5,98.04411813140224,1.8,25.5,Low
+FKID004557,planned,construction,Bellary Road 1,,North Zone 1,night,False,1.5,23.89851167312911,18.8,25.1,Low
+FKID004913,planned,construction,Bellary Road 1,,North Zone 2,night,False,1.5,21.194886055083803,18.8,25.0,Low
+FKID006633,planned,public_event,Bellary Road 2,SadahalliGateJunc(AirportRd),,night,False,1.5,125.16130250954413,10.7,24.9,Low
+FKID006091,planned,construction,Hennur Main Road,Nagavara-ORR Junction,North Zone 1,evening_peak,False,1.5,20.921281216649668,3.9,24.9,Low
+FKID003119,planned,construction,ORR East 2,,,night,False,1.5,257.40336720940206,5.8,24.9,Low
+FKID006807,planned,protest,Mysore Road,PoliceCornerJunc,Central Zone 2,night,False,1.5,22.036055172872008,23.6,24.8,Low
+FKID007663,planned,construction,ORR North 1,"VeerannapalyaJunction(BEL,HO)",North Zone 1,night,False,1.5,209.8545345502636,8.0,24.8,Low
+FKID006594,planned,construction,Varthur Road,KundanahalliGateJunc,East Zone 1,night,False,1.5,303.03510604187966,1.9,24.4,Low
+FKID004218,planned,construction,ORR East 2,,East Zone 1,,False,0.0,758.5936645961052,5.8,24.3,Low
+FKID005753,planned,construction,ORR East 2,,East Zone 1,,False,0.0,748.9863457018926,5.8,24.2,Low
+FKID005527,planned,construction,Airport New South Road,,North Zone 1,evening_peak,False,1.5,16.973033684531742,1.8,24.2,Low
+FKID005549,planned,construction,Airport New South Road,,North Zone 1,evening_peak,False,1.5,7.945259546581548,1.8,24.1,Low
+FKID005544,planned,construction,ORR North 1,,East Zone 2,midday,False,1.5,64.4849274544102,8.0,24.1,Low
+FKID001052,planned,construction,ORR East 2,,,night,False,1.5,206.3632994063302,5.8,24.1,Low
+FKID005587,planned,construction,Airport New South Road,,North Zone 1,evening_peak,False,1.5,5.989065650001579,1.8,24.0,Low
+FKID004741,planned,construction,Bannerghata Road,,South Zone 2,night,False,1.5,163.19732158769173,7.4,23.9,Low
+FKID002817,planned,tree_fall,ORR West 1,,,morning_peak,False,1.5,6.518337876549595,6.0,23.6,Low
+FKID006639,planned,public_event,Bellary Road 2,SadahalliGateJunc(AirportRd),,night,False,1.5,40.1562186558099,10.7,23.6,Low
+FKID006638,planned,public_event,Bellary Road 2,SadahalliGateJunc(AirportRd),,night,False,1.5,40.1562186558099,10.7,23.6,Low
+FKID006593,planned,construction,Varthur Road,KundanahalliGateJunc,East Zone 1,night,False,1.5,250.24324359491231,1.9,23.6,Low
+FKID007687,planned,construction,Bellary Road 2,JakkurCrossJunction,North Zone 1,night,False,1.5,80.59506292693315,10.7,23.5,Low
+FKID000166,planned,construction,Bellary Road 2,,,night,False,1.5,49.756049959140306,10.7,23.0,Low
+FKID002610,planned,construction,ORR East 2,,,night,False,1.5,141.28830438982988,5.8,23.0,Low
+FKID005979,planned,vehicle_breakdown,Old Airport Road,"KuvempuCircleJunc,HAL MainGate",East Zone 2,evening_peak,False,1.5,31.102135814251753,2.4,22.9,Low
+FKID004700,planned,public_event,West of Chord Road,,West Zone 2,night,False,1.5,76.84720062228755,5.8,22.7,Low
+FKID007830,planned,construction,Bellary Road 2,YelhankaCircle,North Zone 2,night,False,1.5,26.314206287591766,10.7,22.7,Low
+FKID000040,planned,construction,ORR East 1,,,midday,False,1.5,2.5926387046292656,6.9,22.7,Low
+FKID000699,planned,construction,Bellary Road 2,,,night,False,1.5,24.15982388478864,10.7,22.6,Low
+FKID003510,planned,construction,ORR East 1,,,night,False,1.5,96.85066049221494,6.9,22.6,Low
+FKID000694,planned,construction,ORR West 1,,,night,False,1.5,90.52464912246212,6.0,22.3,Low
+FKID007913,planned,construction,ORR North 1,Nagavara-ORR Junction,North Zone 1,night,False,1.5,52.2528980745332,8.0,22.3,Low
+FKID002212,planned,procession,Bannerghata Road,,,night,False,1.5,167.1141892532113,7.4,22.2,Low
+FKID005040,planned,others,Airport New South Road,,North Zone 1,evening_peak,False,1.5,1.6420700290699606,1.8,22.2,Low
+FKID000158,planned,construction,Old Madras Road,,,night,False,1.5,34.556900894785926,8.2,22.0,Low
+FKID001415,planned,construction,IRR(Thanisandra road),,,night,False,1.5,100.67376224318451,3.5,21.7,Low
+FKID007013,planned,public_event,West of Chord Road,VijayanagarBusStandJunction,West Zone 2,night,False,1.5,4.275257335074167,5.8,21.5,Low
+FKID008159,planned,construction,Old Madras Road,AnilKumbleCircle,,night,False,1.5,4.015227986191596,8.2,21.5,Low
+FKID007012,planned,public_event,West of Chord Road,VijayanagarBusStandJunction,West Zone 2,night,False,1.5,4.275257335074167,5.8,21.5,Low
+FKID002192,planned,construction,ORR North 2,,,night,False,1.5,11.226606007420083,7.7,21.5,Low
+FKID007823,planned,construction,ORR North 2,BEL Circle,North Zone 1,night,False,1.5,2.5198581660794357,7.7,21.4,Low
+FKID001434,planned,construction,ORR North 2,,,night,False,1.5,1.6330992064201704,7.7,21.4,Low
+FKID005239,planned,construction,ORR East 1,,East Zone 1,night,False,1.5,5.596888095815896,6.9,21.2,Low
+FKID007717,planned,construction,Mysore Road,UniversityJunc(Janabharti),West Zone 1,,False,0.0,188.46148292245584,23.6,20.6,Low
+FKID006703,planned,procession,Hosur Road,Bommanahalli,South Zone 2,night,False,1.5,39.086532014523335,8.9,20.6,Low
+FKID006486,planned,construction,IRR(Thanisandra road),Srinivagilu(Ejipura)Junc,Central Zone 1,night,False,1.5,26.245735489382966,3.5,20.5,Low
+FKID007244,planned,construction,Hennur Main Road,Nagavara-ORR Junction,North Zone 1,night,False,1.5,14.940124988065403,3.9,20.4,Low
+FKID005164,planned,construction,Airport New South Road,,North Zone 1,night,False,1.5,4.240098410310861,1.8,19.6,Low
+FKID005436,planned,construction,ORR East 2,,East Zone 1,,False,0.0,453.23842286673414,5.8,19.4,Low
+FKID000575,planned,construction,ORR East 2,,,,False,0.0,339.0493201878863,5.8,17.6,Low
+FKID005754,planned,public_event,Bellary Road 1,,Central Zone 2,,False,0.0,39.42568869697943,18.8,17.4,Low
+FKID001064,planned,public_event,Bellary Road 1,,,,False,0.0,30.394453297515927,18.8,17.3,Low
+FKID008080,planned,protest,Mysore Road,Richmond circle jn,,,False,0.0,72.53714394554194,23.6,17.0,Low
+FKID002092,planned,construction,Old Madras Road,,,,False,0.0,82.00677176552742,8.2,14.2,Low
+FKID001059,planned,construction,Old Airport Road,,,,False,0.0,143.69516270036507,2.4,13.4,Low
+FKID000946,planned,public_event,CBD 2,,,,False,0.0,63.5439388883665,3.4,13.2,Low
+FKID000439,planned,public_event,CBD 2,QueensStatueCircle,,,False,0.0,66.27463681271144,3.4,13.2,Low
+FKID001683,planned,public_event,CBD 2,,,,False,0.0,67.64411028235526,3.4,13.2,Low
+FKID000008,planned,public_event,CBD 2,QueensStatueCircle,,,False,0.0,66.27463681271144,3.4,13.2,Low
+FKID001988,planned,public_event,CBD 2,,,,False,0.0,55.80738195846148,3.4,13.0,Low
+FKID001680,planned,public_event,CBD 2,,,,False,0.0,42.816834266668785,3.4,12.8,Low
+FKID005469,planned,construction,Airport New South Road,,North Zone 1,,False,0.0,105.41518107320907,1.8,12.6,Low
+FKID004703,planned,procession,Magadi Road,,West Zone 1,,False,0.0,46.83863998841554,8.0,11.8,Low
+FKID007191,planned,procession,Airport New South Road,HennurRd-DavisRdJunction,North Zone 1,,False,0.0,25.401248342251286,1.8,9.6,Low

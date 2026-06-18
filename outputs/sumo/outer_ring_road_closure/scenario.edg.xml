@@ -1,0 +1,6 @@
+<edges>
+    <edge id="main" from="n0" to="n1" priority="2" numLanes="2" speed="45.00"/>
+    <edge id="detour" from="n1" to="n2" priority="1" numLanes="1" speed="36.00"/>
+    <edge id="merge" from="n2" to="n0" priority="1" numLanes="1" speed="30.00"/>
+    </edges>
+    

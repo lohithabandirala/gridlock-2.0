@@ -1,0 +1,648 @@
+junction,time_slot,incidents,junction_total,probability,forecast_score
+KundanahalliGateJunc,night,10,10,0.7857142857142857,100.0
+JalahalliCross(SM Circle),night,26,32,0.75,95.5
+YeshwanthpuraCircle,night,30,38,0.7380952380952381,93.9
+AyyappaTempleJunc,night,38,49,0.7358490566037735,93.7
+"VeerannapalyaJunction(BEL,HO)",night,24,30,0.7352941176470589,93.6
+Arbindo Circle,night,9,10,0.7142857142857143,90.9
+BagalurCrossJunc,night,21,27,0.7096774193548387,90.3
+SRS Peenya Junc,night,16,20,0.7083333333333334,90.2
+28thMainJayanagarJunc,night,6,6,0.7,89.1
+BDA Junctio-Koramangala,night,6,6,0.7,89.1
+VijayanagarBusStandJunction,night,6,6,0.7,89.1
+MillCornerRd-SampigeRdJunc,night,8,9,0.6923076923076923,88.1
+Kadubeesanahalli-ORR Junc,night,10,12,0.6875,87.5
+UlsoorGateJunc,night,10,12,0.6875,87.5
+ShantalaJunction,night,12,15,0.6842105263157895,87.1
+KoramangalaWaterTankJunc,night,21,29,0.6666666666666666,84.8
+Bommanahalli,night,19,26,0.6666666666666666,84.8
+HennurRoad-ORR Junc,night,13,17,0.6666666666666666,84.8
+UttarahalliJunction,night,11,14,0.6666666666666666,84.8
+KodigehalliCross,night,9,11,0.6666666666666666,84.8
+DevangaHostelJunction,night,5,5,0.6666666666666666,84.8
+JP Nagar 9th cross-24th main jn,night,5,5,0.6666666666666666,84.8
+MahalaxmiLayoutEntranceJunc,night,5,5,0.6666666666666666,84.8
+MayohallJunction,night,5,5,0.6666666666666666,84.8
+OldPoliceStation-Ashoknagar,night,5,5,0.6666666666666666,84.8
+PlatformRdJunction,night,5,5,0.6666666666666666,84.8
+"PriyadarshiniHotel,Jayamahal,RT Nagar",night,5,5,0.6666666666666666,84.8
+RajajinagarEntranceJunction,night,5,5,0.6666666666666666,84.8
+SagarHospitalJunc,night,5,5,0.6666666666666666,84.8
+SagarTheatreJunc,night,5,5,0.6666666666666666,84.8
+Sumanhalli,night,12,16,0.65,82.7
+ChaudrayaCircle/UdayaTVCircle(CantonmentJunc),night,6,7,0.6363636363636364,81.0
+DhobiGhatJunc,night,6,7,0.6363636363636364,81.0
+PurnimaTheaterJunc,night,6,7,0.6363636363636364,81.0
+SadahalliGateJunc(AirportRd),night,6,7,0.6363636363636364,81.0
+SubbannaJunction,night,6,7,0.6363636363636364,81.0
+ArakereGateJunc,night,11,15,0.631578947368421,80.4
+HudsonCircle,night,11,15,0.631578947368421,80.4
+KatriguppeJunction,night,9,12,0.625,79.5
+StateBankofMysoreJunc,night,9,12,0.625,79.5
+TataInstituteCircle,night,9,12,0.625,79.5
+PES-DevegowdaCircle,night,4,4,0.625,79.5
+Yemalur cross junc,night,4,4,0.625,79.5
+K R Circle,night,20,30,0.6176470588235294,78.6
+TownhallJunction,night,20,30,0.6176470588235294,78.6
+BMTCJunction-K H Road,night,7,9,0.6153846153846154,78.3
+ISRO Junction-Airport rd,night,7,9,0.6153846153846154,78.3
+Nagarbhavi,night,7,9,0.6153846153846154,78.3
+Richmond circle jn,night,7,9,0.6153846153846154,78.3
+BangaloreBodyBuildersJunc,night,13,19,0.6086956521739131,77.5
+BanashankariBusStandJunc,night,8,11,0.6,76.4
+BucheryJunction,night,8,11,0.6,76.4
+TrinityCircle,night,8,11,0.6,76.4
+Ashoknagar Junction(ShoolayCircle),night,5,6,0.6,76.4
+ElectronicCityGate-2Junc,night,5,6,0.6,76.4
+HoodiJunction,night,5,6,0.6,76.4
+ItmaduJunction,night,5,6,0.6,76.4
+K H Road-SiddaiahRdJunc(BMTC-BigBazaar),night,5,6,0.6,76.4
+MICO Bande,night,5,6,0.6,76.4
+MargosaRd-18thCrossJunc,night,5,6,0.6,76.4
+OperaHouseJunc,night,5,6,0.6,76.4
+RRR(Okalipuram)Junction,night,5,6,0.6,76.4
+WilsonGarden10thCrossJunc,night,5,6,0.6,76.4
+BEL Circle,night,16,25,0.5862068965517241,74.6
+AnilKumbleCircle,night,6,8,0.5833333333333334,74.2
+BigBazaar(Whitefield)Junc,night,6,8,0.5833333333333334,74.2
+JayadevaHospitalJunc,night,6,8,0.5833333333333334,74.2
+MeenakshiMallJunc,night,6,8,0.5833333333333334,74.2
+KogilluCrossJunc,night,10,15,0.5789473684210527,73.7
+KrishnaFlourMill,night,11,17,0.5714285714285714,72.7
+HopefarmJunction,evening_peak,7,10,0.5714285714285714,72.7
+N R SquareJunc,night,7,10,0.5714285714285714,72.7
+SarjapurRd-St JohnsRdJunc,night,7,10,0.5714285714285714,72.7
+5thMainRPC Layout-Vijayanagar,night,3,3,0.5714285714285714,72.7
+AnjaneyaTempleJunc,night,3,3,0.5714285714285714,72.7
+Delmia-Jayanagar,night,3,3,0.5714285714285714,72.7
+GopalGowdaJUnc,night,3,3,0.5714285714285714,72.7
+HosmatJunction,night,3,3,0.5714285714285714,72.7
+LowerAgaram(IndiaGarage)Junc,morning_peak,3,3,0.5714285714285714,72.7
+NavarangTheatreJunction,night,3,3,0.5714285714285714,72.7
+OldMadrasRd-DoubleRdJunc,night,3,3,0.5714285714285714,72.7
+ShivanahalliJunctionWOC,night,3,3,0.5714285714285714,72.7
+South end circle,night,3,3,0.5714285714285714,72.7
+toll gate mysore road,night,20,33,0.5675675675675675,72.2
+BigBazaarJunction(OldMadrasRd),night,16,26,0.5666666666666667,72.1
+PeenyaPoliceStation,night,8,12,0.5625,71.6
+ShivandaCircle,night,8,12,0.5625,71.6
+Nagavara-ORR Junction,night,18,30,0.5588235294117647,71.1
+KhodaysCircle(DV UrsCircle),night,14,23,0.5555555555555556,70.7
+Batrayanapura(Amrutahalli)Junction,night,9,14,0.5555555555555556,70.7
+JaiMuniRaoCircle,night,4,5,0.5555555555555556,70.7
+MintoJunction,night,4,5,0.5555555555555556,70.7
+TyagiHengalvarayaJunc(DickensonRd),night,4,5,0.5555555555555556,70.7
+IndianExpressJunction,night,10,16,0.55,70.0
+MaratahalliBridgeJunc,night,10,16,0.55,70.0
+Shivajinagar(BRV)Junction,night,10,16,0.55,70.0
+JP Nagar 15th cross junction,night,5,7,0.5454545454545454,69.4
+Ring road-Near Kengunte Junction,night,5,7,0.5454545454545454,69.4
+CID-CarltonHouseJunc,night,6,9,0.5384615384615384,68.5
+HulimaveRd-BanneraghattaRdJunc,night,6,9,0.5384615384615384,68.5
+SindhiColonyJunction,night,6,9,0.5384615384615384,68.5
+PoliceCornerJunc,night,15,26,0.5333333333333333,67.9
+Dr TCM RoyanRd near AmbedkarStatue,night,7,11,0.5333333333333333,67.9
+GokuldasImagesJunc,night,16,28,0.53125,67.6
+Marigowda-TavarkereRdJunc,night,8,13,0.5294117647058824,67.4
+BloodBankCircle,night,9,15,0.5263157894736842,67.0
+MekhriCircle,night,34,64,0.5147058823529411,65.5
+HesaraghattaJunction,night,16,30,0.5,63.6
+CMP GateJunc,night,11,20,0.5,63.6
+GoruguntepalyaJunc,night,11,20,0.5,63.6
+LeprosyhospitalJunc,night,11,20,0.5,63.6
+BilekahalliJunc,night,8,14,0.5,63.6
+Chokasandra (Tumkur road),night,8,14,0.5,63.6
+PoliceTimmaiahCircle(GPO),night,8,14,0.5,63.6
+TumkurRdMarappanapalyaJunc,night,8,14,0.5,63.6
+DomlurWaterTank,night,7,12,0.5,63.6
+SiddalingaiahCircle,night,6,10,0.5,63.6
+CoffeeBoardJunc,night,5,8,0.5,63.6
+KadirenahalliJunction,night,5,8,0.5,63.6
+KarnatakaBhavanJunction,night,5,8,0.5,63.6
+WilsonGarden12thCrossJunc,night,5,8,0.5,63.6
+BTM16thMain-ORR Junc,night,4,6,0.5,63.6
+HainsJunc,night,4,6,0.5,63.6
+KonanakunteJunction(KanakapurarRd),night,4,6,0.5,63.6
+MC Circle,night,4,6,0.5,63.6
+NIMHANS Junction,night,4,6,0.5,63.6
+PrasannaJunction,night,4,6,0.5,63.6
+Rajajinagar19thMainJunc,night,4,6,0.5,63.6
+SubedarChatramRd near SheshadripuramPS,night,4,6,0.5,63.6
+UrvashiJunction,morning_peak,4,6,0.5,63.6
+BegumMahalJunc,night,3,4,0.5,63.6
+BhashyamCircle-SadashivNagar,night,3,4,0.5,63.6
+CIL CrossJunction-JayamahalRd,night,3,4,0.5,63.6
+MysoreRd--MadhuPetrolBunkJunction,night,3,4,0.5,63.6
+Srinivagilu(Ejipura)Junc,evening_peak,3,4,0.5,63.6
+AdugodiJunc,night,2,2,0.5,63.6
+Arts&CraftsCircle,night,2,2,0.5,63.6
+BagalakunteCrossJunction,night,2,2,0.5,63.6
+Bamboobazar(Shivajinagar),morning_peak,2,2,0.5,63.6
+BasavamantapaJunc-Dr RajkumarRd,night,2,2,0.5,63.6
+CholurpalyaJunction(MagadiRd),night,2,2,0.5,63.6
+DevanahalliCrossJunc,night,2,2,0.5,63.6
+DevegowdaPetrolBunkJunc,night,2,2,0.5,63.6
+Fire Force Junction,night,2,2,0.5,63.6
+Geethanjali jn,night,2,2,0.5,63.6
+Indiranasgar13thMainJunc,night,2,2,0.5,63.6
+"Jayanagar 4th main,36th cross",night,2,2,0.5,63.6
+KCG HospitalJunction,night,2,2,0.5,63.6
+MarenahalliRd-18thMainRdJunc,night,2,2,0.5,63.6
+Minerva Circle,night,2,2,0.5,63.6
+Peenya2ndStageBusStand,night,2,2,0.5,63.6
+Rajajinagagr1stBlockJunction,night,2,2,0.5,63.6
+UCO Bank(Forum),night,2,2,0.5,63.6
+SatteliteBusStandJunc,night,22,43,0.48936170212765956,62.3
+YelhankaBypass,night,10,19,0.4782608695652174,60.9
+IbblurJunction',night,7,13,0.47058823529411764,59.9
+HebbalFlyoverJunc,night,14,28,0.46875,59.7
+MS RamaiahJunc(TollGate),night,6,11,0.4666666666666667,59.4
+LRDE Junction,night,5,9,0.46153846153846156,58.7
+RamaiahCircle-UlsoorPoliceStation,night,5,9,0.46153846153846156,58.7
+RamamurthyNagarJunction,night,5,9,0.46153846153846156,58.7
+MysoreRd-RingRdJunc(Nayandanahallii),night,9,18,0.45454545454545453,57.9
+AnandRaoJunction,night,4,7,0.45454545454545453,57.9
+BinnyMillJunction,night,4,7,0.45454545454545453,57.9
+HunsemarammanahalliJunction,evening_peak,4,7,0.45454545454545453,57.9
+QueensStatueCircle,night,4,7,0.45454545454545453,57.9
+RingRoad-UllalJunction,night,4,7,0.45454545454545453,57.9
+ShivajiTalkiesJunc,night,4,7,0.45454545454545453,57.9
+A S CharStreet-MysoreRdJunc,night,3,5,0.4444444444444444,56.6
+AnepalyaJunc,night,3,5,0.4444444444444444,56.6
+AshirwadamCircle,night,3,5,0.4444444444444444,56.6
+CMH Rd-AdarshTheaterJunc,night,3,5,0.4444444444444444,56.6
+DairyCircle,night,3,5,0.4444444444444444,56.6
+Dr RajkumarRd-10thCrossRdJunc,night,3,5,0.4444444444444444,56.6
+Krupanidhi College,night,3,5,0.4444444444444444,56.6
+Malleswaram18thCrossRd-SampigeRdJunc,morning_peak,3,5,0.4444444444444444,56.6
+PotteryCircle,evening_peak,3,5,0.4444444444444444,56.6
+Shivashankara circle,night,3,5,0.4444444444444444,56.6
+SilkBoardJunc,night,15,33,0.43243243243243246,55.0
+KIMCO Junction,night,14,31,0.42857142857142855,54.5
+ASC Junction,night,2,3,0.42857142857142855,54.5
+Basappa Circle Junction,night,2,3,0.42857142857142855,54.5
+BhashyamCircle,morning_peak,2,3,0.42857142857142855,54.5
+DoddaballapuraCrossJunc,night,2,3,0.42857142857142855,54.5
+HalliThindi,night,2,3,0.42857142857142855,54.5
+J D MaraJunc,night,2,3,0.42857142857142855,54.5
+JohnsonMarket,morning_peak,2,3,0.42857142857142855,54.5
+KuvempuCircle,night,2,3,0.42857142857142855,54.5
+LinkRoadMalleswaramJunc,night,2,3,0.42857142857142855,54.5
+ModiBridgeJunction,night,2,3,0.42857142857142855,54.5
+"Narayanapura cross, Hegde nagar",night,2,3,0.42857142857142855,54.5
+OldMadrasRd-SuddaguntepalyaRdJunc,night,2,3,0.42857142857142855,54.5
+ShankarMuttCircle,night,2,3,0.42857142857142855,54.5
+SonyworldJunction,morning_peak,2,3,0.42857142857142855,54.5
+WebbsCircle,night,2,3,0.42857142857142855,54.5
+RajeshwariJunc,evening_peak,10,22,0.4230769230769231,53.8
+Deverabeesanahalli-ORR Junc,night,7,15,0.42105263157894735,53.6
+MinskSquare(CTO Junction),night,4,8,0.4166666666666667,53.0
+OldMadrasRd-80FeetRdJunc,morning_peak,4,8,0.4166666666666667,53.0
+OldMadrasRd-NGEF Junc,night,4,8,0.4166666666666667,53.0
+SandeepUnnikrishnan-Yelhanka,morning_peak,4,8,0.4166666666666667,53.0
+UniversityJunc(Janabharti),night,4,8,0.4166666666666667,53.0
+SantheCircle,night,11,25,0.41379310344827586,52.7
+Devasandra(k r puram),night,13,30,0.4117647058823529,52.4
+JakkurCrossJunction,night,8,18,0.4090909090909091,52.1
+FTI Junction(KanteeravaStudio),night,5,11,0.4,50.9
+MotherTeressaCircle,night,5,11,0.4,50.9
+VeerasandraGateJunction,night,5,11,0.4,50.9
+AgaraJunction,evening_peak,3,6,0.4,50.9
+AgaraJunction,night,3,6,0.4,50.9
+CommandoHospitalJunc,evening_peak,3,6,0.4,50.9
+CommandoHospitalJunc,night,3,6,0.4,50.9
+EliteJunc,night,3,6,0.4,50.9
+GangammagudiJunc,night,3,6,0.4,50.9
+KalyanNagar-ORR Junc,night,3,6,0.4,50.9
+Kudlu Gate Junc,evening_peak,3,6,0.4,50.9
+Kudlu Gate Junc,night,3,6,0.4,50.9
+LalbaghMainGateJunc,morning_peak,3,6,0.4,50.9
+LalbaghMainGateJunc,night,3,6,0.4,50.9
+17th Mn 1st Crs Aishwarya Stores Jn,night,1,1,0.4,50.9
+27th Cross Jayanagar(Ganapathi Temple),morning_peak,1,1,0.4,50.9
+AttiguppeCircleJunction,evening_peak,1,1,0.4,50.9
+BHEL Gate,night,1,1,0.4,50.9
+Basveshwarnagar 8th main Junction,night,1,1,0.4,50.9
+BrigadeMillenium,morning_peak,1,1,0.4,50.9
+ColesParkJunc,night,1,1,0.4,50.9
+DMRoadJunc(Basavangudi),night,1,1,0.4,50.9
+Devanahalli new bus stand,night,1,1,0.4,50.9
+DickensonRd-AdigasJunc,night,1,1,0.4,50.9
+ESI(k r puram),night,1,1,0.4,50.9
+Geeta Circle,evening_peak,1,1,0.4,50.9
+GorappanapalyaJunction,evening_peak,1,1,0.4,50.9
+GovindapuraCross,night,1,1,0.4,50.9
+GowdanapalyaJunction,night,1,1,0.4,50.9
+ISRO Junction-NewBEL Rd,evening_peak,1,1,0.4,50.9
+K G Junction,night,1,1,0.4,50.9
+KHB Junction,night,1,1,0.4,50.9
+KR Road-14thCross Junc,morning_peak,1,1,0.4,50.9
+KamakyaJunction,night,1,1,0.4,50.9
+KensingtonOvalJunc,morning_peak,1,1,0.4,50.9
+"KuvempuCircleJunc,HAL MainGate",evening_peak,1,1,0.4,50.9
+LalbaghWestGate,evening_peak,1,1,0.4,50.9
+MSRamaiahHospitalJunc,night,1,1,0.4,50.9
+ModiHospital,night,1,1,0.4,50.9
+NCERT Junction,night,1,1,0.4,50.9
+NagaTheaterJunc-Ulsoor,morning_peak,1,1,0.4,50.9
+NationalCollege,midday,1,1,0.4,50.9
+NavarangBarJunc-Dr RajkumarRd,night,1,1,0.4,50.9
+OldMadrasRd-BMTC DepotJunc,morning_peak,1,1,0.4,50.9
+Peenya14thCrossJunc,morning_peak,1,1,0.4,50.9
+RajarajeshwariKalyanaMantapaJunc,evening_peak,1,1,0.4,50.9
+RoyanCircle-Chamrajpete,night,1,1,0.4,50.9
+SafinaPlazaJunc,evening_peak,1,1,0.4,50.9
+TVS CrossJunction,night,1,1,0.4,50.9
+TamarikannanJunc,evening_peak,1,1,0.4,50.9
+ThomasCafe-New,night,1,1,0.4,50.9
+"Trilight Circle,Race course Road",morning_peak,1,1,0.4,50.9
+UpparpetJunction,night,1,1,0.4,50.9
+WiproJunc-Koramangala,night,1,1,0.4,50.9
+YediyurMeternityHospital,night,1,1,0.4,50.9
+YelhankaCircle,night,14,34,0.39473684210526316,50.2
+Srigandakaval,night,6,14,0.3888888888888889,49.5
+LRDE Junction,evening_peak,4,9,0.38461538461538464,49.0
+CMP GateJunc,evening_peak,8,20,0.375,47.7
+NaganathapuraJunction,night,5,12,0.375,47.7
+OldMadrasRd-Indranagar100ftRdJunc,evening_peak,5,12,0.375,47.7
+OldMadrasRd-Indranagar100ftRdJunc,morning_peak,5,12,0.375,47.7
+BiryandCircle,night,2,4,0.375,47.7
+D'SouzaCircle,evening_peak,2,4,0.375,47.7
+D'SouzaCircle,night,2,4,0.375,47.7
+Jaipuria-Adugodi,night,2,4,0.375,47.7
+Kammanahalli-RingRoadJunction,evening_peak,2,4,0.375,47.7
+Kammanahalli-RingRoadJunction,night,2,4,0.375,47.7
+TC Palya-OM RoadJunc,night,2,4,0.375,47.7
+VetenaryHospitalJunc-Shivajinagar,morning_peak,2,4,0.375,47.7
+VetenaryHospitalJunc-Shivajinagar,night,2,4,0.375,47.7
+KIMCO Junction,evening_peak,12,31,0.37142857142857144,47.3
+YelhankaCircle,morning_peak,13,34,0.3684210526315789,46.9
+Deverabeesanahalli-ORR Junc,evening_peak,6,15,0.3684210526315789,46.9
+JakkurCrossJunction,morning_peak,7,18,0.36363636363636365,46.3
+K R MarketJunction,night,3,7,0.36363636363636365,46.3
+QueensStatueCircle,evening_peak,3,7,0.36363636363636365,46.3
+SiddalingaiahCircle,evening_peak,4,10,0.35714285714285715,45.5
+Devasandra(k r puram),evening_peak,11,30,0.35294117647058826,44.9
+SadashivnagarJunc,morning_peak,5,13,0.35294117647058826,44.9
+Shivajinagar(BRV)Junction,morning_peak,6,16,0.35,44.5
+GokuldasImagesJunc,evening_peak,10,28,0.34375,43.8
+GoruguntepalyaJunc,evening_peak,7,20,0.3333333333333333,42.4
+Srigandakaval,evening_peak,5,14,0.3333333333333333,42.4
+MotherTeressaCircle,morning_peak,4,11,0.3333333333333333,42.4
+KadirenahalliJunction,evening_peak,3,8,0.3333333333333333,42.4
+KanakapuraRd-RingRdJunction,morning_peak,3,8,0.3333333333333333,42.4
+KanakapuraRd-RingRdJunction,night,3,8,0.3333333333333333,42.4
+KarnatakaBhavanJunction,morning_peak,3,8,0.3333333333333333,42.4
+OldMadrasRd-NGEF Junc,evening_peak,3,8,0.3333333333333333,42.4
+SandeepUnnikrishnan-Yelhanka,night,3,8,0.3333333333333333,42.4
+UniversityJunc(Janabharti),morning_peak,3,8,0.3333333333333333,42.4
+29thMainRdBTM LayoutJunc,evening_peak,2,5,0.3333333333333333,42.4
+29thMainRdBTM LayoutJunc,night,2,5,0.3333333333333333,42.4
+AnepalyaJunc,morning_peak,2,5,0.3333333333333333,42.4
+BasaweshwaraCircle,evening_peak,2,5,0.3333333333333333,42.4
+BasaweshwaraCircle,morning_peak,2,5,0.3333333333333333,42.4
+CMH Rd-AdarshTheaterJunc,morning_peak,2,5,0.3333333333333333,42.4
+GarebhavipalyaJunc,morning_peak,2,5,0.3333333333333333,42.4
+GarebhavipalyaJunc,night,2,5,0.3333333333333333,42.4
+KamrajRdJunction,morning_peak,2,5,0.3333333333333333,42.4
+KamrajRdJunction,night,2,5,0.3333333333333333,42.4
+Krupanidhi College,morning_peak,2,5,0.3333333333333333,42.4
+PotteryCircle,night,2,5,0.3333333333333333,42.4
+Shivashankara circle,morning_peak,2,5,0.3333333333333333,42.4
+SiddapuraJunction,morning_peak,2,5,0.3333333333333333,42.4
+SiddapuraJunction,night,2,5,0.3333333333333333,42.4
+BEML GateJunc(SuranjandasRd),morning_peak,1,2,0.3333333333333333,42.4
+BEML GateJunc(SuranjandasRd),night,1,2,0.3333333333333333,42.4
+BhadrappaLayout,evening_peak,1,2,0.3333333333333333,42.4
+BhadrappaLayout,morning_peak,1,2,0.3333333333333333,42.4
+ChandraLayoutJunc-nearWaterTank,morning_peak,1,2,0.3333333333333333,42.4
+ChandraLayoutJunc-nearWaterTank,night,1,2,0.3333333333333333,42.4
+ChandrikaJunction,evening_peak,1,2,0.3333333333333333,42.4
+ChandrikaJunction,night,1,2,0.3333333333333333,42.4
+HennurRd-DavisRdJunction,evening_peak,1,2,0.3333333333333333,42.4
+HennurRd-DavisRdJunction,night,1,2,0.3333333333333333,42.4
+MaharajaJunction,morning_peak,1,2,0.3333333333333333,42.4
+MaharajaJunction,night,1,2,0.3333333333333333,42.4
+ManipalCentreJunc,evening_peak,1,2,0.3333333333333333,42.4
+ManipalCentreJunc,night,1,2,0.3333333333333333,42.4
+NGV RearGateJunc,evening_peak,1,2,0.3333333333333333,42.4
+NGV RearGateJunc,morning_peak,1,2,0.3333333333333333,42.4
+NTTF JunctionPeenya,morning_peak,1,2,0.3333333333333333,42.4
+NTTF JunctionPeenya,night,1,2,0.3333333333333333,42.4
+PuttammaChoultryNagarbhavi,midday,1,2,0.3333333333333333,42.4
+PuttammaChoultryNagarbhavi,night,1,2,0.3333333333333333,42.4
+SwagathMainRd-EastEndRdJunc,evening_peak,1,2,0.3333333333333333,42.4
+SwagathMainRd-EastEndRdJunc,night,1,2,0.3333333333333333,42.4
+toll gate mysore road,evening_peak,11,33,0.32432432432432434,41.3
+MysoreRd-RingRdJunc(Nayandanahallii),evening_peak,6,18,0.3181818181818182,40.5
+BloodBankCircle,morning_peak,5,15,0.3157894736842105,40.2
+DomlurWaterTank,morning_peak,4,12,0.3125,39.8
+HoramavuJunction,evening_peak,4,12,0.3125,39.8
+HoramavuJunction,midday,4,12,0.3125,39.8
+NaganathapuraJunction,evening_peak,4,12,0.3125,39.8
+ShivandaCircle,morning_peak,4,12,0.3125,39.8
+RajeshwariJunc,morning_peak,7,22,0.3076923076923077,39.2
+SirsiCircle,evening_peak,3,9,0.3076923076923077,39.2
+SirsiCircle,morning_peak,3,9,0.3076923076923077,39.2
+SirsiCircle,night,3,9,0.3076923076923077,39.2
+IndianExpressJunction,evening_peak,5,16,0.3,38.2
+BTM16thMain-ORR Junc,morning_peak,2,6,0.3,38.2
+EliteJunc,evening_peak,2,6,0.3,38.2
+GangammagudiJunc,morning_peak,2,6,0.3,38.2
+KonanakunteJunction(KanakapurarRd),morning_peak,2,6,0.3,38.2
+PrasannaJunction,evening_peak,2,6,0.3,38.2
+Rajajinagar19thMainJunc,morning_peak,2,6,0.3,38.2
+SilkBoardJunc,evening_peak,10,33,0.2972972972972973,37.8
+SadashivnagarJunc,night,4,13,0.29411764705882354,37.4
+LeprosyhospitalJunc,morning_peak,6,20,0.2916666666666667,37.1
+SarjapurRd-St JohnsRdJunc,morning_peak,3,10,0.2857142857142857,36.4
+5thMainHSR,evening_peak,1,3,0.2857142857142857,36.4
+5thMainHSR,morning_peak,1,3,0.2857142857142857,36.4
+5thMainHSR,night,1,3,0.2857142857142857,36.4
+ASC Junction,morning_peak,1,3,0.2857142857142857,36.4
+BM ShriJunc(CMH-100FtRd)Junc,evening_peak,1,3,0.2857142857142857,36.4
+BM ShriJunc(CMH-100FtRd)Junc,midday,1,3,0.2857142857142857,36.4
+BM ShriJunc(CMH-100FtRd)Junc,night,1,3,0.2857142857142857,36.4
+Basappa Circle Junction,morning_peak,1,3,0.2857142857142857,36.4
+"Bellandur Junction, Outer ring road",evening_peak,1,3,0.2857142857142857,36.4
+"Bellandur Junction, Outer ring road",morning_peak,1,3,0.2857142857142857,36.4
+"Bellandur Junction, Outer ring road",night,1,3,0.2857142857142857,36.4
+BhashyamCircle,night,1,3,0.2857142857142857,36.4
+CashPharmacyJunction,evening_peak,1,3,0.2857142857142857,36.4
+CashPharmacyJunction,morning_peak,1,3,0.2857142857142857,36.4
+CashPharmacyJunction,night,1,3,0.2857142857142857,36.4
+DoddaballapuraCrossJunc,evening_peak,1,3,0.2857142857142857,36.4
+HSR14thMainJunc,evening_peak,1,3,0.2857142857142857,36.4
+HSR14thMainJunc,morning_peak,1,3,0.2857142857142857,36.4
+HSR14thMainJunc,night,1,3,0.2857142857142857,36.4
+HalliThindi,evening_peak,1,3,0.2857142857142857,36.4
+J D MaraJunc,evening_peak,1,3,0.2857142857142857,36.4
+JohnsonMarket,night,1,3,0.2857142857142857,36.4
+KuvempuCircle,evening_peak,1,3,0.2857142857142857,36.4
+LinkRoadMalleswaramJunc,evening_peak,1,3,0.2857142857142857,36.4
+ModiBridgeJunction,morning_peak,1,3,0.2857142857142857,36.4
+NandiCross(RaniCross),evening_peak,1,3,0.2857142857142857,36.4
+NandiCross(RaniCross),morning_peak,1,3,0.2857142857142857,36.4
+NandiCross(RaniCross),night,1,3,0.2857142857142857,36.4
+"Narayanapura cross, Hegde nagar",morning_peak,1,3,0.2857142857142857,36.4
+OldMadrasRd-SuddaguntepalyaRdJunc,midday,1,3,0.2857142857142857,36.4
+ShankarMuttCircle,evening_peak,1,3,0.2857142857142857,36.4
+SonyworldJunction,night,1,3,0.2857142857142857,36.4
+WebbsCircle,evening_peak,1,3,0.2857142857142857,36.4
+BilekahalliJunc,evening_peak,4,14,0.2777777777777778,35.4
+PoliceTimmaiahCircle(GPO),evening_peak,4,14,0.2777777777777778,35.4
+TumkurRdMarappanapalyaJunc,evening_peak,4,14,0.2777777777777778,35.4
+AnandRaoJunction,evening_peak,2,7,0.2727272727272727,34.7
+BinnyMillJunction,morning_peak,2,7,0.2727272727272727,34.7
+HunsemarammanahalliJunction,night,2,7,0.2727272727272727,34.7
+JP Nagar 15th cross junction,evening_peak,2,7,0.2727272727272727,34.7
+K R MarketJunction,evening_peak,2,7,0.2727272727272727,34.7
+Ring road-Near Kengunte Junction,morning_peak,2,7,0.2727272727272727,34.7
+ShivajiTalkiesJunc,evening_peak,2,7,0.2727272727272727,34.7
+PoliceCornerJunc,morning_peak,7,26,0.26666666666666666,33.9
+BanashankariBusStandJunc,morning_peak,3,11,0.26666666666666666,33.9
+BucheryJunction,morning_peak,3,11,0.26666666666666666,33.9
+Dr TCM RoyanRd near AmbedkarStatue,morning_peak,3,11,0.26666666666666666,33.9
+FTI Junction(KanteeravaStudio),evening_peak,3,11,0.26666666666666666,33.9
+FTI Junction(KanteeravaStudio),morning_peak,3,11,0.26666666666666666,33.9
+MS RamaiahJunc(TollGate),evening_peak,3,11,0.26666666666666666,33.9
+TrinityCircle,evening_peak,3,11,0.26666666666666666,33.9
+VeerasandraGateJunction,evening_peak,3,11,0.26666666666666666,33.9
+Nagavara-ORR Junction,evening_peak,8,30,0.2647058823529412,33.7
+YelhankaBypass,evening_peak,5,19,0.2608695652173913,33.2
+NaganathapuraJunction,morning_peak,3,12,0.25,31.8
+PeenyaPoliceStation,morning_peak,3,12,0.25,31.8
+StateBankofMysoreJunc,morning_peak,3,12,0.25,31.8
+AnilKumbleCircle,morning_peak,2,8,0.25,31.8
+BigBazaar(Whitefield)Junc,evening_peak,2,8,0.25,31.8
+CoffeeBoardJunc,evening_peak,2,8,0.25,31.8
+KanakapuraRd-RingRdJunction,evening_peak,2,8,0.25,31.8
+MinskSquare(CTO Junction),evening_peak,2,8,0.25,31.8
+MinskSquare(CTO Junction),morning_peak,2,8,0.25,31.8
+OldMadrasRd-80FeetRdJunc,night,2,8,0.25,31.8
+WilsonGarden12thCrossJunc,evening_peak,2,8,0.25,31.8
+BegumMahalJunc,evening_peak,1,4,0.25,31.8
+BhashyamCircle-SadashivNagar,evening_peak,1,4,0.25,31.8
+BiryandCircle,evening_peak,1,4,0.25,31.8
+BiryandCircle,morning_peak,1,4,0.25,31.8
+CIL CrossJunction-JayamahalRd,morning_peak,1,4,0.25,31.8
+Jaipuria-Adugodi,evening_peak,1,4,0.25,31.8
+Jaipuria-Adugodi,morning_peak,1,4,0.25,31.8
+MysoreRd--MadhuPetrolBunkJunction,morning_peak,1,4,0.25,31.8
+Srinivagilu(Ejipura)Junc,night,1,4,0.25,31.8
+TC Palya-OM RoadJunc,midday,1,4,0.25,31.8
+TC Palya-OM RoadJunc,morning_peak,1,4,0.25,31.8
+SantheCircle,evening_peak,6,25,0.2413793103448276,30.7
+MekhriCircle,evening_peak,15,64,0.23529411764705882,29.9
+IbblurJunction',evening_peak,3,13,0.23529411764705882,29.9
+Marigowda-TavarkereRdJunc,morning_peak,3,13,0.23529411764705882,29.9
+SadashivnagarJunc,evening_peak,3,13,0.23529411764705882,29.9
+SatteliteBusStandJunc,evening_peak,10,43,0.23404255319148937,29.8
+SatteliteBusStandJunc,morning_peak,10,43,0.23404255319148937,29.8
+BigBazaarJunction(OldMadrasRd),evening_peak,6,26,0.23333333333333334,29.7
+RajeshwariJunc,night,5,22,0.23076923076923078,29.4
+BMTCJunction-K H Road,evening_peak,2,9,0.23076923076923078,29.4
+CID-CarltonHouseJunc,morning_peak,2,9,0.23076923076923078,29.4
+HulimaveRd-BanneraghattaRdJunc,morning_peak,2,9,0.23076923076923078,29.4
+RamaiahCircle-UlsoorPoliceStation,evening_peak,2,9,0.23076923076923078,29.4
+RamaiahCircle-UlsoorPoliceStation,morning_peak,2,9,0.23076923076923078,29.4
+RamamurthyNagarJunction,evening_peak,2,9,0.23076923076923078,29.4
+SindhiColonyJunction,morning_peak,2,9,0.23076923076923078,29.4
+KhodaysCircle(DV UrsCircle),evening_peak,5,23,0.2222222222222222,28.3
+Batrayanapura(Amrutahalli)Junction,evening_peak,3,14,0.2222222222222222,28.3
+Chokasandra (Tumkur road),morning_peak,3,14,0.2222222222222222,28.3
+Srigandakaval,morning_peak,3,14,0.2222222222222222,28.3
+UttarahalliJunction,morning_peak,3,14,0.2222222222222222,28.3
+29thMainRdBTM LayoutJunc,morning_peak,1,5,0.2222222222222222,28.3
+A S CharStreet-MysoreRdJunc,evening_peak,1,5,0.2222222222222222,28.3
+A S CharStreet-MysoreRdJunc,midday,1,5,0.2222222222222222,28.3
+AshirwadamCircle,evening_peak,1,5,0.2222222222222222,28.3
+AshirwadamCircle,morning_peak,1,5,0.2222222222222222,28.3
+BasaweshwaraCircle,night,1,5,0.2222222222222222,28.3
+DairyCircle,evening_peak,1,5,0.2222222222222222,28.3
+DairyCircle,morning_peak,1,5,0.2222222222222222,28.3
+Dr RajkumarRd-10thCrossRdJunc,evening_peak,1,5,0.2222222222222222,28.3
+Dr RajkumarRd-10thCrossRdJunc,morning_peak,1,5,0.2222222222222222,28.3
+GarebhavipalyaJunc,evening_peak,1,5,0.2222222222222222,28.3
+JaiMuniRaoCircle,morning_peak,1,5,0.2222222222222222,28.3
+KamrajRdJunction,evening_peak,1,5,0.2222222222222222,28.3
+Malleswaram18thCrossRd-SampigeRdJunc,evening_peak,1,5,0.2222222222222222,28.3
+Malleswaram18thCrossRd-SampigeRdJunc,night,1,5,0.2222222222222222,28.3
+MintoJunction,evening_peak,1,5,0.2222222222222222,28.3
+SiddapuraJunction,evening_peak,1,5,0.2222222222222222,28.3
+TyagiHengalvarayaJunc(DickensonRd),evening_peak,1,5,0.2222222222222222,28.3
+BangaloreBodyBuildersJunc,evening_peak,4,19,0.21739130434782608,27.7
+N R SquareJunc,evening_peak,2,10,0.21428571428571427,27.3
+KoramangalaWaterTankJunc,evening_peak,6,29,0.21212121212121213,27.0
+ArakereGateJunc,morning_peak,3,15,0.21052631578947367,26.8
+KogilluCrossJunc,morning_peak,3,15,0.21052631578947367,26.8
+ShantalaJunction,morning_peak,3,15,0.21052631578947367,26.8
+SantheCircle,morning_peak,5,25,0.20689655172413793,26.3
+Devasandra(k r puram),morning_peak,6,30,0.20588235294117646,26.2
+HesaraghattaJunction,evening_peak,6,30,0.20588235294117646,26.2
+K R Circle,evening_peak,6,30,0.20588235294117646,26.2
+TownhallJunction,evening_peak,6,30,0.20588235294117646,26.2
+Bommanahalli,morning_peak,5,26,0.2,25.5
+MaratahalliBridgeJunc,morning_peak,3,16,0.2,25.5
+Sumanhalli,morning_peak,3,16,0.2,25.5
+KodigehalliCross,morning_peak,2,11,0.2,25.5
+MS RamaiahJunc(TollGate),morning_peak,2,11,0.2,25.5
+MotherTeressaCircle,evening_peak,2,11,0.2,25.5
+VeerasandraGateJunction,midday,2,11,0.2,25.5
+Ashoknagar Junction(ShoolayCircle),evening_peak,1,6,0.2,25.5
+ElectronicCityGate-2Junc,evening_peak,1,6,0.2,25.5
+EliteJunc,morning_peak,1,6,0.2,25.5
+GangammagudiJunc,evening_peak,1,6,0.2,25.5
+HainsJunc,midday,1,6,0.2,25.5
+HainsJunc,morning_peak,1,6,0.2,25.5
+HoodiJunction,evening_peak,1,6,0.2,25.5
+ItmaduJunction,morning_peak,1,6,0.2,25.5
+K H Road-SiddaiahRdJunc(BMTC-BigBazaar),evening_peak,1,6,0.2,25.5
+KalyanNagar-ORR Junc,evening_peak,1,6,0.2,25.5
+KalyanNagar-ORR Junc,midday,1,6,0.2,25.5
+KalyanNagar-ORR Junc,morning_peak,1,6,0.2,25.5
+MC Circle,evening_peak,1,6,0.2,25.5
+MC Circle,morning_peak,1,6,0.2,25.5
+MICO Bande,evening_peak,1,6,0.2,25.5
+MargosaRd-18thCrossJunc,morning_peak,1,6,0.2,25.5
+NIMHANS Junction,evening_peak,1,6,0.2,25.5
+NIMHANS Junction,morning_peak,1,6,0.2,25.5
+OperaHouseJunc,morning_peak,1,6,0.2,25.5
+RRR(Okalipuram)Junction,evening_peak,1,6,0.2,25.5
+SubedarChatramRd near SheshadripuramPS,midday,1,6,0.2,25.5
+SubedarChatramRd near SheshadripuramPS,morning_peak,1,6,0.2,25.5
+UrvashiJunction,evening_peak,1,6,0.2,25.5
+UrvashiJunction,night,1,6,0.2,25.5
+WilsonGarden10thCrossJunc,evening_peak,1,6,0.2,25.5
+BagalurCrossJunc,evening_peak,5,27,0.1935483870967742,24.6
+MekhriCircle,morning_peak,12,64,0.19117647058823528,24.3
+KrishnaFlourMill,evening_peak,3,17,0.19047619047619047,24.2
+KrishnaFlourMill,morning_peak,3,17,0.19047619047619047,24.2
+HebbalFlyoverJunc,evening_peak,5,28,0.1875,23.9
+HebbalFlyoverJunc,midday,5,28,0.1875,23.9
+HoramavuJunction,morning_peak,2,12,0.1875,23.9
+HoramavuJunction,night,2,12,0.1875,23.9
+Kadubeesanahalli-ORR Junc,evening_peak,2,12,0.1875,23.9
+KatriguppeJunction,morning_peak,2,12,0.1875,23.9
+OldMadrasRd-Indranagar100ftRdJunc,night,2,12,0.1875,23.9
+TataInstituteCircle,evening_peak,2,12,0.1875,23.9
+UlsoorGateJunc,morning_peak,2,12,0.1875,23.9
+KhodaysCircle(DV UrsCircle),morning_peak,4,23,0.18518518518518517,23.6
+YelhankaCircle,evening_peak,6,34,0.18421052631578946,23.4
+MysoreRd-RingRdJunc(Nayandanahallii),morning_peak,3,18,0.18181818181818182,23.1
+AnandRaoJunction,morning_peak,1,7,0.18181818181818182,23.1
+BinnyMillJunction,evening_peak,1,7,0.18181818181818182,23.1
+ChaudrayaCircle/UdayaTVCircle(CantonmentJunc),evening_peak,1,7,0.18181818181818182,23.1
+DhobiGhatJunc,evening_peak,1,7,0.18181818181818182,23.1
+HunsemarammanahalliJunction,morning_peak,1,7,0.18181818181818182,23.1
+K R MarketJunction,midday,1,7,0.18181818181818182,23.1
+K R MarketJunction,morning_peak,1,7,0.18181818181818182,23.1
+PurnimaTheaterJunc,evening_peak,1,7,0.18181818181818182,23.1
+RingRoad-UllalJunction,evening_peak,1,7,0.18181818181818182,23.1
+RingRoad-UllalJunction,midday,1,7,0.18181818181818182,23.1
+RingRoad-UllalJunction,morning_peak,1,7,0.18181818181818182,23.1
+SadahalliGateJunc(AirportRd),evening_peak,1,7,0.18181818181818182,23.1
+ShivajiTalkiesJunc,midday,1,7,0.18181818181818182,23.1
+SubbannaJunction,evening_peak,1,7,0.18181818181818182,23.1
+IbblurJunction',morning_peak,2,13,0.17647058823529413,22.5
+Marigowda-TavarkereRdJunc,evening_peak,2,13,0.17647058823529413,22.5
+BEL Circle,evening_peak,4,25,0.1724137931034483,21.9
+BEL Circle,morning_peak,4,25,0.1724137931034483,21.9
+KIMCO Junction,morning_peak,5,31,0.17142857142857143,21.8
+BigBazaarJunction(OldMadrasRd),morning_peak,4,26,0.16666666666666666,21.2
+PoliceCornerJunc,evening_peak,4,26,0.16666666666666666,21.2
+LeprosyhospitalJunc,evening_peak,3,20,0.16666666666666666,21.2
+Batrayanapura(Amrutahalli)Junction,morning_peak,2,14,0.16666666666666666,21.2
+Chokasandra (Tumkur road),midday,2,14,0.16666666666666666,21.2
+PoliceTimmaiahCircle(GPO),morning_peak,2,14,0.16666666666666666,21.2
+TumkurRdMarappanapalyaJunc,morning_peak,2,14,0.16666666666666666,21.2
+CoffeeBoardJunc,morning_peak,1,8,0.16666666666666666,21.2
+JayadevaHospitalJunc,midday,1,8,0.16666666666666666,21.2
+JayadevaHospitalJunc,morning_peak,1,8,0.16666666666666666,21.2
+MeenakshiMallJunc,midday,1,8,0.16666666666666666,21.2
+MeenakshiMallJunc,morning_peak,1,8,0.16666666666666666,21.2
+OldMadrasRd-80FeetRdJunc,evening_peak,1,8,0.16666666666666666,21.2
+OldMadrasRd-80FeetRdJunc,midday,1,8,0.16666666666666666,21.2
+OldMadrasRd-NGEF Junc,morning_peak,1,8,0.16666666666666666,21.2
+SandeepUnnikrishnan-Yelhanka,evening_peak,1,8,0.16666666666666666,21.2
+UniversityJunc(Janabharti),evening_peak,1,8,0.16666666666666666,21.2
+WilsonGarden12thCrossJunc,morning_peak,1,8,0.16666666666666666,21.2
+Deverabeesanahalli-ORR Junc,morning_peak,2,15,0.15789473684210525,20.1
+HudsonCircle,evening_peak,2,15,0.15789473684210525,20.1
+HudsonCircle,morning_peak,2,15,0.15789473684210525,20.1
+KogilluCrossJunc,evening_peak,2,15,0.15789473684210525,20.1
+HebbalFlyoverJunc,morning_peak,4,28,0.15625,19.9
+CID-CarltonHouseJunc,evening_peak,1,9,0.15384615384615385,19.6
+HulimaveRd-BanneraghattaRdJunc,evening_peak,1,9,0.15384615384615385,19.6
+ISRO Junction-Airport rd,evening_peak,1,9,0.15384615384615385,19.6
+ISRO Junction-Airport rd,morning_peak,1,9,0.15384615384615385,19.6
+MillCornerRd-SampigeRdJunc,morning_peak,1,9,0.15384615384615385,19.6
+Nagarbhavi,evening_peak,1,9,0.15384615384615385,19.6
+Nagarbhavi,morning_peak,1,9,0.15384615384615385,19.6
+RamamurthyNagarJunction,midday,1,9,0.15384615384615385,19.6
+RamamurthyNagarJunction,morning_peak,1,9,0.15384615384615385,19.6
+Richmond circle jn,evening_peak,1,9,0.15384615384615385,19.6
+Richmond circle jn,morning_peak,1,9,0.15384615384615385,19.6
+SindhiColonyJunction,evening_peak,1,9,0.15384615384615385,19.6
+MaratahalliBridgeJunc,evening_peak,2,16,0.15,19.1
+HesaraghattaJunction,midday,4,30,0.14705882352941177,18.7
+HesaraghattaJunction,morning_peak,4,30,0.14705882352941177,18.7
+Nagavara-ORR Junction,morning_peak,4,30,0.14705882352941177,18.7
+TownhallJunction,morning_peak,4,30,0.14705882352941177,18.7
+YeshwanthpuraCircle,morning_peak,5,38,0.14285714285714285,18.2
+HennurRoad-ORR Junc,evening_peak,2,17,0.14285714285714285,18.2
+HennurRoad-ORR Junc,morning_peak,2,17,0.14285714285714285,18.2
+Arbindo Circle,morning_peak,1,10,0.14285714285714285,18.2
+HopefarmJunction,midday,1,10,0.14285714285714285,18.2
+HopefarmJunction,morning_peak,1,10,0.14285714285714285,18.2
+HopefarmJunction,night,1,10,0.14285714285714285,18.2
+N R SquareJunc,morning_peak,1,10,0.14285714285714285,18.2
+SantheCircle,midday,3,25,0.13793103448275862,17.6
+JakkurCrossJunction,midday,2,18,0.13636363636363635,17.4
+SilkBoardJunc,midday,4,33,0.13513513513513514,17.2
+SilkBoardJunc,morning_peak,4,33,0.13513513513513514,17.2
+Dr TCM RoyanRd near AmbedkarStatue,evening_peak,1,11,0.13333333333333333,17.0
+VeerasandraGateJunction,morning_peak,1,11,0.13333333333333333,17.0
+BangaloreBodyBuildersJunc,morning_peak,2,19,0.13043478260869565,16.6
+YelhankaBypass,midday,2,19,0.13043478260869565,16.6
+YelhankaBypass,morning_peak,2,19,0.13043478260869565,16.6
+SRS Peenya Junc,evening_peak,2,20,0.125,15.9
+SRS Peenya Junc,morning_peak,2,20,0.125,15.9
+DomlurWaterTank,evening_peak,1,12,0.125,15.9
+KatriguppeJunction,evening_peak,1,12,0.125,15.9
+PeenyaPoliceStation,evening_peak,1,12,0.125,15.9
+TataInstituteCircle,morning_peak,1,12,0.125,15.9
+K R Circle,morning_peak,3,30,0.11764705882352941,15.0
+"VeerannapalyaJunction(BEL,HO)",evening_peak,3,30,0.11764705882352941,15.0
+"VeerannapalyaJunction(BEL,HO)",morning_peak,3,30,0.11764705882352941,15.0
+IbblurJunction',midday,1,13,0.11764705882352941,15.0
+SadashivnagarJunc,midday,1,13,0.11764705882352941,15.0
+AyyappaTempleJunc,evening_peak,5,49,0.11320754716981132,14.4
+JalahalliCross(SM Circle),evening_peak,3,32,0.1111111111111111,14.1
+JalahalliCross(SM Circle),morning_peak,3,32,0.1111111111111111,14.1
+BilekahalliJunc,midday,1,14,0.1111111111111111,14.1
+BilekahalliJunc,morning_peak,1,14,0.1111111111111111,14.1
+Chokasandra (Tumkur road),evening_peak,1,14,0.1111111111111111,14.1
+ArakereGateJunc,evening_peak,1,15,0.10526315789473684,13.4
+BloodBankCircle,evening_peak,1,15,0.10526315789473684,13.4
+IndianExpressJunction,morning_peak,1,16,0.1,12.7
+MaratahalliBridgeJunc,midday,1,16,0.1,12.7
+Sumanhalli,evening_peak,1,16,0.1,12.7
+YeshwanthpuraCircle,evening_peak,3,38,0.09523809523809523,12.1
+AyyappaTempleJunc,morning_peak,4,49,0.09433962264150944,12.0
+GokuldasImagesJunc,morning_peak,2,28,0.09375,11.9
+KoramangalaWaterTankJunc,morning_peak,2,29,0.09090909090909091,11.6
+JakkurCrossJunction,evening_peak,1,18,0.09090909090909091,11.6
+CMP GateJunc,morning_peak,1,20,0.08333333333333333,10.6
+GoruguntepalyaJunc,midday,1,20,0.08333333333333333,10.6
+GoruguntepalyaJunc,morning_peak,1,20,0.08333333333333333,10.6
+toll gate mysore road,morning_peak,2,33,0.08108108108108109,10.3
+BEL Circle,midday,1,25,0.06896551724137931,8.8
+Bommanahalli,evening_peak,1,26,0.06666666666666667,8.5
+Bommanahalli,midday,1,26,0.06666666666666667,8.5
+BagalurCrossJunc,morning_peak,1,27,0.06451612903225806,8.2
+MekhriCircle,midday,3,64,0.058823529411764705,7.5
+K R Circle,midday,1,30,0.058823529411764705,7.5
+AyyappaTempleJunc,midday,2,49,0.05660377358490566,7.2
+YelhankaCircle,midday,1,34,0.05263157894736842,6.7
+SatteliteBusStandJunc,midday,1,43,0.0425531914893617,5.4
