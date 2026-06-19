@@ -81,21 +81,62 @@ EVENING_PEAK = (17, 20)
 MORNING_PEAK = (8, 10)
 TIME_PRESSURE = {"evening": 16, "morning": 8, "offpeak": 3}
 
-# Resource-deployment plan coefficients. "high_load" applies when the score or
-# crowd crosses the escalation threshold; "base_load" otherwise.
-RESOURCE_PLAN = {
-    "escalation_score": 85,
-    "escalation_crowd": 40000,
-    "high_load": {
-        "officers_base": 18, "officers_crowd_div": 12000, "officers_score_div": 6,
-        "barricades_base": 9, "barricades_crowd_div": 18000, "barricades_score_div": 10,
-        "marshals_base": 8, "marshals_crowd_div": 20000, "marshals_score_div": 12,
-        "emergency_score_div": 45, "emergency_min": 2,
-    },
-    "base_load": {
-        "officers_score_coef": 0.11, "officers_crowd_div": 10000, "officers_min": 6,
-        "barricades_score_coef": 0.055, "barricades_crowd_div": 12000, "barricades_min": 3,
-        "marshals_score_coef": 0.06, "marshals_crowd_div": 14000, "marshals_min": 3,
-        "emergency_score_div": 55, "emergency_min": 1,
-    },
+# ---------------------------------------------------------------------------
+# Realistic resource-deployment plan.
+#
+# The formula uses a crowd-proportional base (officers ≈ 1 per 100 attendees)
+# adjusted by an event-type multiplier, a congestion-severity factor, and
+# weather/time-of-day modifiers.  Minimum floors prevent under-staffing for
+# small gatherings and caps prevent runaway numbers.
+# ---------------------------------------------------------------------------
+
+# Per-event-type force multiplier.  VIP / political events need tighter
+# security ratios; festivals / concerts are slightly lower.
+EVENT_TYPE_MULTIPLIER = {
+    "Cricket Match":     1.00,
+    "Concert":           0.85,
+    "Political Rally":   1.30,
+    "Festival":          0.90,
+    "Metro Maintenance": 0.50,
+    "VIP Movement":      1.50,
+    "Public Gathering":  1.10,
 }
+
+# Weather multiplier applied on top (bad weather → more marshals/emergency).
+WEATHER_RESOURCE_MULTIPLIER = {
+    "Clear":         1.00,
+    "Cloudy":        1.00,
+    "Rain":          1.15,
+    "Heavy Rain":    1.30,
+    "Windy":         1.05,
+    "Storm Warning": 1.40,
+}
+
+RESOURCE_PLAN = {
+    # --- Officers: 1 per 100 crowd (base), scaled by event multiplier & score
+    "officers_per_crowd":  0.010,    # 1 officer per 100 people
+    "officers_score_coef": 1.5,      # extra officers per congestion-score point
+    "officers_min":        8,
+    "officers_max":        1200,
+
+    # --- Barricades: roughly 1 per 400 crowd
+    "barricades_per_crowd":  0.0025,
+    "barricades_score_coef": 0.3,
+    "barricades_min":        4,
+    "barricades_max":        300,
+
+    # --- Traffic Marshals: 1 per 200 crowd
+    "marshals_per_crowd":  0.005,
+    "marshals_score_coef": 0.8,
+    "marshals_min":        4,
+    "marshals_max":        600,
+
+    # --- Emergency Units: 1 per 10k crowd, min 2 for large events
+    "emergency_per_crowd": 0.0001,
+    "emergency_score_coef": 0.04,
+    "emergency_min":       1,
+    "emergency_max":       20,
+}
+
+# Offset (in degrees lat/lon) used to draw detour bypass geometry.
+DIVERSION_OFFSET = 0.006

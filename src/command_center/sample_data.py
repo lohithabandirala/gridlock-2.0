@@ -153,7 +153,16 @@ def build_training_frame(n_rows: int = 2200, seed: int = 42) -> pd.DataFrame:
 
 
 def build_road_snapshot(score: float, location: str, seed: int = 42) -> pd.DataFrame:
-    rng = np.random.default_rng(seed)
+    """Road-level congestion snapshot around a city hub.
+
+    The physical positions of roads are deterministic per location (derived from
+    the location name hash) so that the map does not flicker when the user
+    re-runs a prediction.  Congestion levels and delays are derived from the
+    live ``score`` parameter.
+    """
+    # Deterministic seed per location so coordinates are stable.
+    loc_seed = sum(ord(c) for c in location) + seed
+    rng = np.random.default_rng(loc_seed)
     hub = CITY_HUBS.get(location, CITY_HUBS["MG Road"])
     rows = []
     base_roads = _load_report_roads(limit=6)

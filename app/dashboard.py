@@ -238,8 +238,20 @@ def _folium_html(map_obj, height=540):
 
 def render_heatmap(prediction: dict, snapshot: pd.DataFrame) -> None:
     center = _center_for(st.session_state.get("event_location", "MG Road"))
-    m = folium.Map(location=center, zoom_start=12, tiles="cartodbpositron")
+    m = folium.Map(location=center, zoom_start=14, tiles="cartodbpositron")
     color_map = {"Red": "#e74c3c", "Yellow": "#f1c40f", "Green": "#2ecc71"}
+
+    # Event location pulsing beacon.
+    folium.CircleMarker(
+        location=center, radius=18, color="#ff3366", fill=True,
+        fill_color="#ff3366", fill_opacity=0.35,
+        tooltip="Event Location",
+    ).add_to(m)
+    folium.Marker(
+        center, icon=folium.Icon(color="red", icon="star", prefix="fa"),
+        popup=f"<b>Event Location</b><br>{st.session_state.get('event_location', 'MG Road')}",
+    ).add_to(m)
+
     for _, row in snapshot.iterrows():
         folium.CircleMarker(
             location=[row["lat"], row["lon"]],
@@ -276,42 +288,71 @@ def render_diversion_map(prediction: dict) -> None:
         st.info("No diversion routes available for this scenario.")
         return
     first = prediction["diversion_routes"][0]
-    m = folium.Map(location=[first["blocked_lat"], first["blocked_lon"]], zoom_start=13, tiles="cartodbpositron")
+    m = folium.Map(location=[first["blocked_lat"], first["blocked_lon"]], zoom_start=15, tiles="cartodbpositron")
     for route in prediction["diversion_routes"]:
+        a = [route["blocked_lat"], route["blocked_lon"]]
+        # Use bypass waypoints if present, otherwise fall back to simple offset.
+        if "blocked_end_lat" in route:
+            b = [route["blocked_end_lat"], route["blocked_end_lon"]]
+            c = [route["bypass_c_lat"], route["bypass_c_lon"]]
+            d = [route["bypass_d_lat"], route["bypass_d_lon"]]
+        else:
+            b = [route["diversion_lat"], route["diversion_lon"]]
+            c = [a[0] - 0.003, a[1] + 0.005]
+            d = [b[0] - 0.003, b[1] + 0.005]
+
+        # Blocked segment (solid red).
         folium.PolyLine(
-            [[route["blocked_lat"], route["blocked_lon"]], [route["blocked_lat"] + 0.006, route["blocked_lon"] + 0.006]],
-            color="#ff4d4d",
-            weight=7,
-            opacity=0.9,
-            tooltip=f"Blocked route: {route['affected_road']}",
+            [a, b], color="#ff4d4d", weight=8, opacity=0.9,
+            tooltip=f"\u26d4 BLOCKED: {route['affected_road']}",
+            dash_array="",
         ).add_to(m)
+
+        # Rectangular bypass detour (dashed blue).
         folium.PolyLine(
-            [[route["blocked_lat"], route["blocked_lon"]], [route["diversion_lat"], route["diversion_lon"]]],
-            color="#4da3ff",
-            weight=6,
-            opacity=0.95,
-            tooltip=f"Recommended diversion: {route['alternate_route']}",
+            [a, c, d, b], color="#4da3ff", weight=5, opacity=0.85,
+            tooltip=f"\u21b3 Detour: {route['alternate_route']} (saves ~{route['time_saved_min']} min)",
+            dash_array="10 6",
         ).add_to(m)
+
+        # Blockade start marker.
         folium.Marker(
-            [route["diversion_lat"], route["diversion_lon"]],
-            icon=folium.Icon(color="blue", icon="flag"),
-            popup=route["alternate_route"],
+            a, icon=folium.Icon(color="red", icon="ban", prefix="fa"),
+            popup=f"<b>\u26d4 Blocked</b><br>{route['affected_road']}",
+        ).add_to(m)
+        # Rejoin marker.
+        folium.Marker(
+            b, icon=folium.Icon(color="green", icon="check", prefix="fa"),
+            popup=f"<b>\u2705 Rejoin</b><br>{route['alternate_route']}<br>Saves ~{route['time_saved_min']} min",
         ).add_to(m)
     _folium_html(m, 520)
 
 
 def render_deployment_map(snapshot: pd.DataFrame, resources: dict) -> None:
-    center = [snapshot["lat"].mean(), snapshot["lon"].mean()]
-    m = folium.Map(location=center, zoom_start=12, tiles="cartodbpositron")
-    for _, row in snapshot.head(6).iterrows():
+    """Show per-road deployment markers with officers distributed proportionally."""
+    center = _center_for(st.session_state.get("event_location", "MG Road"))
+    m = folium.Map(location=center, zoom_start=14, tiles="cartodbpositron")
+    n_roads = max(1, min(6, len(snapshot)))
+    total_cong = max(1, snapshot.head(n_roads)["congestion"].sum())
+
+    total_officers = resources["Police Officers Required"]
+    total_barricades = resources["Barricades Required"]
+    total_marshals = resources["Traffic Marshals Required"]
+
+    for _, row in snapshot.head(n_roads).iterrows():
+        share = row["congestion"] / total_cong
+        r_officers = max(1, int(round(total_officers * share)))
+        r_barricades = max(1, int(round(total_barricades * share)))
+        r_marshals = max(1, int(round(total_marshals * share)))
         folium.Marker(
             [row["lat"], row["lon"]],
             icon=folium.Icon(color="darkred", icon="shield"),
             popup=(
                 f"<b>{row['name']}</b><br>"
-                f"Officers: {resources['Police Officers Required']}<br>"
-                f"Barricades: {resources['Barricades Required']}<br>"
-                f"Marshals: {resources['Traffic Marshals Required']}"
+                f"<b>Officers:</b> {r_officers}<br>"
+                f"<b>Barricades:</b> {r_barricades}<br>"
+                f"<b>Marshals:</b> {r_marshals}<br>"
+                f"<i>Congestion: {row['congestion']}/100</i>"
             ),
         ).add_to(m)
     _folium_html(m, 500)
@@ -398,14 +439,31 @@ def gauge_figure(score: float, risk: str):
 
 
 def render_city_overview() -> None:
-    m = folium.Map(location=[12.9716, 77.5946], zoom_start=11, tiles="cartodbpositron")
+    active_loc = st.session_state.get("event_location", "MG Road")
+    active_hub = CITY_HUBS.get(active_loc, CITY_HUBS["MG Road"])
+    m = folium.Map(location=[active_hub["lat"], active_hub["lon"]], zoom_start=13, tiles="cartodbpositron")
+
+    # Highlight active event location with a pulsing beacon + star.
+    folium.CircleMarker(
+        [active_hub["lat"], active_hub["lon"]], radius=22,
+        color="#ff3366", fill=True, fill_color="#ff3366", fill_opacity=0.30,
+        tooltip=f"\u2b50 ACTIVE: {active_loc}",
+    ).add_to(m)
+    folium.Marker(
+        [active_hub["lat"], active_hub["lon"]],
+        icon=folium.Icon(color="red", icon="star", prefix="fa"),
+        popup=f"<b>\u2b50 Active Event Location</b><br>{active_loc}<br>Zone: {active_hub['zone']}",
+    ).add_to(m)
+
     for name, h in CITY_HUBS.items():
+        if name == active_loc:
+            continue  # already drawn above
         load = h["baseline"]
         color = "#e74c3c" if load >= 85 else "#f1c40f" if load >= 70 else "#2ecc71"
         folium.CircleMarker(
             [h["lat"], h["lon"]],
             radius=6 + load / 12,
-            color=color, fill=True, fill_color=color, fill_opacity=0.75,
+            color=color, fill=True, fill_color=color, fill_opacity=0.65,
             popup=folium.Popup(f"<b>{name}</b><br>Baseline load: {load}/100<br>Zone: {h['zone']}", max_width=240),
             tooltip=f"{name} — {load}/100",
         ).add_to(m)

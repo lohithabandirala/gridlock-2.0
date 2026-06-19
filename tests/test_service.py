@@ -59,6 +59,8 @@ def test_resources_scale_with_crowd():
         EventRequest("Cricket Match", "M. Chinnaswamy Stadium", 60000, "2026-06-19T18:00:00", 4, "Clear")
     )
     assert big["resources"]["Police Officers Required"] >= base["resources"]["Police Officers Required"]
+    # Realistic deployment: a stadium crowd of 60k should stage hundreds of officers.
+    assert big["resources"]["Police Officers Required"] >= 300
     for v in big["resources"].values():
         assert v >= 1
 
