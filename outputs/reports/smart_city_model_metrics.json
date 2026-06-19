@@ -1,0 +1,53 @@
+{
+  "model_name": "XGBoost",
+  "accuracy": 0.925,
+  "accuracy_type": "binned_classification (LOW/MEDIUM/HIGH)",
+  "rmse": 4.335,
+  "r2": 0.889,
+  "train_rows": 1760,
+  "test_rows": 440,
+  "data_source": "synthetic (build_training_frame)",
+  "validation_caveat": "Metrics are on synthetic data; revalidate on real labelled traffic before production use.",
+  "feature_importance": [
+    {
+      "feature": "num__time_pressure",
+      "importance": 0.45452645421028137
+    },
+    {
+      "feature": "num__historical_traffic",
+      "importance": 0.10908343642950058
+    },
+    {
+      "feature": "cat__weather_condition_Storm Warning",
+      "importance": 0.06480959057807922
+    },
+    {
+      "feature": "cat__weather_condition_Clear",
+      "importance": 0.054512783885002136
+    },
+    {
+      "feature": "cat__event_type_Cricket Match",
+      "importance": 0.054458137601614
+    },
+    {
+      "feature": "cat__weather_condition_Heavy Rain",
+      "importance": 0.045638468116521835
+    },
+    {
+      "feature": "num__crowd_size",
+      "importance": 0.04305509477853775
+    },
+    {
+      "feature": "num__event_duration_hr",
+      "importance": 0.02485129050910473
+    },
+    {
+      "feature": "cat__event_type_Metro Maintenance",
+      "importance": 0.02371731400489807
+    },
+    {
+      "feature": "cat__weather_condition_Cloudy",
+      "importance": 0.017964744940400124
+    }
+  ]
+}

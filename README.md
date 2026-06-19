@@ -1,7 +1,16 @@
 # Predictive Incident & Response Platform - Bengaluru
 
 End-to-end Day 1-5 solution for the **Event-Driven Congestion** problem using the Astram incident dataset.
-The project is fully offline-capable, open-source, and designed to run on a laptop without paid services.
+The repository now also includes a Smart City Command Center layer with:
+
+- an event input dashboard
+- XGBoost-based congestion prediction
+- heatmap and route visualisation
+- police deployment guidance
+- AI command narration
+- analytics charts
+- FastAPI prediction endpoints
+- SQLite logging for predictions and model metrics
 
 ## What this project does
 
@@ -24,6 +33,12 @@ The system turns historical incident records into an operational response platfo
 pip install -r requirements.txt
 python run_all.py
 streamlit run app/dashboard.py
+```
+
+Smart City backend API:
+
+```bash
+uvicorn backend.api:app --reload
 ```
 
 Run a single stage:
@@ -99,6 +114,7 @@ After `python run_all.py`, the project writes:
 - Diversion prefers OSMnx when it is available and falls back to the offline proximity graph otherwise.
 - The simulator uses a time-stepped queue model and also writes a SUMO-ready scenario bundle.
 - Weather features are joined from Open-Meteo archive data with a deterministic offline fallback.
+- The Smart City Command Center uses synthetic training samples to demonstrate a full government-style event workflow even when event-specific historical labels are not available.
 
 ## Deployment
 
@@ -119,4 +135,3 @@ pip install -r requirements.txt
 ```
 
 The dependency list is intentionally small and fully free.
-

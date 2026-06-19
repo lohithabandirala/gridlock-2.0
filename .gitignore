@@ -5,3 +5,5 @@ __pycache__/
 .streamlit/secrets.toml
 *.log
 temp/
+# Runtime DB state (regenerated automatically by the app)
+outputs/db/*.sqlite

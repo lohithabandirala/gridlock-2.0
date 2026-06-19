@@ -1,0 +1,6 @@
+event_type,event_location,crowd_size,event_start_time,event_duration_hr,weather_condition
+Cricket Match,M. Chinnaswamy Stadium,50000,2026-06-19T17:00:00,4,Clear
+Concert,Indiranagar,18000,2026-06-20T19:30:00,3,Rain
+Festival,Cubbon Park,30000,2026-06-21T16:00:00,5,Cloudy
+Political Rally,Outer Ring Road,25000,2026-06-22T15:00:00,3,Windy
+VIP Movement,MG Road,6000,2026-06-23T09:00:00,2,Clear
