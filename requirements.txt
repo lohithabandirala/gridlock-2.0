@@ -19,3 +19,5 @@ xgboost>=3.3,<4
 httpx>=0.28,<1          # required by FastAPI TestClient and the dashboard API client
 fpdf2>=2.8,<3           # used by make_project_report.py to render the PDF
 pytest>=8.0,<9          # test suite under tests/
+optuna>=3.0,<5
+sentence-transformers>=2.2,<4

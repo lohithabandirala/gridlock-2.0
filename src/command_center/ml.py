@@ -34,17 +34,20 @@ FEATURES = [
     "event_type",
     "event_location",
     "weather_condition",
+    "arrival_mode",
     "crowd_size",
     "event_hour",
     "event_duration_hr",
+    "is_weekend",
+    "is_holiday",
     "historical_traffic",
     "location_baseline",
     "time_pressure",
     "road_density",
 ]
 
-CATEGORICAL = ["event_type", "event_location", "weather_condition"]
-NUMERIC = ["crowd_size", "event_hour", "event_duration_hr", "historical_traffic", "location_baseline", "time_pressure", "road_density"]
+CATEGORICAL = ["event_type", "event_location", "weather_condition", "arrival_mode"]
+NUMERIC = ["crowd_size", "event_hour", "event_duration_hr", "is_weekend", "is_holiday", "historical_traffic", "location_baseline", "time_pressure", "road_density"]
 MODEL_PATH = MODEL_DIR / "smart_city_xgb_pipeline.joblib"
 METRICS_PATH = REPORT_DIR / "smart_city_model_metrics.json"
 

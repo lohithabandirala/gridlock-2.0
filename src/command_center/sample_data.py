@@ -8,7 +8,17 @@ from dataclasses import dataclass
 import numpy as np
 import pandas as pd
 
-from .config import CITY_HUBS, EVENT_TYPES, WEATHER_TYPES, ROAD_LIBRARY, REPORT_DIR
+from .config import (
+    CITY_HUBS,
+    EVENT_TYPES,
+    WEATHER_TYPES,
+    ROAD_LIBRARY,
+    REPORT_DIR,
+    ARRIVAL_MODES,
+    ARRIVAL_MODE_LOAD,
+    WEEKEND_RELIEF,
+    HOLIDAY_RELIEF,
+)
 
 
 @dataclass(frozen=True)
@@ -31,6 +41,10 @@ def _event_weights(event_type: str) -> float:
         "VIP Movement": 16,
         "Public Gathering": 14,
     }.get(event_type, 15)
+
+
+def _mode_weights(mode: str) -> float:
+    return ARRIVAL_MODE_LOAD.get(mode, 6.0)
 
 
 def _weather_weights(weather: str) -> float:
@@ -114,6 +128,9 @@ def build_training_frame(n_rows: int = 2200, seed: int = 42) -> pd.DataFrame:
         hour = int(rng.integers(6, 23))
         crowd = int(np.clip(rng.normal(loc=_event_weights(event_type) * 1800, scale=4200), 120, 80000))
         duration = int(np.clip(rng.normal(loc=3.0 + crowd / 22000, scale=1.2), 1, 10))
+        arrival_mode = rng.choice(ARRIVAL_MODES, p=[0.30, 0.45, 0.25])
+        is_weekend = int(rng.random() < 0.30)
+        is_holiday = int(rng.random() < 0.08)
         hist = historical_traffic_profile(location, hour)
         score = (
             8
@@ -123,6 +140,9 @@ def build_training_frame(n_rows: int = 2200, seed: int = 42) -> pd.DataFrame:
             + _hour_weights(hour) * 1.25
             + hist * 0.18
             + duration * 1.8
+            + _mode_weights(arrival_mode) * (0.6 + crowd / 55000.0)
+            - is_weekend * WEEKEND_RELIEF
+            - is_holiday * HOLIDAY_RELIEF
             + rng.normal(0, 4.0)
         )
         congestion = float(np.clip(score, 0, 100))
@@ -139,6 +159,9 @@ def build_training_frame(n_rows: int = 2200, seed: int = 42) -> pd.DataFrame:
                 "event_hour": hour,
                 "event_duration_hr": duration,
                 "weather_condition": weather,
+                "arrival_mode": arrival_mode,
+                "is_weekend": is_weekend,
+                "is_holiday": is_holiday,
                 "historical_traffic": hist,
                 "location_baseline": CITY_HUBS[location]["baseline"],
                 "time_pressure": _hour_weights(hour),

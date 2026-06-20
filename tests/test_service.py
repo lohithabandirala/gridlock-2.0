@@ -19,17 +19,20 @@ from src.command_center.service import (
 
 def test_risk_bands_monotonic():
     assert _risk_level(0) == "LOW"
-    assert _risk_level(RISK_BANDS["LOW"] - 1) == "LOW"
-    assert _risk_level(RISK_BANDS["LOW"]) == "MEDIUM"
-    assert _risk_level(RISK_BANDS["MEDIUM"] - 1) == "MEDIUM"
-    assert _risk_level(RISK_BANDS["MEDIUM"]) == "HIGH"
-    assert _risk_level(100) == "HIGH"
+    assert _risk_level(32) == "LOW"
+    assert _risk_level(65) == "MEDIUM"
+    assert _risk_level(89) == "HIGH"
+    assert _risk_level(95) == "CRITICAL"
+    assert _risk_level(33) == "MEDIUM"
+    assert _risk_level(65.9) == "MEDIUM"
+    assert _risk_level(66) == "HIGH"
+    assert _risk_level(100) == "CRITICAL"
 
 
 def test_demo_prediction_is_high_and_in_range():
     pred = predict_event(demo_request())
     assert 0 <= pred["congestion_score"] <= 100
-    assert pred["risk_level"] == "HIGH"
+    assert pred["risk_level"] in ("HIGH", "CRITICAL")
     # Demo (Cricket Match / 50k) is documented to land around 91/100.
     assert 85 <= pred["congestion_score"] <= 95
 

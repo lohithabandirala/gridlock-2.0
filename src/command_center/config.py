@@ -28,6 +28,20 @@ EVENT_TYPES = [
 
 WEATHER_TYPES = ["Clear", "Cloudy", "Rain", "Heavy Rain", "Windy", "Storm Warning"]
 
+# How the crowd is expected to arrive. Private vehicles load the road network far
+# more than public transit, so this is one of the strongest realism levers.
+ARRIVAL_MODES = ["Mostly Public Transit", "Mixed", "Mostly Private Vehicles"]
+ARRIVAL_MODE_LOAD = {
+    "Mostly Public Transit": 0.0,
+    "Mixed": 6.0,
+    "Mostly Private Vehicles": 12.0,
+}
+
+# Weekday commuter background lifts congestion; weekends and public holidays remove
+# that overlap, so they reduce the predicted event congestion.
+WEEKEND_RELIEF = 6.0
+HOLIDAY_RELIEF = 5.0
+
 CITY_HUBS = {
     "M. Chinnaswamy Stadium": {"lat": 12.9788, "lon": 77.5990, "baseline": 92, "zone": "Central"},
     "Cubbon Park": {"lat": 12.9763, "lon": 77.5946, "baseline": 68, "zone": "Central"},
@@ -63,6 +77,8 @@ DEMO_PRESET = {
     "event_duration_hr": 4.0,
     "weather_condition": "Clear",
     "event_start_hour": 17,
+    "arrival_mode": "Mostly Private Vehicles",
+    "is_holiday": False,
 }
 
 # --- Scoring / heuristic configuration (previously hard-coded in service.py) ---

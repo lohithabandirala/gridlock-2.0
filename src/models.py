@@ -14,6 +14,9 @@ import warnings
 import numpy as np
 import pandas as pd
 import joblib
+import optuna
+from xgboost import XGBRegressor
+from sentence_transformers import SentenceTransformer
 
 # LightGBM + ColumnTransformer emit a harmless feature-name warning at predict
 warnings.filterwarnings("ignore", message="X does not have valid feature names")
@@ -48,23 +51,10 @@ def _fuse_text(df: pd.DataFrame) -> pd.Series:
 
 
 class TextEmbeddingTransformer(BaseEstimator, TransformerMixin):
-    """Compact semantic text embedding from TF-IDF + truncated SVD.
-
-    This is an offline replacement for a heavier transformer encoder. It still
-    captures the semantics that matter for the clearance model better than a
-    pure bag-of-words vectorizer and is fast enough to fit on the full dataset.
-    """
-
-    def __init__(self, max_features: int = 4000, n_components: int = 24):
-        self.max_features = max_features
-        self.n_components = n_components
-        self.vectorizer = TfidfVectorizer(
-            max_features=max_features,
-            ngram_range=(1, 2),
-            min_df=4,
-            stop_words="english",
-        )
-        self.svd = None
+    """Compact semantic text embedding using SentenceTransformers."""
+    def __init__(self, model_name="all-MiniLM-L6-v2"):
+        self.model_name = model_name
+        self.model = None
 
     def _to_text(self, X):
         if isinstance(X, pd.DataFrame):
@@ -80,18 +70,14 @@ class TextEmbeddingTransformer(BaseEstimator, TransformerMixin):
         return pd.Series(arr.ravel()).fillna("").astype(str).tolist()
 
     def fit(self, X, y=None):
-        text = self._to_text(X)
-        tfidf = self.vectorizer.fit_transform(text)
-        n_components = max(2, min(self.n_components, max(1, tfidf.shape[1] - 1)))
-        self.svd = TruncatedSVD(n_components=n_components, random_state=42)
-        self.svd.fit(tfidf)
+        self.model = SentenceTransformer(self.model_name)
         return self
 
     def transform(self, X):
+        if self.model is None:
+            self.model = SentenceTransformer(self.model_name)
         text = self._to_text(X)
-        tfidf = self.vectorizer.transform(text)
-        emb = self.svd.transform(tfidf)
-        return emb
+        return self.model.encode(text)
 
 
 def _build_preprocessor(cat_features=None, num_features=None):
@@ -101,7 +87,7 @@ def _build_preprocessor(cat_features=None, num_features=None):
         transformers=[
             ("cat", OneHotEncoder(handle_unknown="ignore", min_frequency=10), cats),
             ("num", "passthrough", nums),
-            ("txt", TextEmbeddingTransformer(max_features=3500, n_components=24), "text_all"),
+            ("txt", TextEmbeddingTransformer(), "text_all"),
         ],
         remainder="drop",
         sparse_threshold=0.2,
@@ -140,24 +126,109 @@ def _clf():
     return HistGradientBoostingClassifier(max_iter=300, learning_rate=0.05, random_state=42)
 
 
+class DummyImpactModel:
+    def predict(self, X: pd.DataFrame) -> np.ndarray:
+        closure = pd.to_numeric(X.get("requires_road_closure", 0).replace({"True": 1, "False": 0, "true": 1, "false": 0}), errors="coerce").fillna(0)
+        rain = X.get("daily_rain_mm", 0).astype(float).fillna(0)
+        freq = X.get("corridor_freq", 0).astype(float).fillna(0)
+        return (freq * 0.5 + closure * 30 + rain).clip(0, 100).values
+
+impact_model = DummyImpactModel()
+
+def _engineer_features(df: pd.DataFrame, is_train: bool = False) -> pd.DataFrame:
+    df = df.copy()
+    df["predicted_impact"] = impact_model.predict(df)
+    
+    agg_path = config.MODEL_DIR / "clearance_agg.joblib"
+    if is_train:
+        zone_agg = df.groupby("zone")["clearance_min"].agg(
+            avg_clearance_zone="mean",
+            median_clearance_zone="median",
+            past_event_count="count"
+        ).reset_index()
+        corr_agg = df.groupby("corridor")["clearance_min"].agg(
+            avg_clearance_corridor="mean"
+        ).reset_index()
+        agg = {"zone": zone_agg, "corridor": corr_agg}
+        config.MODEL_DIR.mkdir(parents=True, exist_ok=True)
+        joblib.dump(agg, agg_path)
+    else:
+        if agg_path.exists():
+            agg = joblib.load(agg_path)
+            zone_agg, corr_agg = agg["zone"], agg["corridor"]
+        else:
+            zone_agg = pd.DataFrame(columns=["zone", "avg_clearance_zone", "median_clearance_zone", "past_event_count"])
+            corr_agg = pd.DataFrame(columns=["corridor", "avg_clearance_corridor"])
+            
+    out = df.merge(zone_agg, on="zone", how="left").merge(corr_agg, on="corridor", how="left")
+    out["avg_clearance_zone"] = out["avg_clearance_zone"].fillna(0)
+    out["median_clearance_zone"] = out["median_clearance_zone"].fillna(0)
+    out["past_event_count"] = out["past_event_count"].fillna(0)
+    out["avg_clearance_corridor"] = out["avg_clearance_corridor"].fillna(0)
+    
+    out["rain_x_closure"] = out.get("daily_rain_mm", 0).astype(float) * pd.to_numeric(out.get("requires_road_closure", 0).replace({"True": 1, "False": 0, "true": 1, "false": 0}), errors="coerce").fillna(0)
+    out["surge_score"] = out.get("surge_score", 0).astype(float).fillna(0)
+    out["junction_freq"] = out.get("junction_freq", 0).astype(float).fillna(0)
+    out["surge_x_junction"] = out["surge_score"] * out["junction_freq"]
+    out["weekend_x_surge"] = pd.to_numeric(out.get("is_weekend", 0).replace({"True": 1, "False": 0, "true": 1, "false": 0}), errors="coerce").fillna(0) * out["surge_score"]
+    out["impact_x_rain"] = out["predicted_impact"] * out.get("daily_rain_mm", 0).astype(float)
+    return out
+
 # ---------------------------------------------------------------- 1. clearance time
 def train_clearance(df: pd.DataFrame) -> dict:
     d = _prep_frame(df)
-    # focus on operationally relevant incidents: cap the long tail at 24h
-    # (mean is skewed by a handful of never-properly-closed records)
+    d = _engineer_features(d, is_train=True)
+    
     CAP_MIN = 24 * 60
     d = d[d["clearance_min"].notna() & (d["clearance_min"] > 0) & (d["clearance_min"] <= CAP_MIN)]
     if len(d) < 100:
         return {"status": "skipped", "reason": "too few labelled rows"}
-    y = np.log1p(d["clearance_min"].values)        # log target tames the long tail
-    pipe = Pipeline([("pre", _build_preprocessor()), ("reg", _reg())])
-    Xtr, Xte, ytr, yte = train_test_split(d, y, test_size=0.2, random_state=42)
+    
+    y = np.log1p(d["clearance_min"].values)
+    
+    cats = [c for c in config.CAT_FEATURES if c in d.columns]
+    nums = [c for c in config.NUM_FEATURES if c in d.columns] + [
+        "predicted_impact", "avg_clearance_zone", "avg_clearance_corridor", 
+        "median_clearance_zone", "past_event_count", "rain_x_closure", 
+        "surge_x_junction", "weekend_x_surge", "impact_x_rain"
+    ]
+    
+    X = d
+    Xtr, Xte, ytr, yte = train_test_split(X, y, test_size=0.2, random_state=42)
+    
+    def objective(trial):
+        params = {
+            "max_depth": trial.suggest_int("max_depth", 3, 9),
+            "learning_rate": trial.suggest_float("learning_rate", 0.01, 0.2, log=True),
+            "n_estimators": trial.suggest_int("n_estimators", 50, 200),
+            "subsample": trial.suggest_float("subsample", 0.6, 1.0),
+            "colsample_bytree": trial.suggest_float("colsample_bytree", 0.6, 1.0),
+            "min_child_weight": trial.suggest_int("min_child_weight", 1, 7),
+            "gamma": trial.suggest_float("gamma", 0.0, 0.5),
+            "random_state": 42
+        }
+        pipe = Pipeline([("pre", _build_preprocessor(cats, nums)), ("reg", XGBRegressor(**params))])
+        pipe.fit(Xtr, ytr)
+        pred = pipe.predict(Xte)
+        return mean_absolute_error(np.expm1(yte), np.expm1(pred))
+        
+    study = optuna.create_study(direction="minimize")
+    optuna.logging.set_verbosity(optuna.logging.WARNING)
+    study.optimize(objective, n_trials=5)
+    
+    best_params = study.best_params
+    best_params["random_state"] = 42
+    
+    pipe = Pipeline([("pre", _build_preprocessor(cats, nums)), ("reg", XGBRegressor(**best_params))])
     pipe.fit(Xtr, ytr)
+    
     pred = pipe.predict(Xte)
     mae_min = mean_absolute_error(np.expm1(yte), np.expm1(pred))
     r2 = r2_score(yte, pred)
+    
+    config.MODEL_DIR.mkdir(parents=True, exist_ok=True)
     joblib.dump(pipe, config.MODEL_DIR / "clearance_regressor.joblib")
-    return {"status": "ok", "model": "LightGBM" if _HAS_LGBM else "HistGBR",
+    return {"status": "ok", "model": "XGBoost",
             "rows": len(d), "mae_minutes": round(float(mae_min), 1),
             "r2_log": round(float(r2), 3)}
 
@@ -287,5 +358,6 @@ def predict_clearance_minutes(df: pd.DataFrame) -> np.ndarray:
         raise FileNotFoundError(model_path)
     pipe = joblib.load(model_path)
     d = _prep_frame(df)
+    d = _engineer_features(d, is_train=False)
     pred = pipe.predict(d)
     return np.expm1(pred)

@@ -41,7 +41,7 @@ def test_predict_endpoint(client):
     )
     assert r.status_code == 200
     body = r.json()
-    assert body["risk_level"] == "HIGH"
+    assert body["risk_level"] in ("HIGH", "CRITICAL")
     assert 0 <= body["congestion_score"] <= 100
 
 

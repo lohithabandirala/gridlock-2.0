@@ -25,11 +25,13 @@ from .sample_data import build_road_snapshot, build_trend_frame, historical_traf
 
 
 def _risk_level(score: float) -> str:
-    if score < RISK_BANDS["LOW"]:
+    if score < 33.0:
         return "LOW"
-    if score < RISK_BANDS["MEDIUM"]:
+    if score < 66.0:
         return "MEDIUM"
-    return "HIGH"
+    if score < 90.0:
+        return "HIGH"
+    return "CRITICAL"
 
 
 @dataclass
@@ -40,6 +42,11 @@ class EventRequest:
     event_start_time: str
     event_duration_hr: float
     weather_condition: str
+    arrival_mode: str = "Mixed"
+    is_holiday: bool = False
+    venue_capacity: int = 50000
+    vehicle_arrival_ratio: float = 0.3
+    avg_occupancy: float = 2.5
 
 
 def ensure_model():
@@ -58,15 +65,26 @@ def _parse_hour(value: str) -> int:
         return 18
 
 
+def _is_weekend(value: str) -> int:
+    """Derive weekend (Sat/Sun) from the event date so day-of-week feeds the model."""
+    try:
+        return int(datetime.fromisoformat(value).weekday() >= 5)
+    except Exception:
+        return 0
+
+
 def _prediction_input(req: EventRequest) -> dict:
     hour = _parse_hour(req.event_start_time)
     return {
         "event_type": req.event_type,
         "event_location": req.event_location,
         "weather_condition": req.weather_condition,
+        "arrival_mode": req.arrival_mode,
         "crowd_size": int(req.crowd_size),
         "event_hour": hour,
         "event_duration_hr": float(req.event_duration_hr),
+        "is_weekend": _is_weekend(req.event_start_time),
+        "is_holiday": int(bool(req.is_holiday)),
         "historical_traffic": historical_traffic_profile(req.event_location, hour),
         "location_baseline": CITY_HUBS.get(req.event_location, CITY_HUBS["MG Road"])["baseline"],
         "time_pressure": (
@@ -78,29 +96,30 @@ def _prediction_input(req: EventRequest) -> dict:
     }
 
 
-def _resource_plan(score: float, crowd_size: int) -> dict:
-    crowd = max(crowd_size, 1)
-    esc_score = RESOURCE_PLAN["escalation_score"]
-    esc_crowd = RESOURCE_PLAN["escalation_crowd"]
-    if score >= esc_score or crowd >= esc_crowd:
-        c = RESOURCE_PLAN["high_load"]
-        over_crowd = max(0, crowd - esc_crowd)
-        over_score = max(0, score - esc_score)
-        officers = int(round(c["officers_base"] + over_crowd / c["officers_crowd_div"] + over_score / c["officers_score_div"]))
-        barricades = int(round(c["barricades_base"] + over_crowd / c["barricades_crowd_div"] + over_score / c["barricades_score_div"]))
-        marshals = int(round(c["marshals_base"] + over_crowd / c["marshals_crowd_div"] + over_score / c["marshals_score_div"]))
-        emergency = int(round(max(c["emergency_min"], score / c["emergency_score_div"])))
-    else:
-        c = RESOURCE_PLAN["base_load"]
-        officers = int(round(max(c["officers_min"], score * c["officers_score_coef"] + crowd / c["officers_crowd_div"])))
-        barricades = int(round(max(c["barricades_min"], score * c["barricades_score_coef"] + crowd / c["barricades_crowd_div"])))
-        marshals = int(round(max(c["marshals_min"], score * c["marshals_score_coef"] + crowd / c["marshals_crowd_div"])))
-        emergency = int(round(max(c["emergency_min"], score / c["emergency_score_div"])))
+def _resource_plan(score: float, req: EventRequest) -> dict:
+    attendance = max(req.crowd_size, 1)
+    attendance_ratio = attendance / max(req.venue_capacity, 1)
+    expected_vehicles = attendance * req.vehicle_arrival_ratio / max(req.avg_occupancy, 1)
+    
+    severity = _risk_level(score).title()  # Low, Medium, High, Critical
+
+    if severity == "Low":
+        officers, barricades, marshals, emergency = 10, 5, 10, 1
+    elif severity == "Medium":
+        officers, barricades, marshals, emergency = 25, 10, 20, 2
+    elif severity == "High":
+        officers, barricades, marshals, emergency = 50, 25, 50, 4
+    else:  # Critical
+        officers, barricades, marshals, emergency = 100, 50, 100, 6
+
+    # Adjust slightly based on vehicle load so it's not totally static
+    scale = max(1.0, min(1.5, expected_vehicles / 5000.0))
+    
     return {
-        "Police Officers Required": officers,
-        "Barricades Required": barricades,
-        "Traffic Marshals Required": marshals,
-        "Emergency Units Required": emergency,
+        "Police Officers Required": int(officers * scale),
+        "Barricades Required": int(barricades * scale),
+        "Traffic Marshals Required": int(marshals * scale),
+        "Emergency Units Required": int(emergency * scale),
     }
 
 
@@ -150,7 +169,7 @@ def predict_event(event: EventRequest | dict) -> dict:
     score = float(np.clip(pred["congestion_score"] * SCORE_CALIBRATION_FACTOR, 0, 100))
     risk = _risk_level(score)
     affected, routes = _route_plan(event.event_location, score)
-    resources = _resource_plan(score, event.crowd_size)
+    resources = _resource_plan(score, event)
     ai_summary = _ai_summary(event, score, risk, affected, resources)
     peak_time = "5 PM - 8 PM" if _parse_hour(event.event_start_time) >= 16 else "2 PM - 5 PM"
 
@@ -180,6 +199,8 @@ def demo_request() -> EventRequest:
         event_start_time=start.isoformat(),
         event_duration_hr=DEMO_PRESET["event_duration_hr"],
         weather_condition=DEMO_PRESET["weather_condition"],
+        arrival_mode=DEMO_PRESET["arrival_mode"],
+        is_holiday=DEMO_PRESET["is_holiday"],
     )
 
 
