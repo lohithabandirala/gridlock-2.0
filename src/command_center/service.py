@@ -431,10 +431,10 @@ def generate_24h_forecast(model) -> tuple[pd.DataFrame, pd.DataFrame]:
         
         allocations.append({
             "hour": t_now.hour + t_now.minute/60.0,
-            "Police Officers": max(5, int((score/100)*35)),
-            "Barricades": max(2, int((score/100)*20)),
-            "Traffic Marshals": max(3, int((score/100)*25)),
-            "Emergency Units": max(1, int((score/100)*8)),
+            "Police Officers": max(5, int((req.venue_capacity / 150) * (score/100) * 1.5)),
+            "Barricades": max(2, int((req.venue_capacity / 200) * (score/100) * 2.0)),
+            "Traffic Marshals": max(3, int((req.venue_capacity / 400) * (score/100) * 1.5)),
+            "Emergency Units": max(1, int((req.venue_capacity / 10000) * (score/100) * 1.0)),
         })
         
     trend_df = pd.DataFrame({
