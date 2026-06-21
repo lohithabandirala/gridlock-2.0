@@ -1,17 +1,17 @@
 {
   "clearance": {
     "status": "ok",
-    "model": "LightGBM",
+    "model": "XGBoost",
     "rows": 2763,
-    "mae_minutes": 74.0,
-    "r2_log": 0.086
+    "mae_minutes": 70.1,
+    "r2_log": 0.2
   },
   "priority": {
     "status": "ok",
     "model": "LightGBM",
     "rows": 8171,
-    "f1_high": 0.802,
-    "accuracy": 0.739
+    "f1_high": 0.786,
+    "accuracy": 0.715
   },
   "blackspots": {
     "status": "ok",
@@ -29,7 +29,7 @@
   "planned_events": {
     "status": "ok",
     "rows": 467,
-    "high": 55
+    "high": 52
   },
   "surge_detection": {
     "status": "ok",

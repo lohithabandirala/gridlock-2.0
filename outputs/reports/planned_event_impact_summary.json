@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "rows": 467,
-  "high": 55,
-  "medium": 255,
-  "low": 157,
-  "max_score": 82.0,
-  "median_score": 42.0
+  "high": 52,
+  "medium": 298,
+  "low": 117,
+  "max_score": 84.2,
+  "median_score": 42.9
 }
