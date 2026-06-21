@@ -133,12 +133,13 @@ def _resource_plan(score: float, req: EventRequest) -> dict:
     # Calculate Total Demand Score (Arbitrary scale)
     demand_score = (crowd_factor * 0.4 + traffic_factor * 0.3 + risk_factor * 0.2 + historical_factor * 0.1) * base_weight
     
-    # Convert Demand Score to Actual Resources
-    rec_officers = max(5, int(demand_score * 1.5))
-    rec_patrols = max(1, int(rec_officers * 0.2))
-    rec_marshals = max(2, int(demand_score * 1.2))
-    rec_barricades = max(5, int(demand_score * 0.8))
-    rec_emergency = max(1, int(demand_score * 0.05))
+    # Convert Demand Score to Actual Resources with realistic crowd scaling
+    # Rule of thumb: ~1 officer per 150 attendees, ~1 barricade per 200 attendees
+    rec_officers = max(5, int((attendance / 150) + (demand_score * 2.0)))
+    rec_patrols = max(1, int(rec_officers * 0.1))
+    rec_marshals = max(2, int((attendance / 400) + (demand_score * 1.5)))
+    rec_barricades = max(10, int((attendance / 200) + (demand_score * 3.0)))
+    rec_emergency = max(1, int((attendance / 10000) + (demand_score * 0.1)))
     
     # Calculate Reasoning Breakdown (%)
     total_raw = crowd_factor + traffic_factor + risk_factor + historical_factor
