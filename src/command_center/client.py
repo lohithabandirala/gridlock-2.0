@@ -14,9 +14,7 @@ import os
 from dataclasses import asdict, is_dataclass
 
 from .service import EventRequest, predict_event
-
-API_URL = os.environ.get("SMART_CITY_API_URL", "").rstrip("/")
-
+API_URL = "" # os.environ.get("SMART_CITY_API_URL", "").rstrip("/")
 
 def _as_payload(event: EventRequest | dict) -> dict:
     if is_dataclass(event):
