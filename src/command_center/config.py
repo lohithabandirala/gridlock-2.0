@@ -55,18 +55,18 @@ CITY_HUBS = {
     "Silk Board": {"lat": 12.9171, "lon": 77.6245, "baseline": 93, "zone": "South"},
 }
 
-ROAD_LIBRARY = [
-    "Outer Ring Road",
-    "Hosur Road",
-    "Tumkur Road",
-    "Bellary Road",
-    "Mysore Road",
-    "MG Road",
-    "Koramangala 80 Feet Road",
-    "Indiranagar 100 Feet Road",
-    "Old Airport Road",
-    "Whitefield Main Road",
-]
+ROAD_LIBRARY = {
+    "Outer Ring Road": {"lat": 12.9250, "lon": 77.6440, "baseline": 95, "zone": "East"},
+    "Hosur Road": {"lat": 12.9050, "lon": 77.6250, "baseline": 90, "zone": "South"},
+    "Tumkur Road": {"lat": 13.0450, "lon": 77.5300, "baseline": 85, "zone": "West"},
+    "Bellary Road": {"lat": 13.0550, "lon": 77.5950, "baseline": 88, "zone": "North"},
+    "Mysore Road": {"lat": 12.9500, "lon": 77.5350, "baseline": 80, "zone": "West"},
+    "MG Road": {"lat": 12.9750, "lon": 77.6050, "baseline": 85, "zone": "Central"},
+    "Koramangala 80 Feet Road": {"lat": 12.9350, "lon": 77.6250, "baseline": 82, "zone": "South"},
+    "Indiranagar 100 Feet Road": {"lat": 12.9750, "lon": 77.6400, "baseline": 80, "zone": "East"},
+    "Old Airport Road": {"lat": 12.9600, "lon": 77.6500, "baseline": 85, "zone": "East"},
+    "Whitefield Main Road": {"lat": 12.9700, "lon": 77.7450, "baseline": 88, "zone": "East"},
+}
 
 DEPLOYMENT_TYPES = ["Police Officers", "Barricades", "Traffic Marshals", "Emergency Units"]
 
@@ -87,7 +87,7 @@ DEMO_PRESET = {
 # number lines up with the historically observed peaks used to tune the demo.
 # This is a presentation calibration only, NOT a modelling correction. Set to
 # 1.0 to report the raw model output unchanged.
-SCORE_CALIBRATION_FACTOR = 0.965
+SCORE_CALIBRATION_FACTOR = 1.0
 
 # Risk-band thresholds applied to the (calibrated) 0-100 congestion score.
 RISK_BANDS = {"LOW": 40, "MEDIUM": 70}  # < 40 LOW, < 70 MEDIUM, else HIGH

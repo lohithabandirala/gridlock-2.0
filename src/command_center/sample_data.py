@@ -175,52 +175,56 @@ def build_training_frame(n_rows: int = 2200, seed: int = 42) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def build_road_snapshot(score: float, location: str, seed: int = 42) -> pd.DataFrame:
-    rng = np.random.default_rng(seed)
+def build_road_snapshot(score: float, location: str, seed: int | None = None) -> pd.DataFrame:
+    from .db import get_live_sensor_volume
+    from .config import ROAD_LIBRARY, CITY_HUBS
+    import time
+    
     hub = CITY_HUBS.get(location, CITY_HUBS["MG Road"])
     rows = []
-    base_roads = _load_report_roads(limit=6)
-    rng.shuffle(base_roads)
-    for idx, name in enumerate(base_roads):
+    
+    # We will pick roads that are physically close to the event location
+    candidates = []
+    for name, data in ROAD_LIBRARY.items():
+        from .spatial_engine import haversine
+        dist = haversine(hub["lat"], hub["lon"], data["lat"], data["lon"])
+        if dist < 12.0: # Only roads within 12km
+            candidates.append((name, data, dist))
+            
+    # Sort by distance and take the closest 6
+    candidates.sort(key=lambda x: x[2])
+    base_roads = candidates[:6]
+    
+    for idx, (name, data, dist) in enumerate(base_roads):
         severity = "Green"
-        local_score = float(np.clip(score + rng.normal(0, 10) - idx * 4, 0, 100))
+        
+        # Read live volume proxy from DB instead of random noise
+        # get_live_sensor_volume expects a string, so we pass the road name.
+        # It returns a jitter, so we add it to baseline.
+        live_vol = data["baseline"] + get_live_sensor_volume(name)
+        
+        # Local score is influenced by live volume and proximity to the event (dist)
+        dist_factor = max(0.2, 1.0 - (dist / 12.0))
+        local_score = float(np.clip(score * dist_factor * (live_vol / data["baseline"]), 0, 100))
+        
         if local_score >= 70:
             severity = "Red"
         elif local_score >= 40:
             severity = "Yellow"
+        
+        # Exact delay is a function of the local congestion minus baseline, bounded
+        delay = int(max(4, round((local_score - 20) * 0.4)))
+        
         rows.append(
             RoadPoint(
                 name=name,
-                lat=hub["lat"] + rng.normal(0, 0.018),
-                lon=hub["lon"] + rng.normal(0, 0.018),
+                lat=data["lat"], # Exact coordinates!
+                lon=data["lon"], # Exact coordinates!
                 severity=severity,
-                expected_delay_min=int(max(4, round(local_score * 0.9 + idx * 2))),
+                expected_delay_min=delay,
                 congestion=int(round(local_score)),
             ).__dict__
         )
     return pd.DataFrame(rows)
 
 
-def build_trend_frame(seed: int = 42) -> pd.DataFrame:
-    rng = np.random.default_rng(seed)
-    hours = list(range(6, 24))
-    traffic = []
-    congestion = []
-    allocations = []
-    for hour in hours:
-        traffic.append(max(3000, 2100 + _hour_weights(hour) * 130 + rng.normal(0, 160)))
-        congestion.append(np.clip(34 + _hour_weights(hour) * 2.1 + rng.normal(0, 2.5), 0, 100))
-        allocations.append({
-            "hour": hour,
-            "Police Officers": int(np.clip(8 + _hour_weights(hour) * 0.55, 4, 28)),
-            "Barricades": int(np.clip(4 + _hour_weights(hour) * 0.28, 2, 15)),
-            "Traffic Marshals": int(np.clip(6 + _hour_weights(hour) * 0.45, 3, 20)),
-            "Emergency Units": int(np.clip(1 + _hour_weights(hour) * 0.12, 1, 5)),
-        })
-    return pd.DataFrame(
-        {
-            "hour": hours,
-            "traffic_volume": traffic,
-            "congestion_score": congestion,
-        }
-    ), pd.DataFrame(allocations)
