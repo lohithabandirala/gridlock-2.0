@@ -201,15 +201,26 @@ class SpatialEngine:
     def get_unit_dataframe(self) -> pd.DataFrame:
         if not self.units:
             return pd.DataFrame()
-        return pd.DataFrame([{
-            "id": u.id,
-            "type": u.type,
-            "lat": u.lat,
-            "lon": u.lon,
-            "status": u.status,
-            "target_lat": u.target_lat,
-            "target_lon": u.target_lon
-        } for u in self.units])
+        
+        rows = []
+        for u in self.units:
+            eta_min = 0
+            if u.target_lat and u.target_lon and u.speed_kmh > 0:
+                dist = haversine(u.lat, u.lon, u.target_lat, u.target_lon)
+                eta_min = int(round((dist / u.speed_kmh) * 60))
+                
+            rows.append({
+                "id": u.id,
+                "type": u.type,
+                "lat": u.lat,
+                "lon": u.lon,
+                "status": u.status,
+                "color": u.color,
+                "target_lat": u.target_lat,
+                "target_lon": u.target_lon,
+                "eta_min": eta_min
+            })
+        return pd.DataFrame(rows)
 
     def get_incident_dataframe(self) -> pd.DataFrame:
         if not self.incidents:
